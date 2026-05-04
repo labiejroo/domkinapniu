@@ -84,6 +84,18 @@ let data = [
     id: 20,
     imgSrc: 'assets/zdj/schody.jpg',
   },
+  {
+    id: 21,
+    imgSrc: 'assets/zdj/371131453.jpg',
+  },
+  {
+    id: 22,
+    imgSrc: 'assets/zdj/719736815.jpg',
+  },
+  {
+    id: 23,
+    imgSrc: 'assets/zdj/721989221.jpg',
+  },
 ]
 const Galeria = () => {
   const [modal, setModal] = useState(false);

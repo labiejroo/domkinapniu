@@ -14,8 +14,7 @@ function App() {
       
        {/* {!isMobile && */}
          <P.BookNow>
-            <P.FeatureLabel><b>Od tego sezonu w każdym domku zmywarka i kuchanka mikrofalowa!</b></P.FeatureLabel>
-           <P.BookNowLabel><b>Sprawdź dostępność 2025</b></P.BookNowLabel>
+           <P.BookNowLabel><b>Sprawdź dostępność 2026</b></P.BookNowLabel>
            <P.NoStyledLink to="/kontakt">
              <Button sx={{ 
                backgroundColor: '#c79d09',

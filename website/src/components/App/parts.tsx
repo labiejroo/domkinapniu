@@ -35,8 +35,8 @@ export const Image = styled.img<{ isMobile: boolean}>`
   // background-repeat: no-repeat;
   // background-size: cover;
   /* The image used */
-  background-image: url("assets/zdj/tlo.jpg");
-  background-image: ${p => !p.isMobile ? css`url("assets/zdj/tlo.jpg");` : css`url("assets/zdj/front.jpg");`};
+  background-image: url("assets/zdj/hero.jpg");
+  background-image: ${p => !p.isMobile ? css`url("assets/zdj/hero.jpg");` : css`url("assets/zdj/front.jpg");`};
   background-blend-mode: overlay;
   background-color: rgba(0,0,0,.3);
 

@@ -40,20 +40,21 @@ function createData(
 }
 
 const rows = [
-  createData('24 kwiecień - 7 maj', '400 zł'),
-  createData('8 maj - 18 czerwiec', '370 zł'),
-  createData('19 czerwiec - 30 czerwiec', '420 zł'),
-  createData('1 lipiec - 15 lipiec', '530 zł'),
-  createData('16 lipiec - 20 sierpień', '580 zł'),
-  createData('21 sierpień - 31 sierpień', '490 zł'),
-  createData('1 wrzesień - 30 wrzesień', '350 zł'),
+  createData('5 maj - 31 maj', '350 zł'),
+  createData('1 czerwiec - 3 czerwiec', '400 zł'),
+  createData('4 czerwiec - 7 czerwiec', '450 zł'),
+  createData('8 czerwiec - 26 czerwiec', '400 zł'),
+  createData('27 czerwiec - 11 lipiec', '540 zł'),
+  createData('12 lipiec - 16 sierpień', '590 zł'),
+  createData('17 sierpień - 31 sierpień', '490 zł'),
+  createData('1 wrzesień - 30 wrzesień', '360 zł'),
 ];
 
 const Cennik = () => {
     return (
       <P.Wrapper>
         <HeaderWrapper title={'cennik'} />
-          <P.TextBox>Poznaj nasz cennik 2025</P.TextBox>
+          <P.TextBox>Poznaj nasz cennik 2026</P.TextBox>
           <P.TableWrapper>
             <TableContainer component={Paper}>
             <Table sx={{ 
