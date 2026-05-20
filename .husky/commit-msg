@@ -1,0 +1,11 @@
+#!/bin/sh
+COMMIT_MSG=$(cat "$1")
+PATTERN='^(feature|bug|docs|style|refactor|test|chore|perf|ci|revert): [A-Z].+\.$'
+
+if ! echo "$COMMIT_MSG" | grep -qE "$PATTERN"; then
+  echo "❌  Invalid commit message format."
+  echo "    Required: <type>: <Message starting with capital letter, ending with period.>"
+  echo "    Allowed types: feature | bug | docs | style | refactor | test | chore | perf | ci | revert"
+  echo "    Example: feature: Add booking form component."
+  exit 1
+fi
