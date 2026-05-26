@@ -1,5 +1,24 @@
 export type DisplaySize = 'xl' | 'lg' | 'md' | 'sm';
 
+export interface RoomCopy {
+  name: string;
+  planLabel: string;
+  level: string;
+  desc: string;
+  tags: string[];
+}
+
+export interface StoryStat {
+  n: string;
+  label: string;
+}
+
+export interface FeatureItemText {
+  id: number;
+  title: string;
+  sub: string;
+}
+
 export type IconName =
   | 'arrow-right'
   | 'arrow-left'

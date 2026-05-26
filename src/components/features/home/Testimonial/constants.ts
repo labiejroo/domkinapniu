@@ -1,11 +1,4 @@
-import { copy } from '@/lib/eng';
-
-export const REVIEWS = [
-  {
-    quote: copy.testimonialQuote,
-    author: copy.testimonialAuthor,
-    date: copy.testimonialDate,
-  },
+export const STATIC_REVIEWS = [
   {
     quote: 'Czyste, nowe, przestronne domki w dobrej lokalizacji.',
     author: 'Adrianna',
@@ -19,7 +12,7 @@ export const REVIEWS = [
   },
   {
     quote:
-      'Spędziliśmy cudowne wakacje w tym ośrodku, było po prostu idealnie! Miejsce jest niezwykle zadbane, otoczone piękną przyrodą, a atmosfera sprzyja prawdziwemu wypoczynkowi. Właściciele przesympatyczni, pomocni i zawsze uśmiechnięci, od pierwszego dnia czuliśmy się mile widziani.\nOgromnym plusem była możliwość przyjazdu z naszym ukochanym pieskiem – ośrodek jest naprawdę przyjazny zwierzętom! Mnóstwo przestrzeni do spacerów, a także udogodnienia, które sprawiają, że zarówno ludzie, jak i czworonogi czują się tu jak w domu.\nDomki były bardzo czyste, dobrze wyposażone i przytulne, niczego nam nie brakowało. Każdy szczegół został przemyślany z myślą o komforcie gości.\nZdecydowanie polecamy ten ośrodek każdemu, kto szuka miejsca na spokojny, rodzinny wypoczynek blisko natury – z dala od zgiełku, ale z pełnym dostępem do wszystkiego, co potrzebne na udane wakacje. Na pewno wrócimy!',
+      'Cudowne wakacje w idealnym miejscu – zadbane, otoczone piękną przyrodą, z przesympatycznymi właścicielami, którzy od pierwszego dnia sprawili, że czuliśmy się mile widziani. Domki czyste, przytulne i świetnie wyposażone – każdy szczegół przemyślany z myślą o gościach. Polecamy każdemu, kto szuka spokojnego, rodzinnego wypoczynku blisko natury.',
     author: 'Joanna',
     date: '30 lipca 2025',
   },

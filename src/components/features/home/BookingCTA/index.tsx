@@ -2,9 +2,9 @@
 
 import { useState, useRef, useEffect } from 'react';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 import { Icon } from '@/components/ui/Icon';
 import { Display, Italic, SmallCap } from '@/components/ui/Typography';
-import { copy } from '@/lib/eng';
 import { BASE_URL, FIELD, LABEL, VALUE } from './constants';
 
 interface CounterProps {
@@ -39,6 +39,7 @@ const Counter = ({ label, value, min, max, onChange }: CounterProps) => (
 );
 
 export const BookingCTA = () => {
+  const t = useTranslations();
   const [arrival, setArrival] = useState('');
   const [departure, setDeparture] = useState('');
   const [adults, setAdults] = useState(2);
@@ -60,9 +61,9 @@ export const BookingCTA = () => {
     return () => document.removeEventListener('mousedown', handleClick);
   }, []);
 
-  const guestsLabel =
-    `${adults} ${adults === 1 ? 'dorosły' : 'dorosłych'}` +
-    (children > 0 ? `, ${children} ${children === 1 ? 'dziecko' : 'dzieci'}` : '');
+  const adultsText = t('adultsCountLabel', { adults });
+  const childrenText = t('childrenCountLabel', { children });
+  const guestsLabel = children > 0 ? `${adultsText} · ${childrenText}` : adultsText;
 
   const bookingUrl = (() => {
     const url = new URL(BASE_URL);
@@ -75,9 +76,9 @@ export const BookingCTA = () => {
 
   const GuestsPopover = () => (
     <div className="absolute left-0 right-0 top-full z-20 bg-[#1a1a1a] border border-white/15 rounded-lg mt-1 p-4 shadow-xl">
-      <Counter label="Dorośli" value={adults} min={1} max={6} onChange={setAdults} />
+      <Counter label={t('adultsLabel')} value={adults} min={1} max={6} onChange={setAdults} />
       <div className="border-t border-white/10 my-1" />
-      <Counter label="Dzieci" value={children} min={0} max={4} onChange={setChildren} />
+      <Counter label={t('childrenLabel')} value={children} min={0} max={4} onChange={setChildren} />
     </div>
   );
 
@@ -97,17 +98,17 @@ export const BookingCTA = () => {
         style={{ background: 'radial-gradient(ellipse at center, rgba(134,95,54,0.28) 0%, transparent 45%, rgba(134,95,54,0.32) 100%)' }} />
 
       <div className="relative max-w-layout mx-auto text-center">
-        <SmallCap className="text-mustard-300">{copy.bookingEyebrow}</SmallCap>
+        <SmallCap className="text-mustard-300">{t('bookingEyebrow')}</SmallCap>
         <Display size="lg" className="mt-5 text-brand-sunlight">
-          {copy.bookingHeadline}
+          {t('bookingHeadline')}
           <br />
-          <Italic className="text-mustard-300">{copy.bookingHeadlineItalic}</Italic>
+          <Italic className="text-mustard-300">{t('bookingHeadlineItalic')}</Italic>
         </Display>
 
         {/* Mobile */}
         <div className="mt-10 md:hidden flex flex-col gap-px bg-white/20 rounded overflow-visible max-w-md mx-auto">
           <label className={FIELD}>
-            <span className={LABEL}>{copy.bookingArrival}</span>
+            <span className={LABEL}>{t('bookingArrival')}</span>
             <div className={VALUE}>
               <Icon name="calendar" size={14} color="rgba(255,252,245,0.6)" />
               <input type="date" value={arrival} min={today}
@@ -117,7 +118,7 @@ export const BookingCTA = () => {
             </div>
           </label>
           <label className={FIELD}>
-            <span className={LABEL}>{copy.bookingDeparture}</span>
+            <span className={LABEL}>{t('bookingDeparture')}</span>
             <div className={VALUE}>
               <Icon name="calendar" size={14} color="rgba(255,252,245,0.6)" />
               <input type="date" value={departure} min={arrival || today}
@@ -128,7 +129,7 @@ export const BookingCTA = () => {
           </label>
           <div ref={guestsMobileRef} className="relative">
             <button type="button" onClick={() => setShowGuests((v) => !v)} className={`w-full ${FIELD}`}>
-              <span className={LABEL}>{copy.bookingGuests}</span>
+              <span className={LABEL}>{t('bookingGuests')}</span>
               <div className={VALUE}>
                 <Icon name="users" size={14} color="rgba(255,252,245,0.6)" />
                 {guestsLabel}
@@ -138,7 +139,7 @@ export const BookingCTA = () => {
           </div>
           <a href={bookingUrl} target="_blank" rel="noopener noreferrer"
             className="bg-mustard-500 text-brand-black px-6 py-5 text-[14px] font-bold tracking-wider2 uppercase inline-flex items-center justify-center gap-3 transition-colors duration-150 hover:bg-mustard-400 min-h-[56px] no-underline">
-            {copy.checkAvailability} <Icon name="arrow-right" size={16} color="#242F25" />
+            {t('checkAvailability')} <Icon name="arrow-right" size={16} color="#242F25" />
           </a>
         </div>
 
@@ -146,7 +147,7 @@ export const BookingCTA = () => {
         <div className="hidden md:grid mt-14 gap-px bg-white/20 rounded overflow-visible max-w-[960px] mx-auto"
           style={{ gridTemplateColumns: 'repeat(3, 1fr) auto' }}>
           <label className={FIELD}>
-            <span className={LABEL}>{copy.bookingArrival}</span>
+            <span className={LABEL}>{t('bookingArrival')}</span>
             <div className={VALUE}>
               <Icon name="calendar" size={14} color="rgba(255,252,245,0.6)" />
               <input type="date" value={arrival} min={today}
@@ -156,7 +157,7 @@ export const BookingCTA = () => {
             </div>
           </label>
           <label className={FIELD}>
-            <span className={LABEL}>{copy.bookingDeparture}</span>
+            <span className={LABEL}>{t('bookingDeparture')}</span>
             <div className={VALUE}>
               <Icon name="calendar" size={14} color="rgba(255,252,245,0.6)" />
               <input type="date" value={departure} min={arrival || today}
@@ -167,7 +168,7 @@ export const BookingCTA = () => {
           </label>
           <div ref={guestsDesktopRef} className="relative">
             <button type="button" onClick={() => setShowGuests((v) => !v)} className={`h-full w-full text-left ${FIELD}`}>
-              <span className={LABEL}>{copy.bookingGuests}</span>
+              <span className={LABEL}>{t('bookingGuests')}</span>
               <div className={VALUE}>
                 <Icon name="users" size={14} color="rgba(255,252,245,0.6)" />
                 {guestsLabel}
@@ -177,16 +178,16 @@ export const BookingCTA = () => {
           </div>
           <a href={bookingUrl} target="_blank" rel="noopener noreferrer"
             className="bg-mustard-500 text-brand-black px-8 text-[14px] font-bold tracking-wider2 uppercase inline-flex items-center gap-3 whitespace-nowrap transition-colors duration-150 hover:bg-mustard-400 min-h-[44px] no-underline">
-            {copy.checkAvailability} <Icon name="arrow-right" size={16} color="#242F25" />
+            {t('checkAvailability')} <Icon name="arrow-right" size={16} color="#242F25" />
           </a>
         </div>
 
-        <p className="mt-6 text-[13px] text-white/60">
-          {copy.bookingPhoneNote}{' '}
-          <a href={`tel:${copy.phone.replace(/\s/g, '')}`} className="text-mustard-300 font-semibold no-underline">
-            {copy.phoneDisplay}
+        <p className="mt-6 text-[21px] text-brand-sunlight">
+          {t('bookingPhoneNote')}<span className="font-bold">{t('bookingPhoneNoteBold')}</span>{' · '}
+          <a href={`tel:${t('phone').replace(/\s/g, '')}`} className="text-mustard-300 font-semibold no-underline">
+            {t('phoneDisplay')}
           </a>{' '}
-          {copy.bookingPhoneSpeed}
+          {t('bookingPhoneSpeed')}
         </p>
       </div>
     </section>
