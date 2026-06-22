@@ -1,0 +1,1043 @@
+{
+  "siteName": "Domki Na Pniu",
+  "siteSubtitle": "Domki",
+  "siteTagline": "Premium domki letniskowe nad morzem · Jarosławiec, ul. Morska 11",
+  "season": "Sezon 2026",
+  "summerSeason": "Lato 2026",
+  "openBookings": "otwarte rezerwacje →",
+
+  "address": "ul. Morska 11, 76-107 Jarosławiec",
+  "email": "domkinapniu@gmail.com",
+  "phone": "+48 506 141 730",
+  "phoneDisplay": "+48 506 141 730",
+
+  "heroHeadline": "Twój relaks.",
+  "heroHeadlineItalic": "nad morzem.",
+  "heroDescription": "Dwanaście drewnianych domków letniskowych nad morzem, w cichej, spokojnej okolicy 800 m od plaży „Dubaj” w Jarosławcu.\nWitamy gości osobiście. Komfortowy wypoczynek blisko morza i natury.",
+  "heroStats": [
+    { "value": "800 m", "label": "do plaży oraz promenady" },
+    { "value": "52 m²", "label": "piętrowego domku z tarasem" },
+    { "value": "12 domków", "label": "kameralna, prywatna posesja" },
+    { "value": "8,9", "label": "na podstawie 82 opinii Booking" }
+  ],
+
+  "checkAvailability": "Sprawdź dostępność",
+  "bookStay": "Rezerwuj pobyt",
+  "fullGallery": "Zobacz całą galerię",
+  "fullSpec": "Pełna specyfikacja",
+  "learnHistory": "Poznaj naszą historię",
+
+  "storyEyebrow": "— O miejscu",
+  "storyHeadline": "Postawione",
+  "storyHeadlineItalic": "na pniu",
+  "storyHeadlineEnd": "dosłownie.",
+  "storyQuote": "„Powstały ze świerku, wokół tego, co natura zostawiła najpiękniejszego.”",
+  "storyBody1": "Nasze domki to komfortowe, całoroczne przestrzenie o powierzchni 52 m². Na parterze znajduje się salon z w pełni wyposażonym aneksem kuchennym oraz tarasem, idealnym do porannej kawy i wieczornego odpoczynku. Na piętrze znajdują się dwie osobne sypialnie z małą garderobą.\n\nNa terenie obiektu czeka na Was basen, boisko do siatkówki oraz atrakcje dla najmłodszych. Wieczory można spędzać w klimatycznej drewnianej altanie, stworzonej do wspólnego relaksu i długich rozmów.\n\nZwierzęta są u nas mile widziane — wiemy, że wakacje najlepiej smakują w komplecie.",
+  "storyBody2": "Od 2022 roku prowadzimy to miejsce z pasją i zaangażowaniem, tworząc przestrzeń idealną dla rodzin, par oraz kilkuosobowych grup, które szukają prawdziwego wypoczynku nad morzem — w naturalnej atmosferze, bez pośpiechu i sztucznego klimatu.",
+  "storyStats": [
+    { "n": "2022", "label": "Rok otwarcia" },
+    { "n": "12", "label": "Domków" },
+    { "n": "52 m²", "label": "Powierzchni" }
+  ],
+
+  "featureEyebrow": "— Wnętrza i okolica",
+  "featureHeadline": "Wszystko, czego potrzeba,",
+  "featureHeadlineItalic": "żeby już nigdzie nie jechać.",
+  "featureItems": [
+    {
+      "id": 1,
+      "title": "Drewno i natura",
+      "sub": "Naturalne wnętrza, drewno i materiały najwyższej jakości."
+    },
+    { "id": 2, "title": "Prywatny grill i taras", "sub": "Idealne miejsce na spokojne wieczory." },
+    {
+      "id": 3,
+      "title": "Strefa basenowa",
+      "sub": "Komfortowe miejsce do odpoczynku w słoneczne, letnie dni."
+    },
+    {
+      "id": 4,
+      "title": "Drewniana altana",
+      "sub": "Kameralna przestrzeń na poranną kawę i wieczorny relaks."
+    },
+    { "id": 5, "title": "Boisko i atrakcje", "sub": "Strefa aktywności dla całej rodziny." }
+  ],
+
+  "cottageEyebrow": "— Twój domek",
+  "cottageHeadline": "Jedna koncepcja.",
+  "cottageHeadlineItalic": "Dwanaście wyjątkowych domków.",
+  "cottageDescription": "Dwanaście domków utrzymanych w jednym standardzie, o tej samej powierzchni i cenie. Każdy z nich oferuje tę samą jakość wypoczynku — 52 m² na dwóch poziomach, prywatny taras oraz komfortową przestrzeń dla 6 osób.",
+  "cottageChips": ["52 m²", "6 osób", "2 sypialnie", "od 350 zł / noc"],
+  "cottageIncludedEyebrow": "— W cenie pobytu",
+  "cottageIncludedHeadline": "Wszystko, co czeka",
+  "cottageIncludedHeadlineItalic": "na miejscu.",
+  "clickRoomHint": "Kliknij pomieszczenie, aby zobaczyć zdjęcie",
+  "floorGround": "Parter",
+  "floorUpper": "Piętro",
+  "stairsLabel": "schody",
+  "groundFloorMeta": "taras",
+  "upperFloorMeta": "2 sypialnie",
+  "rooms": {
+    "salon": {
+      "name": "Salon + aneks kuchenny",
+      "planLabel": "Salon + Kuchnia",
+      "level": "parter + piętro",
+      "desc": "Otwarta przestrzeń z miękką kanapą, jadalnią, w pełni wyposażoną kuchnią (zmywarka, ekspres kapsułkowy) oraz TV.",
+      "tags": ["Kapsułkowy ekspres do kawy", "Indukcja + zmywarka", "Telewizor"]
+    },
+    "lazienka": {
+      "name": "Łazienka",
+      "planLabel": "Łazienka",
+      "level": "parter",
+      "desc": "Nowoczesna łazienka z prysznicem walk-in i deszczownią. Woda ogrzewana jest za pomocą bojlera. Do dyspozycji gości są również ręczniki.",
+      "tags": ["Prysznic walk-in", "Zestaw ręczników"]
+    },
+    "taras": {
+      "name": "Taras",
+      "planLabel": "Taras",
+      "level": "parter",
+      "desc": "Prywatny taras z meblami ogrodowymi, parasolem oraz grillem.",
+      "tags": ["Grill", "Meble ogrodowe", "Leżaki i parawan dostępne"]
+    },
+    "sypialnia1": {
+      "name": "Sypialnia główna",
+      "planLabel": "Sypialnia główna",
+      "level": "piętro",
+      "desc": "Łóżko kontynentalne z zagłówkiem 160 × 200, wnętrze wykończone deskami. W pokoju znajdują się komoda, toaletka, rolety. Możliwość dostawki na życzenie. Dostępna garderoba w korytarzu.",
+      "tags": [
+        "Łóżko 160 × 200",
+        "Pościel hotelowa",
+        "Toaletka",
+        "Komoda",
+        "Garderoba",
+        "Możliwość dostawki",
+        "Rolety"
+      ]
+    },
+    "korytarz": {
+      "name": "Korytarz",
+      "planLabel": "Korytarz",
+      "level": "piętro",
+      "desc": "Korytarz łączący obie sypialnie, z dostępem do garderoby oraz schodów prowadzących na parter.",
+      "tags": ["Garderoba", "Schody na parter"]
+    },
+    "sypialnia2": {
+      "name": "Sypialnia dziecięca",
+      "planLabel": "Sypialnia dziecięca",
+      "level": "piętro",
+      "desc": "Jedno łóżko 120 × 200 oraz jedno łóżko 90 × 200. W pokoju znajduje się komoda oraz przytulne oświetlenie sprzyjające wieczornemu wypoczynkowi.",
+      "tags": ["Łóżko 90 × 200", "Łóżko 120 × 200", "Komoda", "Rolety"]
+    }
+  },
+  "equipment": [
+    {
+      "title": "Salon z kuchnią",
+      "items": [
+        "Rozkładana kanapa",
+        "Telewizor",
+        "Aneks kuchenny",
+        "Płyta indukcyjna",
+        "Zmywarka",
+        "Lodówka z zamrażalnikiem",
+        "Kapsułkowy ekspres do kawy",
+        "Czajnik",
+        "Zastawa dla 6 osób"
+      ]
+    },
+    {
+      "title": "Sypialnie",
+      "items": [
+        "Łóżko 160 × 200",
+        "Łóżko 120 × 200",
+        "Łóżko 90 × 200",
+        "Pościel hotelowa",
+        "Dostawka na życzenie",
+        "Garderoba w korytarzu",
+        "Zaciemniające zasłony i rolety"
+      ]
+    },
+    {
+      "title": "Łazienka",
+      "items": ["Prysznic walk-in", "Deszczownia", "Ręczniki", "Mydło w płynie w dozownikach"]
+    },
+    {
+      "title": "Taras i ogród",
+      "items": [
+        "Meble tarasowe",
+        "Leżaki i parawan",
+        "Prywatny grill",
+        "Oświetlenie wieczorne",
+        "Strefa basenowa",
+        "Boisko do siatkówki",
+        "Plac zabaw"
+      ]
+    },
+    {
+      "title": "Komfort",
+      "items": ["Parking przy posesji", "Zwierzęta mile widziane"]
+    }
+  ],
+
+  "okoliceEyebrow": "— Okolica i atrakcje",
+  "okoliceHeadline": "Wszystko ważne",
+  "okoliceHeadlineItalic": "w zasięgu spaceru.",
+  "okoliceDescription": "Jarosławiec to kameralna nadmorska miejscowość między Ustką a Darłowem, znana z największej w Europie sztucznej plaży zwanej Polski Dubaj, latarni morskiej oraz pobliskiego jeziora Wicko. W okolicy znajduje się również Aquapark, promenada nadmorska i liczne trasy spacerowe.",
+  "placeHeader": "Miejsce",
+  "distanceHeader": "Dystans",
+  "nearbyPlaces": [
+    {
+      "place": "Plaża strzeżona z białym piaskiem",
+      "dist": "8 min",
+      "detail": "spacerem przez promenadę"
+    },
+    { "place": "Promenada nadmorska", "dist": "5 min", "detail": "restauracje, lody, sklepy" },
+    {
+      "place": "Latarnia morska z XIX w.",
+      "dist": "8 min",
+      "detail": "33 m wysokości, taras widokowy"
+    },
+    { "place": "Aquapark Jarosławiec", "dist": "11 min", "detail": "baseny, zjeżdżalnie, sauna" },
+    { "place": "Rezerwat Jezioro Wicko", "dist": "15 min", "detail": "rowery, ptaki, kąpielisko" },
+    { "place": "Ustka i Darłowo", "dist": "40 min", "detail": "porty, stare miasta, marina" },
+    {
+      "place": "Wypożyczalnia rowerów i szlak rowerowy",
+      "dist": "3 min",
+      "detail": "prowadzi do Darłowa lub Ustki"
+    }
+  ],
+
+  "testimonialEyebrow": "— Słowa gości",
+  "testimonialQuote": "Super miejsce dla rodzin z dziećmi, sympatyczna obsługa. Miejsce godne polecenia.",
+  "testimonialAuthor": "Joanna",
+  "testimonialDate": "19 sierpnia 2025",
+  "testimonialCounter": "01 / 187",
+  "prevReview": "Poprzednia opinia",
+  "nextReview": "Następna opinia",
+
+  "bookingEyebrow": "— Lato 2026 jest otwarte",
+  "bookingHeadline": "Twoje wakacje",
+  "bookingHeadlineItalic": "są jeden klik stąd.",
+  "bookingArrival": "Przyjazd",
+  "bookingDeparture": "Wyjazd",
+  "bookingGuests": "Goście",
+  "bookingPhoneNote": "Nie ma wolnych terminów na <b>Bookingu</b>? ",
+  "bookingPhoneNoteBold": "Zadzwoń do nas:",
+  "bookingPhoneSpeed": "Część domków rezerwujemy wyłącznie bezpośrednio, dlatego często mamy dostępne terminy niewidoczne w portalach rezerwacyjnych.",
+  "adultsLabel": "Dorośli",
+  "childrenLabel": "Dzieci",
+  "adultsCountLabel": "{adults, plural, one {# dorosły} other {# dorosłych}}",
+  "childrenCountLabel": "{children, plural, one {# dziecko} other {# dzieci}}",
+  "decreaseLabel": "Zmniejsz: {label}",
+  "increaseLabel": "Zwiększ: {label}",
+  "skipToContent": "Przejdź do treści",
+
+  "footerTagline": "Drewniane domki letniskowe w Jarosławcu. 800 m od plaży, dla 6 osób. Witamy gości osobiście.",
+  "footerColumns": [
+    {
+      "title": "Strona",
+      "links": [
+        { "label": "O nas", "href": "/#o-nas" },
+        { "label": "Domki", "href": "/#domki" },
+        { "label": "Galeria", "href": "/#galeria" },
+        { "label": "Okolica", "href": "/#okolica" },
+        { "label": "Cennik", "href": "/cennik" },
+        { "label": "FAQ", "href": "/faq" }
+      ]
+    },
+    {
+      "title": "Rezerwacja",
+      "links": [
+        { "label": "Sprawdź dostępność", "href": "/#rezerwacja" },
+        { "label": "Regulamin", "href": "/regulamin" },
+        { "label": "Kontakt", "href": "/#kontakt" }
+      ]
+    },
+    {
+      "title": "Kontakt",
+      "links": [
+        { "label": "+48 506 141 730", "href": "tel:+48506141730" },
+        { "label": "domkinapniu@gmail.com", "href": "mailto:domkinapniu@gmail.com" }
+      ]
+    }
+  ],
+  "footerLegal": [{ "label": "Regulamin", "href": "/regulamin" }],
+  "checkinLabel": "Zameldowanie / Wymeldowanie",
+  "checkinValue": "15:00 / 10:00",
+  "copyright": "© 2026 Domki Na Pniu",
+  "madeByLabel": "Strona stworzona przez",
+
+  "ratingScore": "8,9",
+  "ratingCount": "82 opinii",
+
+  "langPl": "PL",
+  "langEn": "ENG",
+  "langDe": "DEU",
+  "langCz": "CZ",
+  "selectLanguage": "Wybierz język",
+
+  "navItems": [
+    { "label": "O nas", "href": "/#o-nas" },
+    { "label": "Domki", "href": "/#domki" },
+    { "label": "Galeria", "href": "/galeria" },
+    { "label": "Okolica", "href": "/#okolica" },
+    { "label": "Cennik", "href": "/cennik" },
+    { "label": "FAQ", "href": "/faq" },
+    { "label": "Kontakt", "href": "/#kontakt" }
+  ],
+
+  "navigateLabel": "Nawiguj",
+
+  "starsLabel": "{n} z 5",
+
+  "metaTitle": "Domki Na Pniu — domki letniskowe nad morzem w Jarosławcu",
+  "metaDescription": "Domki letniskowe nad morzem w Jarosławcu — 12 drewnianych domków, 800 m od plaży, dla 4–6 osób. Wczasy nad morzem w spokojnej okolicy. Witamy gości osobiście.",
+  "ogDescription": "Domki letniskowe nad morzem w Jarosławcu, 800 m od plaży. Cicho. Naturalnie. Osobiście.",
+
+  "notFoundMetaTitle": "Strona nie znaleziona — Domki Na Pniu",
+  "notFoundHeroCurrent": "404",
+  "notFoundHeroTitle": "404. Tej ścieżki",
+  "notFoundHeroItalic": "nie znajdziesz.",
+  "notFoundHeroLede": "Strona, której szukasz, nie istnieje albo zmieniła adres. Sprawdź cennik, FAQ albo wróć na stronę główną.",
+  "notFoundCtaHome": "Wróć na stronę główną",
+  "notFoundCtaPricing": "Zobacz cennik",
+
+  "galeriaAll": "Wszystko",
+  "galeriaPhotoCount": "{count, plural, one {# zdjęcie} few {# zdjęcia} other {# zdjęć}}",
+  "galeriaInstagramEyebrow": "— Codzienna porcja",
+  "galeriaInstagramDesc": "Najświeższe zdjęcia trafiają na Instagrama @domkinapniu",
+  "galeriaInstagramCTA": "Otwórz Instagram",
+  "galeriaPricingCTA": "Sprawdź cennik",
+  "galeriaClose": "Zamknij",
+  "galeriaPrev": "Poprzednie",
+  "galeriaNext": "Następne",
+
+  "faqFilterAll": "Wszystkie",
+  "faqShowing": "Wyświetlono {filtered} z {total}",
+  "faqCategoryLabel": "— Kategoria",
+  "faqQuestionCount": "{count, plural, one {# pytanie} few {# pytania} other {# pytań}}",
+  "faqCtaEyebrow": "— Nie znalazłeś odpowiedzi?",
+  "faqCtaTitle": "Zadzwoń.",
+  "faqCtaTitleItalic": "Najszybsza droga.",
+  "faqCtaDesc": "Odbieramy telefon zwykle w ciągu kilku minut — także wieczorem. Mail trafi do tej samej skrzynki.",
+  "faqCtaPhone": "Telefon",
+  "faqCtaEmail": "E-mail",
+
+  "cennikColSeason": "Sezon",
+  "cennikColDates": "Termin",
+  "cennikColMin": "Min. pobyt",
+  "cennikColPrice": "Cena za dobę",
+  "cennikHighSeason": "Wysoki sezon",
+  "cennikPriceFrom": "od",
+  "cennikPriceCurrency": "zł",
+  "cennikPriceUnit": "za dobę",
+
+  "regulaminToc": "— Spis treści",
+  "regulaminDownloadPdf": "Pobierz PDF",
+  "regulaminFaqLink": "Najczęstsze pytania",
+  "regulaminSummaryLabel": "Najważniejsze w jednym akapicie",
+  "regulaminSummary": "Doba 15:00 / 10:00. Cisza nocna 22:00 – 7:00. Zwierzęta po uzgodnieniu. Bez papierosów wewnątrz.",
+  "regulaminFooterNote": "Dziękujemy za przeczytanie. Jeśli coś jest niejasne — zadzwoń lub napisz, najszybciej odpowiadamy telefonicznie.",
+  "regulaminCallBtn": "Zadzwoń",
+  "regulaminWriteBtn": "Kontakt",
+
+  "bookingArrivalSample": "sob, 12 lipca",
+  "bookingDepartureSample": "sob, 19 lipca",
+  "bookingGuestsSample": "2 dorosłych, 2 dzieci",
+  "footerContactTitle": "Kontakt",
+
+  "cennikMetaTitle": "Cennik — Domki Na Pniu, Jarosławiec",
+  "cennikMetaDesc": "Cennik domków letniskowych nad morzem w Jarosławcu — sezon 2026.",
+  "cennikHeroCurrent": "Cennik",
+  "cennikHeroEyebrow": "Sezon 2026 · Cennik",
+  "cennikHeroTitle": "Jedna jakość.",
+  "cennikHeroItalic": "jedna prosta cena.",
+  "cennikHeroLede": "Dwanaście domków, ta sama stawka dla każdego. Bez kategorii „lepszej” i „gorszej”. Płacisz za noc — wszystko, co potrzebne na miejscu, jest już w środku.",
+  "cennikHeroMeta": [
+    { "label": "Od", "value": "350 zł / doba" },
+    { "label": "Domek dla", "value": "6 osób, z możliwością dostawki" },
+    { "label": "Doba", "value": "15:00 / 10:00" }
+  ],
+  "cennikTableEyebrow": "— Stawki za nocleg",
+  "cennikTableTitle": "Wybierz",
+  "cennikTableItalic": "swój sezon.",
+  "cennikTableNote": "Cena dotyczy całego domku, a nie liczby osób. W cenę pobytu wliczone są wszystkie podstawowe opłaty, w tym zużycie prądu — bez dodatkowych kosztów i niespodzianek na miejscu. Na miejscu pobierana jest opłata klimatyczna zgodnie z obowiązującymi przepisami lokalnymi.",
+  "cennikLoyaltyText": "Przy pobycie trwającym minimum 7 dni witamy naszych Gości butelką prosecco w prezencie.",
+  "cennikLoyaltyCTA": "Sprawdź dostępność",
+  "cennikIncludedEyebrow": "— W cenie pobytu",
+  "cennikIncludedTitle": "Wszystko, co",
+  "cennikIncludedItalic": "już jest w środku.",
+  "cennikIncludedNote": "Bez rachunku za prąd, bez kosztów drewna do kominka, bez dopłat za pościel i ręczniki. Klimatyk, ogrzewanie i WiFi też nie są dodatkiem — tak ma być.",
+  "cennikExtrasEyebrow": "— Opłaty dodatkowe",
+  "cennikExtrasTitle": "Tylko to,",
+  "cennikExtrasItalic": "co naprawdę dopłacasz.",
+  "cennikExtrasNote": "Cała lista. Bez gwiazdek, bez „opłaty serwisowej”, bez doliczania prądu na końcu pobytu. Co tu widzisz, to wszystko.",
+  "cennikExtrasCol1": "Pozycja",
+  "cennikExtrasCol2": "Stawka",
+  "cennikDepositTitle": "Kaucja zwrotna",
+  "cennikDepositBody": "500 zł, pobierana w dniu przyjazdu (gotówka lub BLIK). Zwracamy w całości w dniu wyjazdu, po sprawdzeniu domku — zwykle zajmuje to nam około 15 minut.",
+  "cennikStepsEyebrow": "— Zasady rezerwacji",
+  "cennikStepsTitle": "Dwie proste rzeczy,",
+  "cennikStepsItalic": "o których warto wiedzieć.",
+  "cennikLinksRegulamin": "Cały regulamin",
+  "cennikLinksFaq": "Najczęstsze pytania",
+  "cennikSeasons": [
+    {
+      "name": "Maj",
+      "dates": "5 V – 31 V",
+      "min": "3 doby",
+      "price": "350",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Majówka",
+      "dates": "1 V – 3 V",
+      "min": "3 doby",
+      "price": "400",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Czerwiec",
+      "dates": "1 VI – 3 VI",
+      "min": "3 doby",
+      "price": "400",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Boże Ciało",
+      "dates": "4 VI – 7 VI",
+      "min": "3 doby",
+      "price": "450",
+      "highlight": false,
+      "note": "długi weekend"
+    },
+    {
+      "name": "Czerwiec",
+      "dates": "8 VI – 26 VI",
+      "min": "3 doby",
+      "price": "400",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Przełom sezonu",
+      "dates": "27 VI – 11 VII",
+      "min": "5 dób",
+      "price": "540",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Pełnia lata",
+      "dates": "12 VII – 16 VIII",
+      "min": "7 dób",
+      "price": "590",
+      "highlight": true,
+      "note": ""
+    },
+    {
+      "name": "Schyłek lata",
+      "dates": "17 VIII – 31 VIII",
+      "min": "5 dób",
+      "price": "490",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Wrzesień",
+      "dates": "1 IX – 30 IX",
+      "min": "3 doby",
+      "price": "360",
+      "highlight": false,
+      "note": "wrzesień ciszy"
+    }
+  ],
+  "cennikIncluded": [
+    {
+      "title": "Domek",
+      "items": [
+        "48 m² na dwóch poziomach",
+        "6 miejsc noclegowych",
+        "Lniana pościel ścielona",
+        "Komplet ręczników",
+        "Kosmetyki w dozownikach",
+        "Sprzątanie końcowe"
+      ]
+    },
+    {
+      "title": "Kuchnia",
+      "items": [
+        "Pełne wyposażenie aneksu",
+        "Płyta indukcyjna + piekarnik",
+        "Lodówka z zamrażalnikiem",
+        "Zmywarka",
+        "Ekspres do kawy",
+        "Zastawa dla 6 osób"
+      ]
+    },
+    {
+      "title": "Taras",
+      "items": [
+        "Stół na 6 osób",
+        "Leżaki i hamak",
+        "Grill gazowy",
+        "Palenisko + drewno",
+        "Wieczorne oświetlenie",
+        "Czajnik dymny do herbaty"
+      ]
+    },
+    {
+      "title": "Komfort",
+      "items": [
+        "WiFi 300 Mb/s",
+        "Telewizor",
+        "Klimatyzacja",
+        "Ogrzewanie zimą",
+        "1 × parking pod domkiem",
+        "Cisza po godz. 22:00"
+      ]
+    },
+    {
+      "title": "Na terenie",
+      "items": [
+        "Basen sezonowy",
+        "Plac zabaw",
+        "Drewniana altana",
+        "Boisko do siatkówki",
+        "Strefa rowerowa",
+        "Witamy gości osobiście"
+      ]
+    }
+  ],
+  "cennikExtras": [
+    {
+      "name": "Opłata klimatyczna",
+      "detail": "Wymagana ustawą, pobierana w dniu przyjazdu",
+      "price": "3,45 zł / os / doba"
+    },
+    {
+      "name": "Pies lub kot",
+      "detail": "Maks. 1 zwierzę / domek, po wcześniejszym uzgodnieniu",
+      "price": "40 zł / doba"
+    },
+    {
+      "name": "Drugi samochód",
+      "detail": "Pierwszy parking pod domkiem w cenie; drugi po rezerwacji",
+      "price": "20 zł / doba"
+    },
+    {
+      "name": "Łóżeczko turystyczne",
+      "detail": "Dla dziecka do 3. roku życia, z pościelą",
+      "price": "bezpłatne"
+    },
+    {
+      "name": "Dodatkowa wymiana ręczników",
+      "detail": "Komplet duży + mały + ścierki",
+      "price": "15 zł / komplet"
+    },
+    {
+      "name": "Późne wymeldowanie",
+      "detail": "Do godziny 14:00, w miarę dostępności",
+      "price": "100 zł"
+    },
+    {
+      "name": "Wcześniejsze zameldowanie",
+      "detail": "Od godziny 12:00, w miarę dostępności",
+      "price": "80 zł"
+    },
+    {
+      "name": "Karta podarunkowa",
+      "detail": "Voucher na pobyt, dowolna kwota — ważny 12 miesięcy",
+      "price": "od 500 zł"
+    }
+  ],
+  "cennikSteps": [
+    {
+      "n": "01",
+      "title": "Zadatek 30%",
+      "body": "Płatne przelewem w ciągu 2 dni od potwierdzenia. Reszta przy przyjeździe — gotówką.",
+      "meta": "po wpłacie zadatku rezerwacja jest wiążąca"
+    },
+    {
+      "n": "02",
+      "title": "Doba 15:00 / 10:00",
+      "body": "Witamy gości osobiście, pokazujemy domek i okolicę. Wcześniejsze, późniejsze wymeldowanie / zameldowanie w miarę miejsc.",
+      "meta": "wczesny / późny check w miarę miejsc"
+    }
+  ],
+
+  "faqMetaTitle": "FAQ — Domki Na Pniu, Jarosławiec",
+  "faqMetaDesc": "Najczęściej zadawane pytania dotyczące pobytu w domkach letniskowych nad morzem w Jarosławcu.",
+  "faqHeroCurrent": "FAQ",
+  "faqHeroEyebrow": "",
+  "faqHeroTitle": "Pytania, na które",
+  "faqHeroItalic": "zwykle odbieramy telefonem.",
+  "faqHeroLede": "Zebraliśmy pytania, które najczęściej pojawiają się w mailach i wiadomościach z poprzednich sezonów. Jeśli nie znajdziesz tu odpowiedzi na swoje pytanie — skontaktuj się z nami, odpowiadamy na bieżąco lub oddzwaniamy w krótkim czasie.",
+  "faqHeroMeta": [
+    { "label": "Pytań", "value": "14" },
+    { "label": "Kategorii", "value": "5" },
+    { "label": "Czas odpowiedzi", "value": "~15 min" }
+  ],
+  "faqGroups": [
+    {
+      "cat": "Rezerwacja",
+      "items": [
+        {
+          "q": "Czy mogę zarezerwować domek online?",
+          "a": "Rezerwacje przyjmujemy telefonicznie. Część naszych domków dostępna jest również w systemie Booking.com, a część w rezerwacji prywatnej."
+        },
+        {
+          "q": "Czy rezerwacje są prowadzone wyłącznie przez Booking.com?",
+          "a": "Nie. Rezerwacje realizujemy zarówno przez Booking.com, jak i bezpośrednio telefonicznie. Część domków dostępna jest w systemie online, a część w rezerwacji prywatnej."
+        },
+        {
+          "q": "Czy wymagany jest zadatek?",
+          "a": "Tak, warunkiem potwierdzenia rezerwacji jest wpłata zadatku w wysokości 30% wartości pobytu."
+        },
+        {
+          "q": "Czy zadatek jest zwrotny?",
+          "a": "Zadatek nie podlega zwrotowi w przypadku rezygnacji z rezerwacji. W uzasadnionych przypadkach istnieje możliwość zmiany terminu pobytu po wcześniejszym kontakcie."
+        }
+      ]
+    },
+    {
+      "cat": "Pobyt",
+      "items": [
+        {
+          "q": "O której godzinie rozpoczyna się i kończy pobyt?",
+          "a": "Doba hotelowa rozpoczyna się o godzinie 15:00, a kończy o 10:00 w dniu wyjazdu."
+        },
+        {
+          "q": "Co jest wliczone w cenę pobytu?",
+          "a": "Cena obejmuje wodę, prąd, pościel, ręczniki oraz parking (do 2 aut na domek)."
+        },
+        {
+          "q": "Czy na terenie ośrodka można palić?",
+          "a": "Nie, w domkach obowiązuje całkowity zakaz palenia."
+        },
+        {
+          "q": "Czy można mieć gości w domku?",
+          "a": "Tak, ale wyłącznie po wcześniejszym uzgodnieniu z właścicielem."
+        },
+        {
+          "q": "Czy dzieci mogą przebywać samodzielnie na terenie ośrodka?",
+          "a": "Nie, dzieci pozostają pod opieką rodziców lub opiekunów przez cały pobyt."
+        }
+      ]
+    },
+    {
+      "cat": "Płatności",
+      "items": [
+        {
+          "q": "Kiedy należy opłacić pobyt?",
+          "a": "Opłatę za pobyt należy uiścić w dniu przyjazdu – gotówką lub przelewem."
+        },
+        {
+          "q": "Czy obowiązują dodatkowe opłaty?",
+          "a": "Tak, dodatkowo pobierana jest opłata klimatyczna zgodnie z lokalnymi stawkami, opłata za zwierzę (30 zł/doba) oraz opłata za każdą osobę powyżej 6 osób (80 zł/doba)."
+        }
+      ]
+    },
+    {
+      "cat": "Zwierzęta",
+      "items": [
+        {
+          "q": "Czy mogę przyjechać ze zwierzęciem?",
+          "a": "Tak, akceptujemy małe zwierzęta. Obowiązuje dodatkowa opłata oraz regulamin pobytu ze zwierzętami."
+        }
+      ]
+    },
+    {
+      "cat": "Odpowiedzialność",
+      "items": [
+        {
+          "q": "Co w przypadku uszkodzeń w domku?",
+          "a": "Goście ponoszą pełną odpowiedzialność finansową za szkody powstałe z ich winy."
+        },
+        {
+          "q": "Czy właściciel odpowiada za rzeczy prywatne i samochody?",
+          "a": "Nie, właściciel nie ponosi odpowiedzialności za rzeczy pozostawione bez nadzoru ani za szkody na parkingu."
+        }
+      ]
+    }
+  ],
+
+  "galeriaMetaTitle": "Galeria — Domki Na Pniu, Jarosławiec",
+  "galeriaMetaDesc": "Zdjęcia domków letniskowych nad morzem, wnętrz, plaży i okolicy w Jarosławcu.",
+  "galeriaHeroCurrent": "Galeria",
+  "galeriaHeroEyebrow": "Galeria",
+  "galeriaHeroTitle": "Tak wygląda",
+  "galeriaHeroItalic": "cisza po sezonie.",
+  "galeriaHeroLede": "Zdjęcia wykonane zwykłym aparatem, w naturalnym świetle i codziennych warunkach — bez retuszu i sztucznego upiększania. To, co widzisz na zdjęciach, dokładnie odpowiada temu, co zastaniesz na miejscu.",
+  "galeriaHeroMeta": [
+    { "label": "Zdjęć", "value": "13" },
+    { "label": "Domków", "value": "12" },
+    { "label": "Aktualizacja", "value": "maj 2026" }
+  ],
+  "galeriaPhotos": [
+    {
+      "id": "g14",
+      "src": "/assets/0.jpg",
+      "cat": "Domki",
+      "title": "Brzozy przed domkami",
+      "cap": "Zieleń, która otula osiedle"
+    },
+    {
+      "id": "g15",
+      "src": "/assets/14.jpg",
+      "cat": "Domki",
+      "title": "Wejście do domku",
+      "cap": "Drewniana elewacja, taras, donice"
+    },
+    {
+      "id": "g16",
+      "src": "/assets/15.jpg",
+      "cat": "Domki",
+      "title": "Grill na trawie",
+      "cap": "Wspólna przestrzeń między domkami"
+    },
+    {
+      "id": "g17",
+      "src": "/assets/6.jpg",
+      "cat": "Domki",
+      "title": "Salon z antresolą",
+      "cap": "Otwarta przestrzeń, drewniane schody"
+    },
+    {
+      "id": "g18",
+      "src": "/assets/1.jpg",
+      "cat": "Domki",
+      "title": "Salon wieczorową porą",
+      "cap": "Ciepłe światło, zielone zasłony"
+    },
+    {
+      "id": "g19",
+      "src": "/assets/7.jpg",
+      "cat": "Domki",
+      "title": "Hol i jadalnia",
+      "cap": "Pierwsze wejrzenie po wejściu do domku"
+    },
+    {
+      "id": "g20",
+      "src": "/assets/8.jpg",
+      "cat": "Domki",
+      "title": "Detal ze słoja drewna",
+      "cap": "Rękodzieło w wystroju wnętrza"
+    },
+    {
+      "id": "g21",
+      "src": "/assets/9.jpg",
+      "cat": "Domki",
+      "title": "Kuchnia",
+      "cap": "Płyta indukcyjna, ekspres, zlew"
+    },
+    {
+      "id": "g22",
+      "src": "/assets/10.jpg",
+      "cat": "Domki",
+      "title": "Stół na cztery osoby",
+      "cap": "Wspólne posiłki w gronie bliskich"
+    },
+    {
+      "id": "g23",
+      "src": "/assets/11.jpg",
+      "cat": "Domki",
+      "title": "Stolik z plastra drewna",
+      "cap": "Detal salonowej przestrzeni"
+    },
+    {
+      "id": "g24",
+      "src": "/assets/3.jpg",
+      "cat": "Domki",
+      "title": "Łazienka z prysznicem",
+      "cap": "Kamienna mozaika, czarne detale"
+    },
+    {
+      "id": "g25",
+      "src": "/assets/4.jpg",
+      "cat": "Domki",
+      "title": "Łazienka — strefa WC",
+      "cap": "Funkcjonalnie i stylowo"
+    },
+    {
+      "id": "g26",
+      "src": "/assets/5.jpg",
+      "cat": "Domki",
+      "title": "Schody na piętro",
+      "cap": "Widok z antresoli na hol"
+    },
+    {
+      "id": "g27",
+      "src": "/assets/12.jpg",
+      "cat": "Domki",
+      "title": "Sypialnia dziecięca",
+      "cap": "Dwa łóżka jednoosobowe"
+    },
+    {
+      "id": "g28",
+      "src": "/assets/13.jpg",
+      "cat": "Domki",
+      "title": "Sypialnia z biurkiem",
+      "cap": "Miejsce na chwilę pracy lub nauki"
+    },
+    {
+      "id": "g29",
+      "src": "/assets/16.jpg",
+      "cat": "Domki",
+      "title": "Pościel we flamingi",
+      "cap": "Wesoły detal pokoju dziecięcego"
+    },
+    {
+      "id": "g30",
+      "src": "/assets/17.jpg",
+      "cat": "Domki",
+      "title": "Sypialnia główna",
+      "cap": "Łóżko 160 × 200, kwiatowa pościel"
+    },
+    {
+      "id": "g31",
+      "src": "/assets/18.jpg",
+      "cat": "Domki",
+      "title": "Druga sypialnia",
+      "cap": "Wygodne miejsce na nocleg"
+    },
+    {
+      "id": "g32",
+      "src": "/assets/19.jpg",
+      "cat": "Domki",
+      "title": "Sypialnia wieczorem",
+      "cap": "Klimatyczne światło lampek nocnych"
+    },
+    {
+      "id": "g33",
+      "src": "/assets/a.jpg",
+      "cat": "Posesja",
+      "title": "Plac zabaw dla dzieci",
+      "cap": "Drewniana wspinaczka, huśtawki, linarium"
+    },
+    {
+      "id": "g34",
+      "src": "/assets/b.jpg",
+      "cat": "Posesja",
+      "title": "Parking przy domkach",
+      "cap": "Miejsca parkingowe na terenie ośrodka"
+    },
+    {
+      "id": "g35",
+      "src": "/assets/c.jpg",
+      "cat": "Posesja",
+      "title": "Boisko do siatkówki plażowej",
+      "cap": "Piasek, siatka, zabawa do wieczora"
+    },
+    {
+      "id": "g36",
+      "src": "/assets/d.jpg",
+      "cat": "Posesja",
+      "title": "Basen na trawniku",
+      "cap": "Rozkładany basen z drabinką"
+    },
+    {
+      "id": "g37",
+      "src": "/assets/e.jpg",
+      "cat": "Posesja",
+      "title": "Kąpiel w basenie",
+      "cap": "Chwila ochłody w gorący dzień"
+    },
+    {
+      "id": "g38",
+      "src": "/assets/f.jpg",
+      "cat": "Posesja",
+      "title": "Grille i strefa rekreacji",
+      "cap": "Wspólna przestrzeń między domkami"
+    },
+    {
+      "id": "g39",
+      "src": "/assets/g.jpg",
+      "cat": "Posesja",
+      "title": "Taras z leżakami",
+      "cap": "Parasole, ręczniki, popołudniowe słońce"
+    },
+    {
+      "id": "g40",
+      "src": "/assets/h.jpg",
+      "cat": "Posesja",
+      "title": "Basen o zachodzie słońca",
+      "cap": "Złote światło, dmuchany flaming"
+    },
+    {
+      "id": "g41",
+      "src": "/assets/i.jpg",
+      "cat": "Posesja",
+      "title": "Widok z góry na teren",
+      "cap": "Boisko do siatkówki i basen"
+    },
+    {
+      "id": "g42",
+      "src": "/assets/j.jpg",
+      "cat": "Posesja",
+      "title": "Altana i strefa relaksu",
+      "cap": "Stolik dla dzieci, basen, leżaki"
+    },
+    {
+      "id": "g43",
+      "src": "/assets/k.jpg",
+      "cat": "Posesja",
+      "title": "Zielone patio",
+      "cap": "Altana, basen, leżaki pod brzozami"
+    },
+    {
+      "id": "g44",
+      "src": "/assets/l.jpg",
+      "cat": "Posesja",
+      "title": "Alejka wzdłuż domków",
+      "cap": "Donice, krzesła, grill"
+    },
+    {
+      "id": "g45",
+      "src": "/assets/tarrace1.jpeg",
+      "cat": "Posesja",
+      "title": "Ścieżka do tarasu",
+      "cap": "Rabaty kwiatowe i kamienna alejka"
+    },
+    {
+      "id": "g46",
+      "src": "/assets/tarrace2.jpeg",
+      "cat": "Posesja",
+      "title": "Prywatny taras",
+      "cap": "Stół, krzesła rattanowe, parasol"
+    },
+    {
+      "id": "g47",
+      "src": "/assets/evenings1.jpg",
+      "cat": "Wieczory",
+      "title": "Brzozy w lampkach",
+      "cap": "Wieczorny blask na trawniku"
+    },
+    {
+      "id": "g48",
+      "src": "/assets/evenings2.jpg",
+      "cat": "Wieczory",
+      "title": "Alejka nocą",
+      "cap": "Oświetlona ścieżka między domkami"
+    },
+    {
+      "id": "g49",
+      "src": "/assets/evenings3.jpg",
+      "cat": "Wieczory",
+      "title": "Ciepłe światło wewnątrz",
+      "cap": "Widok z antresoli na salon"
+    },
+    {
+      "id": "g50",
+      "src": "/assets/evenings4.jpg",
+      "cat": "Wieczory",
+      "title": "Domki o zmierzchu",
+      "cap": "Latarnie wzdłuż elewacji"
+    },
+    {
+      "id": "g51",
+      "src": "/assets/evenings5.jpg",
+      "cat": "Wieczory",
+      "title": "Nocna elewacja",
+      "cap": "Drewno rozświetlone ciepłym blaskiem"
+    },
+    {
+      "id": "g52",
+      "src": "/assets/gazebo1.jpg",
+      "cat": "Posesja",
+      "title": "Poranna kawa w altanie",
+      "cap": "Wiklinowe meble, widok na ogród"
+    },
+    {
+      "id": "g53",
+      "src": "/assets/gazebo2.jpg",
+      "cat": "Posesja",
+      "title": "Drewniana altana",
+      "cap": "Girlanda światełek, zielona obudowa z żywopłotu"
+    },
+    {
+      "id": "g54",
+      "src": "/assets/plaza1.jpg",
+      "cat": "Plaża",
+      "title": "Szeroka plaża w Jarosławcu",
+      "cap": "Złoty piasek i widok na molo"
+    },
+    {
+      "id": "g55",
+      "src": "/assets/plaza2.jpg",
+      "cat": "Plaża",
+      "title": "Łodzie rybackie na brzegu",
+      "cap": "Tradycja rybacka Jarosławca"
+    },
+    {
+      "id": "g56",
+      "src": "/assets/plaza3.jpg",
+      "cat": "Plaża",
+      "title": "Zejście na plażę",
+      "cap": "Drewniane schody przez wydmy"
+    },
+    {
+      "id": "g57",
+      "src": "/assets/plaza4.jpg",
+      "cat": "Plaża",
+      "title": "Zachód słońca nad morzem",
+      "cap": "Pomost prowadzący na plażę"
+    }
+  ],
+
+  "regulaminMetaTitle": "Regulamin — Domki Na Pniu, Jarosławiec",
+  "regulaminMetaDesc": "Regulamin pobytu w domkach letniskowych nad morzem w Jarosławcu.",
+  "regulaminHeroCurrent": "Regulamin",
+  "regulaminHeroEyebrow": "Regulamin pobytu · sezon 2026",
+  "regulaminHeroTitle": "Zasady spisane",
+  "regulaminHeroItalic": "prostym językiem.",
+  "regulaminHeroLede": "Krótko: szanuj domek, sąsiadów i teren wokół. Reszta to formalności, które każdy obiekt musi posiadać. Pełna wersja poniżej — zawsze chętnie wyjaśnimy w razie wątpliwości.",
+  "regulaminHeroMeta": [
+    { "label": "Obowiązuje od", "value": "1 I 2026" },
+    { "label": "Wersja", "value": "5.0" },
+    { "label": "Stron", "value": "1 A4" }
+  ],
+  "regulaminSections": [
+    {
+      "id": "regulamin",
+      "rom": "I",
+      "title": "Poznaj nasz regulamin",
+      "items": [
+        "Turnus rozpoczyna się o godzinie 15:00, kończy się ósmego dnia turnusu o godzinie 10:00 rano.",
+        "Rezerwacje przyjmujemy telefonicznie.",
+        "Warunkiem przyjęcia rezerwacji jest wpłata zadatku w wysokości 30%. W sytuacji rezygnacji z zarezerwowanego domku zadatek nie podlega zwrotowi.",
+        "Wysokość opłat nie podlega zmniejszeniu lub zwrotowi jeżeli gość wyjedzie z własnej woli w trakcie trwania turnusu.",
+        "Opłata za pobyt płatna gotówką lub przelewem w dniu przyjazdu.",
+        "Cena zawiera: wodę, parking (maksymalnie 2 auta), pościel, ręczniki – 1 duży, 1 mały.",
+        "Cena domku zawiera opłatę za prąd.",
+        "Goście wynajmujący domek ponoszą pełną odpowiedzialność finansową za wszelkie uszkodzenia lub zniszczenia wyposażenia powstałe z winy gości.",
+        "Wszelkie usterki prosimy zgłaszać w recepcji ośrodka lub u konserwatora.",
+        "Właściciel \"Domki na Pniu\" nie ponosi odpowiedzialności za rzeczy zaginione, pozostawione bez nadzoru.",
+        "W domkach i pokojach obowiązuje całkowity zakaz palenia.",
+        "Goście zobowiązani są do przestrzegania przepisów przeciwpożarowych.",
+        "Rodzice lub opiekunowie zobowiązani są do opieki nad dziećmi na terenie całego ośrodka.",
+        "Na terenie ośrodka akceptujemy małe zwierzęta.",
+        "Osoby odwiedzające mogą przebywać na terenie ośrodka po uzgodnieniu tego z właścicielem ośrodka.",
+        "Właściciel ośrodka udostępniając miejsca parkingowe nie bierze odpowiedzialności za kradzieże, uszkodzenia pojazdów i inne straty.",
+        "Goście ubierają i rozbierają pościel.",
+        "W dniu wyjazdu pomieszczenia należy pozostawić w takim stanie jakie zastało się w dniu przyjazdu.",
+        "Za każdą osobę powyżej 6 osób w domku pobieramy dodatkową opłatę **80zł/doba**"
+      ]
+    },
+    {
+      "id": "zwierzeta",
+      "rom": "II",
+      "title": "Regulamin pobytu ze zwierzętami",
+      "items": [
+        "Właściciel musi w pełni kontrolować zwierzę.",
+        "Konieczne jest posiadanie książeczki zdrowia psa z aktualnymi szczepieniami.",
+        "Potrzeby fizjologiczne zwierzę powinno załatwiać poza posesją.",
+        "Właściciel zobowiązany jest do sprzątania po swoim zwierzęciu wewnątrz domku i na terenie posesji.",
+        "Ewentualne szkody powstałe z udziałem zwierzęcia pokrywa właściciel.",
+        "**Opłata za zwierzę - 30zł/doba.**"
+      ]
+    }
+  ]
+}

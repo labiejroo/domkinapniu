@@ -1,0 +1,1137 @@
+{
+  "siteName": "Domki Na Pniu",
+  "siteSubtitle": "Cottages",
+  "siteTagline": "Premium holiday cottages by the sea · Jarosławiec, ul. Morska 11",
+  "season": "Season 2026",
+  "summerSeason": "Summer 2026",
+  "openBookings": "open bookings →",
+
+  "address": "ul. Morska 11, 76-107 Jarosławiec",
+  "email": "domkinapniu@gmail.com",
+  "phone": "+48 506 141 730",
+  "phoneDisplay": "+48 506 141 730",
+
+  "heroHeadline": "Your relaxation.",
+  "heroHeadlineItalic": "by the sea.",
+  "heroDescription": "Twelve wooden holiday cottages by the sea, in a quiet, peaceful setting 800 m from \"Dubai\" beach in Jarosławiec.\nWe welcome our guests personally. Comfortable relaxation close to the sea and nature.",
+  "heroStats": [
+    { "value": "800 m", "label": "to the beach, forest path" },
+    { "value": "52 m²", "label": "two-storey cottage with terrace" },
+    { "value": "12 cottages", "label": "intimate, private grounds" },
+    { "value": "4.96 / 5", "label": "based on 187 reviews" }
+  ],
+
+  "checkAvailability": "Check availability",
+  "bookStay": "Book your stay",
+  "fullGallery": "View full gallery",
+  "fullSpec": "Full specification",
+  "learnHistory": "Our story",
+
+  "storyEyebrow": "— About the place",
+  "storyHeadline": "Built",
+  "storyHeadlineItalic": "on stumps",
+  "storyHeadlineEnd": "literally.",
+  "storyQuote": "\"Built from spruce, around the most beautiful things nature had already left here.\"",
+  "storyBody1": "Our cottages are comfortable, year-round spaces of 52 m². Downstairs is a living room with a fully equipped kitchen and a terrace — perfect for morning coffee and evening relaxation. Upstairs are two separate bedrooms with a small dressing room.\n\nOn the grounds, a pool, volleyball court and attractions for the youngest await. Evenings can be spent in the charming wooden gazebo, made for shared relaxation and long conversations.\n\nPets are very welcome — we know that holidays are always better together.",
+  "storyBody2": "Since 2022 we have been running this place with passion and dedication, creating the ideal retreat for families, couples and small groups seeking genuine rest by the sea — in a natural atmosphere, free from rush and artificiality.",
+  "storyStats": [
+    { "n": "2019", "label": "Year opened" },
+    { "n": "12", "label": "Cottages" },
+    { "n": "52 m²", "label": "Floor area" }
+  ],
+
+  "featureEyebrow": "— Interiors & surroundings",
+  "featureHeadline": "Everything you need,",
+  "featureHeadlineItalic": "to never leave.",
+  "featureItems": [
+    { "id": 1, "title": "Wood & linen", "sub": "Natural interiors, oak floors, linen curtains." },
+    { "id": 2, "title": "Evening by the fire", "sub": "Firepit + firewood included in price." },
+    { "id": 3, "title": "Pine forest", "sub": "Walk to the beach through the forest: 4 minutes." },
+    {
+      "id": 4,
+      "title": "Private veranda",
+      "sub": "Each cottage has its own terrace with tree views."
+    },
+    { "id": 5, "title": "AC + WiFi 300 Mb/s", "sub": "Remote work on holiday — no excuses." }
+  ],
+
+  "cottageEyebrow": "— Your cottage",
+  "cottageHeadline": "All the same.",
+  "cottageHeadlineItalic": "That's why perfect.",
+  "cottageDescription": "Twelve identical cottages — same character, same size, same price. Every booking delivers the same quality — 52 m² on two levels, private terrace, space for 6 guests.",
+  "cottageChips": ["52 m²", "6 guests", "2 bedrooms", "from €82 / night"],
+  "cottageIncludedEyebrow": "— Included in your stay",
+  "cottageIncludedHeadline": "Everything waiting",
+  "cottageIncludedHeadlineItalic": "for you here.",
+  "clickRoomHint": "Click a room to see a photo",
+  "floorGround": "Ground floor",
+  "floorUpper": "Upper floor",
+  "stairsLabel": "stairs",
+  "groundFloorMeta": "terrace",
+  "upperFloorMeta": "2 bedrooms",
+  "rooms": {
+    "salon": {
+      "name": "Living room + kitchen",
+      "planLabel": "Living Room",
+      "level": "ground floor",
+      "desc": "Open-plan space with a soft sofa, dining table for six and a fully equipped kitchen. A tall window framing the trees; fireplace ready for cool evenings.",
+      "tags": ["Wood-burning fireplace", "Table for 6", "Induction + dishwasher", "TV"]
+    },
+    "lazienka": {
+      "name": "Bathroom",
+      "planLabel": "Bathroom",
+      "level": "ground floor",
+      "desc": "Walk-in shower with rainfall head, heated floor and a full set of toiletries in refillable dispensers. Backlit mirror.",
+      "tags": ["Walk-in shower", "Heated floor", "Toiletries included"]
+    },
+    "taras": {
+      "name": "Terrace with firepit",
+      "planLabel": "Terrace",
+      "level": "ground floor",
+      "desc": "Wooden terrace with a large table, sun loungers and a private firepit.",
+      "tags": ["Gas BBQ", "Firepit + wood", "Table for 6", "Loungers & hammock"]
+    },
+    "sypialnia1": {
+      "name": "Main bedroom",
+      "planLabel": "Main Bedroom",
+      "level": "upper floor",
+      "desc": "King bed 160 × 200 with hotel-grade bedding and a wool blanket. The room has a vanity, a dresser and blackout blinds. An extra bed is available on request, and a walk-in wardrobe is just down the hall.",
+      "tags": [
+        "King bed 160 × 200",
+        "Hotel-grade bedding",
+        "Vanity",
+        "Dresser",
+        "Wardrobe",
+        "Extra bed on request",
+        "Blackout blinds"
+      ]
+    },
+    "korytarz": {
+      "name": "Hallway",
+      "planLabel": "Hallway",
+      "level": "upper floor",
+      "desc": "The landing connecting both bedrooms, home to the walk-in wardrobe and the staircase down to the ground floor.",
+      "tags": ["Walk-in wardrobe", "Stairs to ground floor"]
+    },
+    "sypialnia2": {
+      "name": "Children's bedroom",
+      "planLabel": "Children's Room",
+      "level": "upper floor",
+      "desc": "Two beds 90 × 200. Warm lamplight, a shelf with books and board games for a rainy evening.",
+      "tags": ["2 × bed 90 × 200", "Night lights"]
+    }
+  },
+  "equipment": [
+    {
+      "title": "Kitchen",
+      "items": [
+        "Island kitchen",
+        "Induction hob",
+        "Dishwasher",
+        "Fridge-freezer",
+        "Coffee machine",
+        "Toaster + kettle",
+        "Tableware for 6"
+      ]
+    },
+    {
+      "title": "Bedrooms",
+      "items": [
+        "King bed 160 × 200",
+        "2 × bed 90 × 200",
+        "Hotel-grade bedding",
+        "Towels + bathrobes",
+        "Blackout blinds",
+        "Cot on request"
+      ]
+    },
+    {
+      "title": "Bathroom",
+      "items": [
+        "Walk-in shower",
+        "Rainfall head",
+        "Hairdryer",
+        "Toiletries in dispensers",
+        "Heated floor",
+        "Washing machine on request"
+      ]
+    },
+    {
+      "title": "Terrace & garden",
+      "items": [
+        "Table for 6",
+        "Loungers & hammock",
+        "Gas BBQ",
+        "Firepit + wood",
+        "Evening lighting",
+        "Volleyball court"
+      ]
+    },
+    {
+      "title": "Comfort",
+      "items": [
+        "WiFi 300 Mb/s",
+        "TV",
+        "Air conditioning",
+        "Winter heating",
+        "Private parking",
+        "Pets welcome"
+      ]
+    }
+  ],
+
+  "okoliceEyebrow": "— Area & attractions",
+  "okoliceHeadline": "Everything important",
+  "okoliceHeadlineItalic": "within walking distance.",
+  "okoliceDescription": "Jarosławiec is a small seaside town between Ustka and Darłowo, known for its wide beach, cliff coastline, historic lighthouse and the nearby Lake Wicko. The area also boasts a waterpark, seaside promenade and numerous walking trails.",
+  "placeHeader": "Place",
+  "distanceHeader": "Distance",
+  "nearbyPlaces": [
+    { "place": "Guarded beach with white sand", "dist": "800 m", "detail": "forest walk, 4 min" },
+    { "place": "Seaside promenade", "dist": "5 min", "detail": "restaurants, ice cream, shops" },
+    {
+      "place": "19th-century lighthouse",
+      "dist": "800 m",
+      "detail": "33 m height, viewing platform"
+    },
+    { "place": "Jarosławiec Waterpark", "dist": "1.2 km", "detail": "pools, slides, sauna" },
+    {
+      "place": "Lake Wicko Nature Reserve",
+      "dist": "15 min",
+      "detail": "cycling, birds, swimming"
+    },
+    { "place": "Ustka & Darłowo", "dist": "40 min", "detail": "harbours, old towns, marina" }
+  ],
+
+  "testimonialEyebrow": "— Guest reviews",
+  "testimonialQuote": "A wonderful holiday in an ideal setting — well-maintained, surrounded by beautiful nature, with wonderful owners who made us feel welcome from day one. The cottages were clean, cosy and well-equipped, with every detail thought through for guests. We recommend it to anyone looking for a peaceful, family break close to nature.",
+  "testimonialAuthor": "Joanna",
+  "testimonialDate": "19 August 2025",
+  "testimonialCounter": "01 / 187",
+  "prevReview": "Previous review",
+  "nextReview": "Next review",
+
+  "bookingEyebrow": "— Summer 2026 is open",
+  "bookingHeadline": "Your holiday",
+  "bookingHeadlineItalic": "is one click away.",
+  "bookingArrival": "Arrival",
+  "bookingDeparture": "Departure",
+  "bookingGuests": "Guests",
+  "bookingPhoneNote": "No free dates on <b>Booking.com</b>? ",
+  "bookingPhoneNoteBold": "Call us directly:",
+  "bookingPhoneSpeed": "Some of our cottages can only be booked directly, so we often have dates available that you won't see on booking platforms.",
+  "adultsLabel": "Adults",
+  "childrenLabel": "Children",
+  "adultsCountLabel": "{adults, plural, one {# adult} other {# adults}}",
+  "childrenCountLabel": "{children, plural, one {# child} other {# children}}",
+  "decreaseLabel": "Decrease: {label}",
+  "increaseLabel": "Increase: {label}",
+  "skipToContent": "Skip to content",
+
+  "footerTagline": "Wooden holiday cottages in Jarosławiec. 800 m from the beach, for 4–6 guests. We welcome you personally.",
+  "footerColumns": [
+    {
+      "title": "Site",
+      "links": [
+        { "label": "About", "href": "/#o-nas" },
+        { "label": "Cottages", "href": "/#domki" },
+        { "label": "Gallery", "href": "/#galeria" },
+        { "label": "Area", "href": "/#okolica" },
+        { "label": "Pricing", "href": "/cennik" },
+        { "label": "FAQ", "href": "/faq" },
+        { "label": "Blog", "href": "#blog" }
+      ]
+    },
+    {
+      "title": "Booking",
+      "links": [
+        { "label": "Check availability", "href": "/#rezerwacja" },
+        { "label": "Terms", "href": "/regulamin" },
+        { "label": "Cancellation policy", "href": "#anulacja" },
+        { "label": "Gift voucher", "href": "#voucher" },
+        { "label": "Contact", "href": "/#kontakt" }
+      ]
+    },
+    {
+      "title": "Contact",
+      "links": [
+        { "label": "+48 506 141 730", "href": "tel:+48506141730" },
+        { "label": "domkinapniu@gmail.com", "href": "mailto:domkinapniu@gmail.com" }
+      ]
+    }
+  ],
+  "footerLegal": [{ "label": "Terms", "href": "/regulamin" }],
+  "checkinLabel": "Check-in / Check-out",
+  "checkinValue": "15:00 / 10:00",
+  "copyright": "© 2026 Domki Na Pniu",
+  "madeByLabel": "Website made by",
+
+  "ratingScore": "8.9",
+  "ratingCount": "82 reviews",
+
+  "langPl": "PL",
+  "langEn": "ENG",
+  "langDe": "DE",
+  "langCz": "CZ",
+  "selectLanguage": "Select language",
+
+  "navItems": [
+    { "label": "About", "href": "/#o-nas" },
+    { "label": "Cottages", "href": "/#domki" },
+    { "label": "Gallery", "href": "/galeria" },
+    { "label": "Area", "href": "/#okolica" },
+    { "label": "Pricing", "href": "/cennik" },
+    { "label": "FAQ", "href": "/faq" },
+    { "label": "Contact", "href": "/#kontakt" }
+  ],
+
+  "navigateLabel": "Navigate",
+
+  "starsLabel": "{n} of 5",
+
+  "metaTitle": "Domki Na Pniu — holiday cottages by the sea in Jarosławiec",
+  "metaDescription": "Holiday cottages by the sea in Jarosławiec, Poland — 12 wooden cottages, 800 m from the beach, for 4–6 guests. A quiet seaside getaway. We welcome guests personally.",
+  "ogDescription": "Holiday cottages by the sea in Jarosławiec, 800 m from the beach. Quiet. Natural. Personal.",
+
+  "notFoundMetaTitle": "Page not found — Domki Na Pniu",
+  "notFoundHeroCurrent": "404",
+  "notFoundHeroTitle": "404. This path",
+  "notFoundHeroItalic": "can't be found.",
+  "notFoundHeroLede": "The page you're looking for doesn't exist or has moved. Check our pricing, FAQ, or head back to the homepage.",
+  "notFoundCtaHome": "Back to homepage",
+  "notFoundCtaPricing": "View pricing",
+
+  "galeriaAll": "All",
+  "galeriaPhotoCount": "{count, plural, one {# photo} other {# photos}}",
+  "galeriaInstagramEyebrow": "— Daily dose",
+  "galeriaInstagramDesc": "The freshest photos go to Instagram @domkinapniu — a different evening, a different time of day, every day.",
+  "galeriaInstagramCTA": "Open Instagram",
+  "galeriaPricingCTA": "Check pricing",
+  "galeriaClose": "Close",
+  "galeriaPrev": "Previous",
+  "galeriaNext": "Next",
+
+  "faqFilterAll": "All",
+  "faqShowing": "Showing {filtered} of {total}",
+  "faqCategoryLabel": "— Category",
+  "faqQuestionCount": "{count, plural, one {# question} other {# questions}}",
+  "faqCtaEyebrow": "— Didn't find your answer?",
+  "faqCtaTitle": "Call us.",
+  "faqCtaTitleItalic": "Fastest way.",
+  "faqCtaDesc": "Barbara usually picks up the phone within a few minutes — evenings included. An email goes to the same inbox.",
+  "faqCtaPhone": "Phone",
+  "faqCtaEmail": "E-mail",
+
+  "cennikColSeason": "Season",
+  "cennikColDates": "Dates",
+  "cennikColMin": "Min. stay",
+  "cennikColPrice": "Price per night",
+  "cennikHighSeason": "Peak season",
+  "cennikPriceFrom": "from",
+  "cennikPriceCurrency": "PLN",
+  "cennikPriceUnit": "per night",
+
+  "regulaminToc": "— Table of contents",
+  "regulaminDownloadPdf": "Download PDF",
+  "regulaminFaqLink": "Frequently asked questions",
+  "regulaminSummaryLabel": "The essentials in one paragraph",
+  "regulaminSummary": "Check-in 15:00 / check-out 10:00. Quiet hours 22:00 – 07:00. Pets by arrangement. No smoking indoors. Use the firepit responsibly — firewood included.",
+  "regulaminFooterNote": "Thank you for reading. If anything is unclear — call or write, we respond fastest by phone.",
+  "regulaminCallBtn": "Call",
+  "regulaminWriteBtn": "Write",
+
+  "bookingArrivalSample": "Sat, 12 July",
+  "bookingDepartureSample": "Sat, 19 July",
+  "bookingGuestsSample": "2 adults, 2 children",
+  "footerContactTitle": "Contact",
+
+  "cennikMetaTitle": "Pricing — Domki Na Pniu, Jarosławiec",
+  "cennikMetaDesc": "Holiday cottage rates by the sea in Jarosławiec — 2026 season.",
+  "cennikHeroCurrent": "Pricing",
+  "cennikHeroEyebrow": "Season 2026 · Pricing",
+  "cennikHeroTitle": "One quality.",
+  "cennikHeroItalic": "One simple price.",
+  "cennikHeroLede": "Twelve cottages, the same rate for everyone. No 'better' or 'worse' category. You pay per night — everything you need is already inside.",
+  "cennikHeroMeta": [
+    { "label": "From", "value": "350 PLN / night" },
+    { "label": "Cottage for", "value": "6 guests, extra bed available" },
+    { "label": "Check-in", "value": "15:00 / 10:00" }
+  ],
+  "cennikTableEyebrow": "— Rates",
+  "cennikTableTitle": "Choose",
+  "cennikTableItalic": "your season.",
+  "cennikTableNote": "The price is for the entire cottage, not per person. The stay price includes all basic charges, including electricity — no extra costs or surprises on site. A local climate tax is collected on site in accordance with applicable local regulations.",
+  "cennikLoyaltyText": "For stays of 7 nights or more, we welcome our guests with a complimentary bottle of prosecco.",
+  "cennikLoyaltyCTA": "Check availability",
+  "cennikIncludedEyebrow": "— Included in your stay",
+  "cennikIncludedTitle": "Everything that's",
+  "cennikIncludedItalic": "already inside.",
+  "cennikIncludedNote": "No electricity bill, no firewood charge, no extra for bedding and towels. Air conditioning, heating and WiFi are not extras — that's just how it should be.",
+  "cennikExtrasEyebrow": "— Additional charges",
+  "cennikExtrasTitle": "Only what you",
+  "cennikExtrasItalic": "actually pay extra.",
+  "cennikExtrasNote": "The complete list. No asterisks, no 'service fee', no electricity added at the end of your stay. What you see here is everything.",
+  "cennikExtrasCol1": "Item",
+  "cennikExtrasCol2": "Rate",
+  "cennikDepositTitle": "Refundable deposit",
+  "cennikDepositBody": "500 PLN, collected on arrival (cash or BLIK). Returned in full on departure after a quick cottage check — usually takes about 15 minutes.",
+  "cennikStepsEyebrow": "— Booking terms",
+  "cennikStepsTitle": "Two simple things",
+  "cennikStepsItalic": "worth knowing.",
+  "cennikLinksRegulamin": "Full terms & conditions",
+  "cennikLinksFaq": "Frequently asked questions",
+  "cennikSeasons": [
+    {
+      "name": "May",
+      "dates": "5 May – 31 May",
+      "min": "3 nights",
+      "price": "350",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "May Day Weekend",
+      "dates": "1 May – 3 May",
+      "min": "3 nights",
+      "price": "400",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "June",
+      "dates": "1 Jun – 3 Jun",
+      "min": "3 nights",
+      "price": "400",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Corpus Christi",
+      "dates": "4 Jun – 7 Jun",
+      "min": "3 nights",
+      "price": "450",
+      "highlight": false,
+      "note": "long weekend"
+    },
+    {
+      "name": "June",
+      "dates": "8 Jun – 26 Jun",
+      "min": "3 nights",
+      "price": "400",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Season start",
+      "dates": "27 Jun – 11 Jul",
+      "min": "5 nights",
+      "price": "540",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Peak summer",
+      "dates": "12 Jul – 16 Aug",
+      "min": "7 nights",
+      "price": "590",
+      "highlight": true,
+      "note": ""
+    },
+    {
+      "name": "Late summer",
+      "dates": "17 Aug – 31 Aug",
+      "min": "5 nights",
+      "price": "490",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "September",
+      "dates": "1 Sep – 30 Sep",
+      "min": "3 nights",
+      "price": "360",
+      "highlight": false,
+      "note": "quiet September"
+    }
+  ],
+  "cennikIncluded": [
+    {
+      "title": "Cottage",
+      "items": [
+        "48 m² on two levels",
+        "6 sleeping places",
+        "Linen bedding made up",
+        "Full set of towels",
+        "Toiletries in dispensers",
+        "End-of-stay cleaning"
+      ]
+    },
+    {
+      "title": "Kitchen",
+      "items": [
+        "Fully equipped kitchen",
+        "Induction hob + oven",
+        "Fridge-freezer",
+        "Dishwasher",
+        "Coffee machine",
+        "Tableware for 6"
+      ]
+    },
+    {
+      "title": "Terrace",
+      "items": [
+        "Table for 6",
+        "Sun loungers & hammock",
+        "Gas BBQ",
+        "Firepit + firewood",
+        "Evening lighting",
+        "Smoke kettle for tea"
+      ]
+    },
+    {
+      "title": "Comfort",
+      "items": [
+        "WiFi 300 Mb/s",
+        "TV",
+        "Air conditioning",
+        "Winter heating",
+        "1 × parking space",
+        "Quiet hours after 22:00"
+      ]
+    },
+    {
+      "title": "On site",
+      "items": [
+        "Seasonal pool",
+        "Playground",
+        "Wooden gazebo",
+        "Volleyball court",
+        "Bike zone",
+        "Personal welcome"
+      ]
+    }
+  ],
+  "cennikExtras": [
+    {
+      "name": "Tourist tax",
+      "detail": "Required by law, collected on arrival",
+      "price": "3.45 PLN / person / night"
+    },
+    {
+      "name": "Dog or cat",
+      "detail": "Max. 1 pet / cottage, pre-arranged",
+      "price": "40 PLN / night"
+    },
+    {
+      "name": "Second car",
+      "detail": "First parking space included; second by reservation",
+      "price": "20 PLN / night"
+    },
+    { "name": "Travel cot", "detail": "For children up to 3 years, with bedding", "price": "free" },
+    {
+      "name": "Extra towel set",
+      "detail": "Large + small + kitchen towels",
+      "price": "15 PLN / set"
+    },
+    {
+      "name": "Late check-out",
+      "detail": "Until 14:00, subject to availability",
+      "price": "100 PLN"
+    },
+    {
+      "name": "Early check-in",
+      "detail": "From 12:00, subject to availability",
+      "price": "80 PLN"
+    },
+    {
+      "name": "Gift card",
+      "detail": "Stay voucher, any amount — valid 12 months",
+      "price": "from 500 PLN"
+    }
+  ],
+  "cennikSteps": [
+    {
+      "n": "01",
+      "title": "30% deposit",
+      "body": "Paid by bank transfer within 2 days of confirmation. The remainder on arrival — cash.",
+      "meta": "reservation is binding from deposit payment"
+    },
+    {
+      "n": "02",
+      "title": "Check-in 15:00 / 10:00",
+      "body": "We welcome guests personally, show the cottage and surroundings. Earlier or later check-out/check-in, subject to availability.",
+      "meta": "early / late check subject to availability"
+    }
+  ],
+
+  "faqMetaTitle": "FAQ — Domki Na Pniu, Jarosławiec",
+  "faqMetaDesc": "Frequently asked questions about staying at our holiday cottages by the sea in Jarosławiec.",
+  "faqHeroCurrent": "FAQ",
+  "faqHeroEyebrow": "FAQ · frequently asked questions",
+  "faqHeroTitle": "Questions we usually",
+  "faqHeroItalic": "answer over the phone.",
+  "faqHeroLede": "We collected the ones that come up again and again in emails and texts from past seasons. If something isn't here — Barbara picks up usually within 15 minutes, evenings included.",
+  "faqHeroMeta": [
+    { "label": "Questions", "value": "14" },
+    { "label": "Categories", "value": "5" },
+    { "label": "Response time", "value": "~15 min" }
+  ],
+  "faqGroups": [
+    {
+      "cat": "Booking",
+      "items": [
+        {
+          "q": "Can I book a cottage online?",
+          "a": "We accept bookings by phone. Some of our cottages are also available through Booking.com, and some through private reservation."
+        },
+        {
+          "q": "Are bookings handled exclusively through Booking.com?",
+          "a": "No. We handle bookings both through Booking.com and directly by phone. Some cottages are available through the online system, and some through private reservation."
+        },
+        {
+          "q": "Is a deposit required?",
+          "a": "Yes, a 30% deposit of the total stay value is required to confirm the reservation."
+        },
+        {
+          "q": "Is the deposit refundable?",
+          "a": "The deposit is non-refundable if the reservation is cancelled. In justified cases, it may be possible to change the stay dates after contacting us in advance."
+        }
+      ]
+    },
+    {
+      "cat": "Stay",
+      "items": [
+        {
+          "q": "What time does the stay begin and end?",
+          "a": "Check-in is at 15:00, and check-out is at 10:00 on the day of departure."
+        },
+        {
+          "q": "What's included in the price of the stay?",
+          "a": "The price includes water, electricity, bedding, towels, and parking (up to 2 cars per cottage)."
+        },
+        {
+          "q": "Is smoking allowed on the premises?",
+          "a": "No, smoking is strictly forbidden inside the cottages."
+        },
+        {
+          "q": "Can I have guests in the cottage?",
+          "a": "Yes, but only after prior arrangement with the owner."
+        },
+        {
+          "q": "Can children stay on the premises unsupervised?",
+          "a": "No, children must be supervised by a parent or guardian at all times during the stay."
+        }
+      ]
+    },
+    {
+      "cat": "Payment",
+      "items": [
+        {
+          "q": "When should I pay for the stay?",
+          "a": "The stay must be paid for on the day of arrival — in cash or by bank transfer."
+        },
+        {
+          "q": "Are there any additional charges?",
+          "a": "Yes, a local climate tax applies according to local rates, along with a pet fee (30 PLN/night) and a fee for each person above 6 guests (80 PLN/night)."
+        }
+      ]
+    },
+    {
+      "cat": "Pets",
+      "items": [
+        {
+          "q": "Can I bring a pet?",
+          "a": "Yes, we accept small pets. An additional fee applies, along with the pet stay rules."
+        }
+      ]
+    },
+    {
+      "cat": "Liability",
+      "items": [
+        {
+          "q": "What happens if there's damage to the cottage?",
+          "a": "Guests are fully financially liable for any damage caused through their fault."
+        },
+        {
+          "q": "Is the owner liable for personal belongings and cars?",
+          "a": "No, the owner is not liable for items left unattended or for damage in the parking area."
+        }
+      ]
+    }
+  ],
+
+  "galeriaMetaTitle": "Gallery — Domki Na Pniu, Jarosławiec",
+  "galeriaMetaDesc": "Photos of our holiday cottages by the sea, interiors, beach and surroundings in Jarosławiec.",
+  "galeriaHeroCurrent": "Gallery",
+  "galeriaHeroEyebrow": "Gallery",
+  "galeriaHeroTitle": "What it",
+  "galeriaHeroItalic": "actually looks like.",
+  "galeriaHeroLede": "Photos taken with an ordinary camera, on ordinary days — no retouching, no rented grass. If you see a fireplace in a photo, that exact fireplace is waiting for you.",
+  "galeriaHeroMeta": [
+    { "label": "Photos", "value": "13" },
+    { "label": "Cottages", "value": "12" },
+    { "label": "Updated", "value": "September 2025" }
+  ],
+  "galeriaPhotos": [
+    {
+      "id": "g14",
+      "src": "/assets/0.jpg",
+      "cat": "Cottages",
+      "title": "Birches by the cottages",
+      "cap": "Greenery wrapping the grounds"
+    },
+    {
+      "id": "g15",
+      "src": "/assets/14.jpg",
+      "cat": "Cottages",
+      "title": "Cottage entrance",
+      "cap": "Wooden façade, terrace, potted plants"
+    },
+    {
+      "id": "g16",
+      "src": "/assets/15.jpg",
+      "cat": "Cottages",
+      "title": "Grill on the lawn",
+      "cap": "Shared space between the cottages"
+    },
+    {
+      "id": "g17",
+      "src": "/assets/6.jpg",
+      "cat": "Cottages",
+      "title": "Living room with a loft",
+      "cap": "Open space, wooden stairs"
+    },
+    {
+      "id": "g18",
+      "src": "/assets/1.jpg",
+      "cat": "Cottages",
+      "title": "Living room in the evening",
+      "cap": "Warm light, green curtains"
+    },
+    {
+      "id": "g19",
+      "src": "/assets/7.jpg",
+      "cat": "Cottages",
+      "title": "Hallway and dining area",
+      "cap": "First impression after stepping inside"
+    },
+    {
+      "id": "g20",
+      "src": "/assets/8.jpg",
+      "cat": "Cottages",
+      "title": "Wood-slice detail",
+      "cap": "Handmade touches in the interior"
+    },
+    {
+      "id": "g21",
+      "src": "/assets/9.jpg",
+      "cat": "Cottages",
+      "title": "Kitchen",
+      "cap": "Induction hob, coffee machine, sink"
+    },
+    {
+      "id": "g22",
+      "src": "/assets/10.jpg",
+      "cat": "Cottages",
+      "title": "Table for four",
+      "cap": "Shared meals with the people you love"
+    },
+    {
+      "id": "g23",
+      "src": "/assets/11.jpg",
+      "cat": "Cottages",
+      "title": "Wood-slice coffee table",
+      "cap": "A detail from the living room"
+    },
+    {
+      "id": "g24",
+      "src": "/assets/3.jpg",
+      "cat": "Cottages",
+      "title": "Bathroom with shower",
+      "cap": "Stone-look tiles, black accents"
+    },
+    {
+      "id": "g25",
+      "src": "/assets/4.jpg",
+      "cat": "Cottages",
+      "title": "Bathroom — WC area",
+      "cap": "Functional and stylish"
+    },
+    {
+      "id": "g26",
+      "src": "/assets/5.jpg",
+      "cat": "Cottages",
+      "title": "Stairs to the upper floor",
+      "cap": "View from the loft to the hallway"
+    },
+    {
+      "id": "g27",
+      "src": "/assets/12.jpg",
+      "cat": "Cottages",
+      "title": "Children's bedroom",
+      "cap": "Two single beds"
+    },
+    {
+      "id": "g28",
+      "src": "/assets/13.jpg",
+      "cat": "Cottages",
+      "title": "Bedroom with a desk",
+      "cap": "A spot for a bit of work or study"
+    },
+    {
+      "id": "g29",
+      "src": "/assets/16.jpg",
+      "cat": "Cottages",
+      "title": "Flamingo bedding",
+      "cap": "A playful detail in the kids' room"
+    },
+    {
+      "id": "g30",
+      "src": "/assets/17.jpg",
+      "cat": "Cottages",
+      "title": "Master bedroom",
+      "cap": "160 × 200 bed, floral linen"
+    },
+    {
+      "id": "g31",
+      "src": "/assets/18.jpg",
+      "cat": "Cottages",
+      "title": "Second bedroom",
+      "cap": "A comfortable spot to sleep"
+    },
+    {
+      "id": "g32",
+      "src": "/assets/19.jpg",
+      "cat": "Cottages",
+      "title": "Bedroom in the evening",
+      "cap": "Cosy light from the bedside lamps"
+    },
+    {
+      "id": "g33",
+      "src": "/assets/a.jpg",
+      "cat": "Grounds",
+      "title": "Children's playground",
+      "cap": "Wooden climbing frame, swings, rope net"
+    },
+    {
+      "id": "g34",
+      "src": "/assets/b.jpg",
+      "cat": "Grounds",
+      "title": "Parking by the cottages",
+      "cap": "Parking spaces on site"
+    },
+    {
+      "id": "g35",
+      "src": "/assets/c.jpg",
+      "cat": "Grounds",
+      "title": "Beach volleyball court",
+      "cap": "Sand, a net, fun until evening"
+    },
+    {
+      "id": "g36",
+      "src": "/assets/d.jpg",
+      "cat": "Grounds",
+      "title": "Pool on the lawn",
+      "cap": "Above-ground pool with a ladder"
+    },
+    {
+      "id": "g37",
+      "src": "/assets/e.jpg",
+      "cat": "Grounds",
+      "title": "A swim in the pool",
+      "cap": "A moment to cool off on a hot day"
+    },
+    {
+      "id": "g38",
+      "src": "/assets/f.jpg",
+      "cat": "Grounds",
+      "title": "Grills and play area",
+      "cap": "Shared space between the cottages"
+    },
+    {
+      "id": "g39",
+      "src": "/assets/g.jpg",
+      "cat": "Grounds",
+      "title": "Terrace with loungers",
+      "cap": "Umbrellas, towels, afternoon sun"
+    },
+    {
+      "id": "g40",
+      "src": "/assets/h.jpg",
+      "cat": "Grounds",
+      "title": "Pool at sunset",
+      "cap": "Golden light, an inflatable flamingo"
+    },
+    {
+      "id": "g41",
+      "src": "/assets/i.jpg",
+      "cat": "Grounds",
+      "title": "Aerial view of the grounds",
+      "cap": "Volleyball court and pool"
+    },
+    {
+      "id": "g42",
+      "src": "/assets/j.jpg",
+      "cat": "Grounds",
+      "title": "Gazebo and lounge area",
+      "cap": "Kids' table, pool, sun loungers"
+    },
+    {
+      "id": "g43",
+      "src": "/assets/k.jpg",
+      "cat": "Grounds",
+      "title": "Green courtyard",
+      "cap": "Gazebo, pool, loungers under the birches"
+    },
+    {
+      "id": "g44",
+      "src": "/assets/l.jpg",
+      "cat": "Grounds",
+      "title": "Path along the cottages",
+      "cap": "Planters, chairs, a grill"
+    },
+    {
+      "id": "g45",
+      "src": "/assets/tarrace1.jpeg",
+      "cat": "Grounds",
+      "title": "Path to the terrace",
+      "cap": "Flower beds and a stone path"
+    },
+    {
+      "id": "g46",
+      "src": "/assets/tarrace2.jpeg",
+      "cat": "Grounds",
+      "title": "Private terrace",
+      "cap": "Table, rattan chairs, a parasol"
+    },
+    {
+      "id": "g47",
+      "src": "/assets/evenings1.jpg",
+      "cat": "Evenings",
+      "title": "Birches wrapped in fairy lights",
+      "cap": "Evening glow across the lawn"
+    },
+    {
+      "id": "g48",
+      "src": "/assets/evenings2.jpg",
+      "cat": "Evenings",
+      "title": "Path at night",
+      "cap": "Lit walkway between the cottages"
+    },
+    {
+      "id": "g49",
+      "src": "/assets/evenings3.jpg",
+      "cat": "Evenings",
+      "title": "Warm light inside",
+      "cap": "View from the loft into the living room"
+    },
+    {
+      "id": "g50",
+      "src": "/assets/evenings4.jpg",
+      "cat": "Evenings",
+      "title": "Cottages at dusk",
+      "cap": "Lanterns along the façade"
+    },
+    {
+      "id": "g51",
+      "src": "/assets/evenings5.jpg",
+      "cat": "Evenings",
+      "title": "Façade by night",
+      "cap": "Wood glowing in warm light"
+    },
+    {
+      "id": "g52",
+      "src": "/assets/gazebo1.jpg",
+      "cat": "Grounds",
+      "title": "Morning coffee in the gazebo",
+      "cap": "Rattan furniture, a view of the garden"
+    },
+    {
+      "id": "g53",
+      "src": "/assets/gazebo2.jpg",
+      "cat": "Grounds",
+      "title": "Wooden gazebo",
+      "cap": "Fairy lights, framed by hedges"
+    },
+    {
+      "id": "g54",
+      "src": "/assets/plaza1.jpg",
+      "cat": "Beach",
+      "title": "The wide beach in Jarosławiec",
+      "cap": "Golden sand and a view of the breakwater"
+    },
+    {
+      "id": "g55",
+      "src": "/assets/plaza2.jpg",
+      "cat": "Beach",
+      "title": "Fishing boats on the shore",
+      "cap": "Jarosławiec's fishing tradition"
+    },
+    {
+      "id": "g56",
+      "src": "/assets/plaza3.jpg",
+      "cat": "Beach",
+      "title": "Way down to the beach",
+      "cap": "Wooden steps through the dunes"
+    },
+    {
+      "id": "g57",
+      "src": "/assets/plaza4.jpg",
+      "cat": "Beach",
+      "title": "Sunset over the sea",
+      "cap": "Boardwalk leading to the beach"
+    }
+  ],
+
+  "regulaminMetaTitle": "Terms & Conditions — Domki Na Pniu, Jarosławiec",
+  "regulaminMetaDesc": "Terms and conditions for staying at our holiday cottages by the sea in Jarosławiec.",
+  "regulaminHeroCurrent": "Terms",
+  "regulaminHeroEyebrow": "Terms & Conditions · season 2026",
+  "regulaminHeroTitle": "Rules written",
+  "regulaminHeroItalic": "in plain language.",
+  "regulaminHeroLede": "In short: be kind to the cottage, the neighbours and the forest. The rest is formalities every accommodation must have. Full version below, printable — we're always happy to clarify if in doubt.",
+  "regulaminHeroMeta": [
+    { "label": "In force from", "value": "1 Jan 2026" },
+    { "label": "Version", "value": "5.0" },
+    { "label": "Pages", "value": "1 A4" }
+  ],
+  "regulaminSections": [
+    {
+      "id": "ogolne",
+      "rom": "I",
+      "title": "General provisions",
+      "items": [
+        "These Terms govern the conditions of stay at the \"Domki Na Pniu\" property located at ul. Morska 11, Jarosławiec (76-107), operated by Barbara Reszka — hereinafter referred to as the \"Property\".",
+        "Making a reservation is equivalent to reading and accepting these Terms. Failure to read the Terms does not exempt from responsibility for non-compliance.",
+        "The Host makes every effort to ensure that guests' stay at the Property is peaceful, safe and comfortable."
+      ]
+    },
+    {
+      "id": "rezerwacja",
+      "rom": "II",
+      "title": "Reservation",
+      "items": [
+        "Reservations can be made by phone at +48 506 141 730, by email at domkinapniu@gmail.com or via the form at domkinapniu.pl.",
+        "A reservation is binding after a 30% deposit has been paid to the designated bank account within 2 days of receiving initial confirmation.",
+        "Failure to pay the deposit by the agreed deadline results in automatic cancellation without notification.",
+        "Payment of the deposit is equivalent to accepting these Terms and confirming the reservation.",
+        "The number of guests may not exceed the number declared at booking. Max. 4 adults + 2 children. An undeclared person's stay requires 80 PLN/night extra."
+      ]
+    },
+    {
+      "id": "platnosci",
+      "rom": "III",
+      "title": "Payments and deposit",
+      "items": [
+        "The remaining amount is settled on arrival — cash, BLIK or card.",
+        "Tourist tax of 3.45 PLN/person/night is charged separately on arrival, pursuant to local council resolution.",
+        "A refundable security deposit of 500 PLN is collected on arrival — cash or BLIK. Returned in full on departure after inspection.",
+        "A VAT invoice is issued on request — must be notified by arrival day.",
+        "Unused portions of a paid stay do not entitle the guest to a reduction of the service fee."
+      ]
+    },
+    {
+      "id": "doba",
+      "rom": "IV",
+      "title": "Stay day",
+      "items": [
+        "The stay day begins at 15:00 on arrival day and ends at 10:00 on departure day.",
+        "Check-in and check-out take place in the presence of the Host or an authorised person.",
+        "Early check-in (from 12:00) or late check-out (until 14:00) is available subject to availability — fee 80 PLN or 100 PLN. Please arrange in advance by phone.",
+        "The key is handed over in person; in exceptional cases it may be left in the lockbox."
+      ]
+    },
+    {
+      "id": "zasady",
+      "rom": "V",
+      "title": "Rules of use",
+      "items": [
+        "Guests are required to keep the cottage and surroundings in the same state of cleanliness as on arrival, and to sort waste in the bins provided.",
+        "Smoking tobacco, using tobacco products and e-cigarettes inside the cottages is strictly prohibited. Smoking is permitted only in designated outdoor areas.",
+        "Moving furniture and beds within cottages or transferring kitchen equipment between cottages is prohibited.",
+        "Use of the firepit, BBQ and fireplace must comply with fire safety rules — away from wooden structures and under constant adult supervision.",
+        "The pool is open seasonally (15 Jun – 15 Sep) from 10:00 to 20:00. Use is at the guest's own risk; children under 12 must be accompanied by an adult."
+      ]
+    },
+    {
+      "id": "cisza",
+      "rom": "VI",
+      "title": "Quiet hours",
+      "items": [
+        "Quiet hours apply from 22:00 to 07:00.",
+        "During quiet hours guests must not disturb the peace of other stays. This applies to terraces, firepits and the grounds around the cottages.",
+        "In the event of a serious breach of quiet hours the Host has the right to ask guests to leave the Property without a refund."
+      ]
+    },
+    {
+      "id": "zwierzeta",
+      "rom": "VII",
+      "title": "Pets",
+      "items": [
+        "Pets are welcome — provided they are pre-arranged with the Host at booking. Fee 40 PLN/night.",
+        "We accept a maximum of 1 pet per cottage. Exceptions may be made in special cases after individual arrangement.",
+        "The owner bears full responsibility for the animal: its behaviour, cleanliness and any damage caused.",
+        "Pets must be kept on a lead on the Property grounds. Animals may not be left unsupervised if this could cause noise or damage.",
+        "An up-to-date health booklet with current vaccinations is required."
+      ]
+    },
+    {
+      "id": "bezpieczenstwo",
+      "rom": "VIII",
+      "title": "Safety and fire protection",
+      "items": [
+        "Each cottage has a fire extinguisher, smoke detector and carbon monoxide detector. The Host indicates the extinguisher location at check-in.",
+        "The use of personal electric heaters, hot plates, induction kettles and any high-power appliances not provided by the cottage is prohibited.",
+        "Candles, incense and other open-flame sources may be used only in purpose-made holders and under adult supervision.",
+        "Unjustified activation of the fire alarm or a fire extinguisher results in a charge of 500 PLN.",
+        "The Property grounds (excluding cottage interiors) are monitored — solely for the safety of guests."
+      ]
+    },
+    {
+      "id": "odpowiedzialnosc",
+      "rom": "IX",
+      "title": "Liability",
+      "items": [
+        "The guest bears full financial liability for damage or destruction of cottage furnishings caused by themselves or persons on the Property with their consent.",
+        "Parents or guardians bear full responsibility for the safety of children — especially near the pool, firepit, playground and sports court.",
+        "The Host is not liable for valuables left in the cottages or for damage arising from improper use of the equipment.",
+        "The car park is unguarded — the Host is not responsible for damage to or theft of vehicles.",
+        "A fee of 150 PLN is charged for a lost cottage key."
+      ]
+    },
+    {
+      "id": "anulacja",
+      "rom": "X",
+      "title": "Cancellation and changes",
+      "items": [
+        "Cancellation more than 60 days before arrival — full deposit refund.",
+        "Cancellation 60–30 days before arrival — 50% deposit refund.",
+        "Cancellation less than 30 days before arrival — the deposit is non-refundable, but may be transferred to another 2026 stay, subject to availability.",
+        "Change of reservation dates (once, up to 30 days before the original date) is free. Each subsequent change costs 100 PLN.",
+        "The Host reserves the right to cancel in exceptional circumstances (e.g. technical failure) — in such cases the guest receives a full refund."
+      ]
+    },
+    {
+      "id": "rodo",
+      "rom": "XI",
+      "title": "Personal data (GDPR)",
+      "items": [
+        "The controller of guests' personal data is Barbara Reszka, ul. Morska 11, 76-107 Jarosławiec.",
+        "Data is processed solely for the purpose of processing reservations, issuing accounting documents and fulfilling legal obligations.",
+        "Guests have the right to access, correct, restrict processing and delete their data — to the extent not covered by the controller's legal obligations.",
+        "The detailed Privacy Policy is available at domkinapniu.pl/polityka-prywatnosci and in printed form in the cottage."
+      ]
+    },
+    {
+      "id": "koncowe",
+      "rom": "XII",
+      "title": "Final provisions",
+      "items": [
+        "Matters not covered by these Terms are governed by the provisions of the Civil Code and the Act on Hotel Services.",
+        "The competent court for any disputes arising from the rental agreement is the court with jurisdiction for the seat of the Property.",
+        "These Terms are in force from 1 January 2026 until further notice. The current version is available at domkinapniu.pl/regulamin.",
+        "Contact: +48 506 141 730 · domkinapniu@gmail.com · ul. Morska 11, 76-107 Jarosławiec."
+      ]
+    }
+  ]
+}

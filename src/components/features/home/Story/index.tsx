@@ -1,0 +1,85 @@
+'use client';
+
+import Image from 'next/image';
+import { useTranslations } from 'next-intl';
+import { Display, Italic, SmallCap } from '@/components/ui/Typography';
+import type { StoryStat } from '@/lib/types';
+
+interface StoryStatProps {
+  label: string;
+  n: string;
+}
+
+const StoryStatItem = ({ label, n }: StoryStatProps) => (
+  <div>
+    <div className="font-display text-[40px] md:text-[48px] font-light tracking-[-0.02em] leading-none text-green-900">
+      {n}
+    </div>
+    <div className="mt-2 text-[11px] tracking-[0.16em] uppercase font-semibold text-green-900/55">
+      {label}
+    </div>
+  </div>
+);
+
+export const Story = () => {
+  const t = useTranslations();
+  const storyStats = t.raw('storyStats') as StoryStat[];
+  return (
+    <section
+      id="o-nas"
+      className="bg-brand-sunlight text-green-900 px-5 md:px-8 tablet:px-16 py-16 md:py-24 tablet:py-32"
+    >
+      <div className="max-w-layout mx-auto">
+        <div className="grid grid-cols-1 tablet:grid-cols-[1fr_1.4fr] gap-12 tablet:gap-24 items-start">
+          <div className="tablet:sticky tablet:top-[120px]">
+            <SmallCap className="text-mustard-700">{t('storyEyebrow')}</SmallCap>
+            <Display size="lg" className="mt-6 text-green-900">
+              {t('storyHeadline')}
+              <br />
+              <Italic className="text-mustard-700">
+                {t('storyHeadlineItalic')}
+                <span className="not-italic">.</span>
+              </Italic>
+              <br />
+              {t('storyHeadlineEnd')}
+            </Display>
+
+            <div className="relative mt-8 w-full aspect-[4/3] rounded-lg overflow-hidden border border-brand-black/15 bg-white">
+              <Image
+                src="/assets/cottage-layout.png"
+                alt={t('storyHeadline')}
+                fill
+                className="object-contain"
+              />
+            </div>
+          </div>
+
+          <div className="flex flex-col gap-2 md:gap-3">
+            <p className="font-serif text-[22px] md:text-[28px] italic font-normal leading-snug m-0 max-w-[24ch] text-green-500">
+              {t('storyQuote')}
+            </p>
+
+            {t('storyBody1')
+              .split('\n\n')
+              .map((para, i) => (
+                <p
+                  key={i}
+                  className="text-[16px] md:text-[17px] leading-loose m-0 max-w-[52ch] text-brand-black"
+                >
+                  {para}
+                </p>
+              ))}
+
+            <div className="grid grid-cols-3 gap-6 md:gap-8 mt-6 pt-8 border-t border-green-900/15">
+              {storyStats.map((s) => (
+                <StoryStatItem key={s.n} n={s.n} label={s.label} />
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Story;
