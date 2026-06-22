@@ -1,11 +1,13 @@
 import { setRequestLocale, getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { Link } from '@/i18n/navigation';
+import { buildPageMetadata } from '@/lib/seo';
 import { Display, Italic, SmallCap } from '@/components/brand/Typography';
 import { Icon } from '@/components/brand/Icon';
 import { SubpageHero } from '@/components/layout/SubpageHero';
 import { BookingCTA } from '@/components/features/home/BookingCTA';
 import { SeasonTable } from '@/components/features/cennik/SeasonTable';
+import { StepCards } from '@/components/features/cennik/StepCards';
 
 export async function generateMetadata({
   params,
@@ -14,10 +16,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale });
-  return {
+  return buildPageMetadata({
+    locale,
+    href: '/cennik',
     title: t('cennikMetaTitle'),
     description: t('cennikMetaDesc'),
-  };
+  });
 }
 
 export default async function CennikPage({
@@ -45,9 +49,12 @@ export default async function CennikPage({
       />
 
       {/* ── PRICING TABLE ── */}
-      <section className="bg-brand-eggshell px-16 py-32">
-        <div className="max-w-[1280px] mx-auto">
-          <div className="grid grid-cols-2 gap-16 items-end mb-14">
+      <section className="bg-brand-eggshell pb-32">
+        <svg className="block w-full h-12 md:h-20" viewBox="0 0 1440 80" preserveAspectRatio="none">
+          <path d="M0,40 C240,0 480,80 720,40 C960,0 1200,80 1440,40 L1440,0 L0,0 Z" fill="#FFFCF5" />
+        </svg>
+        <div className="max-w-[1280px] mx-auto px-16 max-[600px]:px-8 mt-16 md:mt-20 lg:mt-24">
+          <div className="grid grid-cols-1 tablet:grid-cols-2 gap-8 tablet:gap-16 items-start mb-14">
             <div>
               <SmallCap>{t('cennikTableEyebrow')}</SmallCap>
               <Display size="md" className="mt-6">
@@ -55,7 +62,7 @@ export default async function CennikPage({
                 <Italic>{t('cennikTableItalic')}</Italic>
               </Display>
             </div>
-            <p className="m-0 text-base leading-[1.7] text-brand-green-900/70 max-w-[48ch] justify-self-end">
+            <p className="m-0 text-base leading-[1.7] text-brand-green-900/70 max-w-[48ch] tablet:justify-self-end">
               {t('cennikTableNote')}
             </p>
           </div>
@@ -69,9 +76,6 @@ export default async function CennikPage({
                 <div className="font-serif italic text-[22px] text-brand-green-900 leading-tight">
                   {t('cennikLoyaltyText')}
                 </div>
-                <div className="text-[13px] text-brand-green-900/60 mt-1">
-                  {t('cennikLoyaltyNote')}
-                </div>
               </div>
             </div>
             <a href="#rezerwacja" className="inline-flex items-center gap-2.5 bg-brand-green-900 text-brand-sunlight px-7 py-4 rounded-full text-[13px] font-bold tracking-[0.12em] uppercase no-underline">
@@ -82,7 +86,7 @@ export default async function CennikPage({
       </section>
 
       {/* ── W CENIE ── */}
-      <section className="bg-brand-sunlight px-16 py-32">
+      <section className="bg-brand-sunlight px-16 max-[600px]:px-8 py-32">
         <div className="max-w-[1280px] mx-auto">
           <div className="mb-20">
             <SmallCap>{t('cottageIncludedEyebrow')}</SmallCap>
@@ -92,9 +96,9 @@ export default async function CennikPage({
             </Display>
           </div>
 
-          <div className="grid grid-cols-5 gap-10">
+          <div className="flex flex-wrap gap-10 lg:grid lg:grid-cols-5">
             {equipment.map(col => (
-              <div key={col.title}>
+              <div key={col.title} className="flex-1 basis-[160px]">
                 <h4 className="m-0 mb-5 pb-3.5 border-b border-brand-green-900/20 text-[11px] tracking-[0.2em] uppercase font-bold text-brand-mustard-700">{col.title}</h4>
                 <ul className="m-0 p-0 list-none flex flex-col gap-2.5">
                   {col.items.map(item => (
@@ -113,7 +117,7 @@ export default async function CennikPage({
       </section>
 
       {/* ── WARUNKI REZERWACJI ── */}
-      <section className="bg-brand-eggshell px-16 py-32">
+      <section className="bg-brand-eggshell px-8 tablet:px-16 py-32">
         <div className="max-w-[1280px] mx-auto">
           <div className="text-center mb-16">
             <SmallCap>{t('cennikStepsEyebrow')}</SmallCap>
@@ -123,24 +127,13 @@ export default async function CennikPage({
             </Display>
           </div>
 
-          <div className="grid grid-cols-3 gap-6">
-            {steps.map(c => (
-              <div key={c.n} className="bg-brand-sunlight border border-brand-green-900/15 px-8 pt-10 pb-9 flex flex-col gap-4">
-                <div className="text-[11px] tracking-[0.24em] uppercase font-bold text-brand-mustard-700 tabular-nums">{c.n} · {t('cennikStepLabel')}</div>
-                <h3 className="m-0 font-display text-[28px] font-medium tracking-[-0.015em] text-brand-green-900 leading-[1.15]">{c.title}</h3>
-                <p className="m-0 text-[15px] leading-[1.65] text-brand-green-900/80">{c.body}</p>
-                <div className="mt-auto pt-5 border-t border-brand-green-900/15 font-serif italic text-sm text-brand-green-900/65">
-                  {c.meta}
-                </div>
-              </div>
-            ))}
-          </div>
+          <StepCards steps={steps} />
 
           <div className="flex justify-center mt-12 gap-4 flex-wrap">
             <Link href="/regulamin" className="inline-flex items-center gap-2 bg-transparent text-brand-green-900 border-[1.5px] border-brand-green-900/25 px-6 py-3.5 rounded-full text-xs font-bold tracking-[0.12em] uppercase no-underline">
               {t('cennikLinksRegulamin')} <Icon name="arrow-right" size={14}/>
             </Link>
-            <Link href="/faq" className="inline-flex items-center gap-2 bg-transparent text-brand-green-900 border-[1.5px] border-brand-green-900/25 px-6 py-3.5 rounded-full text-xs font-bold tracking-[0.12em] uppercase no-underline">
+            <Link href="/faq" className="inline-flex items-center gap-2 bg-brand-black text-brand-sunlight border-[1.5px] border-brand-black px-6 py-3.5 rounded-full text-xs font-bold tracking-[0.12em] uppercase no-underline">
               {t('cennikLinksFaq')} <Icon name="arrow-right" size={14}/>
             </Link>
           </div>

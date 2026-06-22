@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { usePathname, Link } from '@/i18n/navigation';
 import { BrandMark } from '@/components/brand/BrandMark';
 import { Icon } from '@/components/brand/Icon';
@@ -15,13 +16,17 @@ const NAV_LINKS = [
   { href: '/#kontakt', label: 'Kontakt' },
 ];
 
-function isActive(href: string, pathname: string) {
-  const path = href.split('#')[0] || '/';
-  return path === '/' ? pathname === '/' : pathname === path;
-}
-
 export const SiteNav = () => {
   const pathname = usePathname();
+  const [clickedHref, setClickedHref] = useState<string | null>(null);
+
+  const activeHref = (() => {
+    const subpageMatch = NAV_LINKS.find((l) => {
+      const p = l.href.split('#')[0];
+      return p && p !== '/' && pathname === p;
+    });
+    return subpageMatch ? subpageMatch.href : clickedHref;
+  })();
 
   return (
     <nav className="sticky top-0 z-50 bg-brand-green-900 text-brand-sunlight border-b border-brand-sunlight/10">
@@ -36,11 +41,12 @@ export const SiteNav = () => {
 
         <ul className="flex gap-9 list-none m-0 p-0">
           {NAV_LINKS.map((item) => {
-            const active = isActive(item.href, pathname);
+            const active = activeHref === item.href;
             return (
               <li key={item.label}>
                 <Link
                   href={item.href}
+                  onClick={() => setClickedHref(item.href)}
                   className={cn(
                     'text-sm font-medium tracking-[0.04em] pb-1.5 transition-colors no-underline',
                     active

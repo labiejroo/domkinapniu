@@ -2,6 +2,7 @@ import { setRequestLocale, getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { SubpageHero } from '@/components/layout/SubpageHero';
 import { RegulaminBody, type Section } from '@/components/features/regulamin/RegulaminBody';
+import { buildPageMetadata } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -10,10 +11,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale });
-  return {
+  return buildPageMetadata({
+    locale,
+    href: '/regulamin',
     title: t('regulaminMetaTitle'),
     description: t('regulaminMetaDesc'),
-  };
+  });
 }
 
 export default async function RegulaminPage({
@@ -32,7 +35,6 @@ export default async function RegulaminPage({
     <>
       <SubpageHero
         current={t('regulaminHeroCurrent')}
-        eyebrow={t('regulaminHeroEyebrow')}
         title={t('regulaminHeroTitle')}
         italic={t('regulaminHeroItalic')}
         lede={t('regulaminHeroLede')}

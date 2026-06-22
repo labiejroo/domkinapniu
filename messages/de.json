@@ -11,12 +11,12 @@
   "phone": "+48 506 141 730",
   "phoneDisplay": "+48 506 141 730",
 
-  "heroHeadline": "Deine Stille.",
-  "heroHeadlineItalic": "am Wasser.",
-  "heroDescription": "Zwölf Holzferienhäuser in ruhiger, beschaulicher Lage, 180 m vom Strand „Dubai” in Jarosławiec.\nWir begrüßen unsere Gäste persönlich. Abreise ganz in Ruhe.",
+  "heroHeadline": "Deine Entspannung.",
+  "heroHeadlineItalic": "am Meer.",
+  "heroDescription": "Zwölf Holzferienhäuser in ruhiger, beschaulicher Lage, 800 m vom Strand „Dubai” in Jarosławiec.\nWir begrüßen unsere Gäste persönlich. Komfortable Erholung in der Nähe von Meer und Natur.",
   "heroStats": [
-    { "value": "180 m", "label": "zum Strand, durch den Wald" },
-    { "value": "50 m²", "label": "zweistöckiges Haus mit Terrasse" },
+    { "value": "800 m", "label": "zum Strand, durch den Wald" },
+    { "value": "52 m²", "label": "zweistöckiges Haus mit Terrasse" },
     { "value": "12 Häuser", "label": "ruhiges, privates Gelände" },
     { "value": "4,96 / 5", "label": "aus 187 Bewertungen" }
   ],
@@ -31,13 +31,13 @@
   "storyHeadline": "Gebaut",
   "storyHeadlineItalic": "auf Baumstümpfen",
   "storyHeadlineEnd": "buchstäblich.",
-  "storyQuote": "„Wir haben sie aus Fichtenholz gebaut, im Schatten der Birken, die hier schon immer standen.“",
-  "storyBody1": "Unsere Häuser sind komfortable, ganzjährig nutzbare Räume mit je 50 m². Im Obergeschoss befinden sich zwei gemütliche Schlafzimmer, im Erdgeschoss ein Wohnzimmer mit voll ausgestatteter Küchenzeile und einer Holzterrasse – ideal für den Morgenkaffee und die abendliche Entspannung.\n\nAuf dem Gelände erwarten Sie ein Pool, ein Volleyballfeld und Attraktionen für die Kleinsten. Die Abende lassen sich wunderbar in der gemütlichen Holzlaube verbringen, die zum gemeinsamen Beisammensein einlädt.\n\nHaustiere sind herzlich willkommen – wir wissen, dass Urlaub in vollständiger Besetzung am schönsten ist.",
+  "storyQuote": "„Aus Fichte gebaut, rund um das Schönste, was die Natur hier bereits hinterlassen hatte.“",
+  "storyBody1": "Unsere Häuser sind komfortable, ganzjährig nutzbare Räume mit je 52 m². Im Erdgeschoss befindet sich ein Wohnzimmer mit voll ausgestatteter Küchenzeile und einer Terrasse – ideal für den Morgenkaffee und die abendliche Entspannung. Im Obergeschoss befinden sich zwei separate Schlafzimmer mit einer kleinen Ankleide.\n\nAuf dem Gelände erwarten Sie ein Pool, ein Volleyballfeld und Attraktionen für die Kleinsten. Die Abende lassen sich wunderbar in der gemütlichen Holzlaube verbringen, die zum gemeinsamen Beisammensein einlädt.\n\nHaustiere sind herzlich willkommen – wir wissen, dass Urlaub in vollständiger Besetzung am schönsten ist.",
   "storyBody2": "Seit 2022 führen wir diesen Ort mit Leidenschaft und Engagement und schaffen damit den idealen Rückzugsort für Familien, Paare und Kleingruppen, die echte Erholung am Meer suchen – in natürlicher Atmosphäre, ohne Hektik und Künstlichkeit.",
   "storyStats": [
     { "n": "2019", "label": "Eröffnungsjahr" },
     { "n": "12", "label": "Häuser" },
-    { "n": "50 m²", "label": "Wohnfläche" }
+    { "n": "52 m²", "label": "Wohnfläche" }
   ],
 
   "featureEyebrow": "— Innenräume & Umgebung",
@@ -66,8 +66,8 @@
   "cottageEyebrow": "— Ihr Ferienhaus",
   "cottageHeadline": "Alle gleich.",
   "cottageHeadlineItalic": "Deshalb perfekt.",
-  "cottageDescription": "Zwölf identische Häuser – gleicher Charakter, gleiche Größe, gleicher Preis. Keine besseren oder schlechteren Kategorien, kein Aufpreis für die Aussicht. Jede Buchung garantiert dieselbe Qualität – 50 m² auf zwei Ebenen, private Terrasse, Platz für 4 + 2 Personen.",
-  "cottageChips": ["50 m²", "4 + 2 Personen", "2 Schlafzimmer", "ab 98 € / Nacht"],
+  "cottageDescription": "Zwölf identische Häuser – gleicher Charakter, gleiche Größe, gleicher Preis. Jede Buchung garantiert dieselbe Qualität – 52 m² auf zwei Ebenen, private Terrasse, Platz für 6 Personen.",
+  "cottageChips": ["52 m²", "6 Personen", "2 Schlafzimmer", "ab 82 € / Nacht"],
   "cottageIncludedEyebrow": "— Im Preis enthalten",
   "cottageIncludedHeadline": "Alles, was wartet",
   "cottageIncludedHeadlineItalic": "vor Ort.",
@@ -75,48 +75,58 @@
   "floorGround": "Erdgeschoss",
   "floorUpper": "Obergeschoss",
   "stairsLabel": "Treppen",
-  "groundFloorMeta": "24 m² + 14 m² Terrasse",
-  "upperFloorMeta": "24 m² · 2 Schlafzimmer",
+  "groundFloorMeta": "Terrasse",
+  "upperFloorMeta": "2 Schlafzimmer",
   "rooms": {
     "salon": {
       "name": "Wohnzimmer + Küche",
       "planLabel": "Wohnzimmer",
       "level": "Erdgeschoss",
       "desc": "Offener Wohnbereich mit gemütlichem Sofa, Esstisch für sechs Personen und voll ausgestatteter Küche. Großes Fenster zu den Bäumen; Kamin für kühle Abende.",
-      "tags": ["Holzofen-Kamin", "Tisch für 6 Pers.", "Induktion + Spülmaschine", "Smart TV 50″"]
+      "tags": ["Holzofen-Kamin", "Tisch für 6 Pers.", "Induktion + Spülmaschine", "Fernseher"]
     },
     "lazienka": {
       "name": "Badezimmer",
       "planLabel": "Badezimmer",
       "level": "Erdgeschoss",
-      "desc": "Walk-in-Dusche mit Regenduschkopf, Fußbodenheizung und vollständiges Toilettenartikelset in Nachfüllspendern. Haartrockner und beleuchteter Spiegel.",
+      "desc": "Walk-in-Dusche mit Regenduschkopf, Fußbodenheizung und vollständiges Toilettenartikelset in Nachfüllspendern. Beleuchteter Spiegel.",
       "tags": ["Walk-in-Dusche", "Fußbodenheizung", "Toilettenartikel inklusive"]
     },
     "taras": {
       "name": "Terrasse mit Feuerstelle",
       "planLabel": "Terrasse",
       "level": "Erdgeschoss",
-      "desc": "Holzterrasse mit großem Tisch, Liegestühlen und privater Feuerstelle. Brennholz und Grillkohle sind inklusive – täglich abends vorbereitet.",
+      "desc": "Holzterrasse mit großem Tisch, Liegestühlen und privater Feuerstelle.",
       "tags": ["Gas-Grill", "Feuerstelle + Holz", "Tisch für 6 Pers.", "Liegestühle & Hängematte"]
     },
     "sypialnia1": {
       "name": "Hauptschlafzimmer",
       "planLabel": "Hauptschlafzimmer",
       "level": "Obergeschoss",
-      "desc": "Doppelbett 160 × 200 mit Leinenbettwäsche und Wolldecke. Birkenholzschräge, Fenster zu den Kiefern und direkt in Richtung Sonnenaufgang.",
+      "desc": "Doppelbett 160 × 200 mit Hotelbettwäsche und Wolldecke. Im Zimmer befinden sich ein Frisiertisch, eine Kommode und Verdunkelungsrollos. Ein Zustellbett ist auf Anfrage möglich, ein Kleiderschrank befindet sich im Flur.",
       "tags": [
         "Doppelbett 160 × 200",
-        "Leinenbettwäsche",
-        "Schrank + Spiegel",
+        "Hotelbettwäsche",
+        "Frisiertisch",
+        "Kommode",
+        "Kleiderschrank",
+        "Zustellbett auf Anfrage",
         "Verdunkelungsrollos"
       ]
+    },
+    "korytarz": {
+      "name": "Flur",
+      "planLabel": "Flur",
+      "level": "Obergeschoss",
+      "desc": "Der Flur zwischen den beiden Schlafzimmern mit Zugang zum Kleiderschrank und der Treppe ins Erdgeschoss.",
+      "tags": ["Kleiderschrank", "Treppe ins Erdgeschoss"]
     },
     "sypialnia2": {
       "name": "Kinderschlafzimmer",
       "planLabel": "Kinderzimmer",
       "level": "Obergeschoss",
-      "desc": "Zwei Einzelbetten 90 × 200, auf Wunsch auch mit Reisebett für die Kleinsten. Warmes Lampenlicht, Regal mit Büchern und Gesellschaftsspielen.",
-      "tags": ["2 × Einzelbett 90 × 200", "Reisebett auf Anfrage", "Nachtlichter"]
+      "desc": "Zwei Einzelbetten 90 × 200. Warmes Lampenlicht, Regal mit Büchern und Gesellschaftsspielen.",
+      "tags": ["2 × Einzelbett 90 × 200", "Nachtlichter"]
     }
   },
   "equipment": [
@@ -137,7 +147,7 @@
       "items": [
         "Doppelbett 160 × 200",
         "2 × Einzelbett 90 × 200",
-        "Leinenbettwäsche",
+        "Hotelbettwäsche",
         "Handtücher + Bademäntel",
         "Verdunkelungsrollos",
         "Reisebett auf Anfrage"
@@ -169,7 +179,7 @@
       "title": "Komfort",
       "items": [
         "WLAN 300 Mb/s",
-        "Smart TV 50″",
+        "Fernseher",
         "Klimaanlage",
         "Heizung im Winter",
         "Privatparkplatz",
@@ -185,7 +195,7 @@
   "placeHeader": "Ort",
   "distanceHeader": "Entfernung",
   "nearbyPlaces": [
-    { "place": "Bewachter Strand mit weißem Sand", "dist": "180 m", "detail": "Waldweg, 4 Min." },
+    { "place": "Bewachter Strand mit weißem Sand", "dist": "800 m", "detail": "Waldweg, 4 Min." },
     { "place": "Strandpromenade", "dist": "5 Min.", "detail": "Restaurants, Eis, Läden" },
     {
       "place": "Historischer Leuchtturm (19. Jh.)",
@@ -215,36 +225,39 @@
   "bookingArrival": "Anreise",
   "bookingDeparture": "Abreise",
   "bookingGuests": "Gäste",
-  "bookingPhoneNote": "Oder ",
-  "bookingPhoneNoteBold": "rufen Sie uns direkt an:",
-  "bookingPhoneSpeed": "· normalerweise innerhalb von 15 Minuten",
+  "bookingPhoneNote": "Keine freien Termine auf <b>Booking.com</b>? ",
+  "bookingPhoneNoteBold": "Rufen Sie uns direkt an:",
+  "bookingPhoneSpeed": "Einige unserer Hütten sind nur direkt buchbar, daher haben wir oft Termine verfügbar, die auf Buchungsportalen nicht sichtbar sind.",
   "adultsLabel": "Erwachsene",
   "childrenLabel": "Kinder",
   "adultsCountLabel": "{adults, plural, one {# Erwachsener} other {# Erwachsene}}",
   "childrenCountLabel": "{children, plural, one {# Kind} other {# Kinder}}",
+  "decreaseLabel": "Verringern: {label}",
+  "increaseLabel": "Erhöhen: {label}",
+  "skipToContent": "Zum Inhalt springen",
 
-  "footerTagline": "Holz-Ferienhäuser in Jarosławiec. 180 m vom Strand, für 4–6 Personen. Wir begrüßen unsere Gäste persönlich.",
+  "footerTagline": "Holz-Ferienhäuser in Jarosławiec. 800 m vom Strand, für 4–6 Personen. Wir begrüßen unsere Gäste persönlich.",
   "footerColumns": [
     {
       "title": "Seite",
       "links": [
-        { "label": "Über uns", "href": "#O-nas" },
-        { "label": "Häuser", "href": "#Domki" },
-        { "label": "Galerie", "href": "#galeria" },
-        { "label": "Umgebung", "href": "#Okolica" },
-        { "label": "Preise", "href": "#cennik" },
-        { "label": "FAQ", "href": "#faq" },
+        { "label": "Über uns", "href": "/#o-nas" },
+        { "label": "Häuser", "href": "/#domki" },
+        { "label": "Galerie", "href": "/#galeria" },
+        { "label": "Umgebung", "href": "/#okolica" },
+        { "label": "Preise", "href": "/cennik" },
+        { "label": "FAQ", "href": "/faq" },
         { "label": "Blog", "href": "#blog" }
       ]
     },
     {
       "title": "Buchung",
       "links": [
-        { "label": "Verfügbarkeit prüfen", "href": "#rezerwacja" },
-        { "label": "AGB", "href": "#regulamin" },
+        { "label": "Verfügbarkeit prüfen", "href": "/#rezerwacja" },
+        { "label": "AGB", "href": "/regulamin" },
         { "label": "Stornierungsbedingungen", "href": "#anulacja" },
         { "label": "Geschenkgutschein", "href": "#voucher" },
-        { "label": "Kontakt", "href": "#Kontakt" }
+        { "label": "Kontakt", "href": "/#kontakt" }
       ]
     },
     {
@@ -255,17 +268,20 @@
       ]
     }
   ],
-  "footerLegal": ["Datenschutz", "Cookies", "AGB"],
+  "footerLegal": [{ "label": "AGB", "href": "/regulamin" }],
   "checkinLabel": "Check-in",
   "checkinValue": "15:00 / 10:00",
   "copyright": "© 2026 Domki Na Pniu",
+  "madeByLabel": "Website erstellt von",
 
-  "ratingScore": "8,7",
-  "ratingCount": "81 Bewertungen",
+  "ratingScore": "8,9",
+  "ratingCount": "82 Bewertungen",
 
   "langPl": "PL",
   "langEn": "ENG",
   "langDe": "DE",
+  "langCz": "CZ",
+  "selectLanguage": "Sprache wählen",
 
   "navItems": [
     { "label": "Über uns", "href": "/#o-nas" },
@@ -282,8 +298,16 @@
   "starsLabel": "{n} von 5",
 
   "metaTitle": "Domki Na Pniu · Jarosławiec",
-  "metaDescription": "Zwölf Holzferienhäuser 180 m vom Strand in Jarosławiec. Für 4–6 Personen. Wir begrüßen unsere Gäste persönlich.",
-  "ogDescription": "Premium Ferienhäuser 180 m vom Strand. Ruhig. Natürlich. Persönlich.",
+  "metaDescription": "Zwölf Holzferienhäuser 800 m vom Strand in Jarosławiec. Für 4–6 Personen. Wir begrüßen unsere Gäste persönlich.",
+  "ogDescription": "Premium Ferienhäuser 800 m vom Strand. Ruhig. Natürlich. Persönlich.",
+
+  "notFoundMetaTitle": "Seite nicht gefunden — Domki Na Pniu",
+  "notFoundHeroCurrent": "404",
+  "notFoundHeroTitle": "404. Diesen Pfad",
+  "notFoundHeroItalic": "gibt es nicht.",
+  "notFoundHeroLede": "Die gesuchte Seite existiert nicht oder wurde verschoben. Schauen Sie sich unsere Preise und FAQ an oder kehren Sie zur Startseite zurück.",
+  "notFoundCtaHome": "Zur Startseite",
+  "notFoundCtaPricing": "Preise ansehen",
 
   "galeriaAll": "Alle",
   "galeriaPhotoCount": "{count, plural, one {# Foto} other {# Fotos}}",
@@ -306,7 +330,6 @@
   "faqCtaPhone": "Telefon",
   "faqCtaEmail": "E-Mail",
 
-  "cennikColNr": "Nr.",
   "cennikColSeason": "Saison",
   "cennikColDates": "Zeitraum",
   "cennikColMin": "Mindestaufenthalt",
@@ -320,7 +343,7 @@
   "regulaminDownloadPdf": "PDF herunterladen",
   "regulaminFaqLink": "Häufige Fragen",
   "regulaminSummaryLabel": "Das Wichtigste in einem Absatz",
-  "regulaminSummary": "Check-in 15:00 / Check-out 10:00. 30 % Anzahlung, kostenlose Stornierung bis 60 Tage. Ruhezeit 22:00 – 07:00. Haustiere nach Absprache. Nicht im Inneren rauchen. Feuerstelle verantwortungsvoll nutzen — Holz inklusive.",
+  "regulaminSummary": "Check-in 15:00 / Check-out 10:00. Ruhezeit 22:00 – 07:00. Haustiere nach Absprache. Nicht im Inneren rauchen. Feuerstelle verantwortungsvoll nutzen — Holz inklusive.",
   "regulaminFooterNote": "Vielen Dank fürs Lesen. Wenn etwas unklar ist — rufen Sie an oder schreiben Sie, telefonisch antworten wir am schnellsten.",
   "regulaminCallBtn": "Anrufen",
   "regulaminWriteBtn": "Schreiben",
@@ -336,18 +359,17 @@
   "cennikHeroEyebrow": "Saison 2026 · Preise",
   "cennikHeroTitle": "Eine Qualität.",
   "cennikHeroItalic": "Ein einfacher Preis.",
-  "cennikHeroLede": "Zwölf identische Häuser, der gleiche Preis für alle. Keine besseren oder schlechteren Kategorien, kein Aufpreis für die Aussicht oder die Hausnummer. Sie zahlen pro Nacht — alles, was Sie brauchen, ist bereits im Haus.",
+  "cennikHeroLede": "Zwölf Häuser, der gleiche Preis für alle. Keine besseren oder schlechteren Kategorien. Sie zahlen pro Nacht — alles, was Sie brauchen, ist bereits im Haus.",
   "cennikHeroMeta": [
-    { "label": "Ab",       "value": "420 PLN / Nacht" },
-    { "label": "Haus für", "value": "4 + 2 Pers." },
+    { "label": "Ab", "value": "350 PLN / Nacht" },
+    { "label": "Haus für", "value": "6 Pers., Zustellbett möglich" },
     { "label": "Check-in", "value": "15:00 / 10:00" }
   ],
   "cennikTableEyebrow": "— Übernachtungspreise",
   "cennikTableTitle": "Wählen Sie",
   "cennikTableItalic": "Ihre Saison.",
-  "cennikTableNote": "Der Preis gilt für das gesamte Haus, nicht pro Person. Längere Aufenthalte, bessere Preise: 5+ Nächte = −5 %, 10+ Nächte = −10 %. Keine Überraschungen — alles ist im Übernachtungspreis enthalten.",
-  "cennikLoyaltyText": "Stammgäste — 8 % Rabatt auf jeden weiteren Aufenthalt",
-  "cennikLoyaltyNote": "Wird automatisch bei der Buchungsbestätigung angewendet. Keine Codes, keine Treuekarten.",
+  "cennikTableNote": "Der Preis gilt für das gesamte Haus, nicht pro Person. Im Aufenthaltspreis sind alle Grundgebühren enthalten, einschließlich Strom — keine zusätzlichen Kosten oder Überraschungen vor Ort. Vor Ort wird eine Kurtaxe gemäß den geltenden örtlichen Vorschriften erhoben.",
+  "cennikLoyaltyText": "Bei einem Aufenthalt von mindestens 7 Nächten begrüßen wir unsere Gäste mit einer Flasche Prosecco als Geschenk.",
   "cennikLoyaltyCTA": "Verfügbarkeit prüfen",
   "cennikIncludedEyebrow": "— Im Preis enthalten",
   "cennikIncludedTitle": "Alles, was",
@@ -362,41 +384,196 @@
   "cennikDepositTitle": "Rückzahlbare Kaution",
   "cennikDepositBody": "500 PLN, bei der Anreise in bar oder per BLIK. Wird vollständig am Abreisetag nach einer kurzen Hauskontrolle zurückgezahlt — dauert in der Regel etwa 15 Minuten.",
   "cennikStepsEyebrow": "— Buchungsbedingungen",
-  "cennikStepsTitle": "Drei einfache Dinge,",
+  "cennikStepsTitle": "Zwei einfache Dinge,",
   "cennikStepsItalic": "die Sie wissen sollten.",
-  "cennikStepLabel": "Schritt",
   "cennikLinksRegulamin": "Vollständige AGB",
   "cennikLinksFaq": "Häufige Fragen",
   "cennikSeasons": [
-    { "name": "Frühlingsruhe",          "dates": "1. Mai – 21. Juni 2026", "min": "3 Nächte", "price": "420", "highlight": false, "note": "Mo–Do, außer Fronleichnam" },
-    { "name": "Maifeiertage",           "dates": "30. Apr. – 4. Mai",     "min": "4 Nächte", "price": "580", "highlight": false, "note": "ganzes Wochenende" },
-    { "name": "Fronleichnam",           "dates": "4. – 7. Juni",          "min": "3 Nächte", "price": "580", "highlight": false, "note": "langes Wochenende" },
-    { "name": "Hochsommer",             "dates": "22. Juni – 30. Aug.",   "min": "7 Nächte", "price": "780", "highlight": true,  "note": "Sa–Sa-Aufenthalte" },
-    { "name": "Altweibersommer",        "dates": "31. Aug. – 30. Sep.",   "min": "3 Nächte", "price": "480", "highlight": false, "note": "ruhiger September" },
-    { "name": "Winterstille",           "dates": "1. Okt. – 27. Dez.",   "min": "3 Nächte", "price": "380", "highlight": false, "note": "Kamin + langer Bademantel" },
-    { "name": "Weihnachten & Silvester","dates": "28. Dez. – 2. Jan. 2027","min": "5 Nächte","price": "950", "highlight": false, "note": "nur Gesamtpaket" }
+    {
+      "name": "Mai",
+      "dates": "5. – 31. Mai",
+      "min": "3 Nächte",
+      "price": "350",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Maifeiertage",
+      "dates": "1. – 3. Mai",
+      "min": "3 Nächte",
+      "price": "400",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Juni",
+      "dates": "1. – 3. Juni",
+      "min": "3 Nächte",
+      "price": "400",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Fronleichnam",
+      "dates": "4. – 7. Juni",
+      "min": "3 Nächte",
+      "price": "450",
+      "highlight": false,
+      "note": "langes Wochenende"
+    },
+    {
+      "name": "Juni",
+      "dates": "8. – 26. Juni",
+      "min": "3 Nächte",
+      "price": "400",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Saisonbeginn",
+      "dates": "27. Juni – 11. Juli",
+      "min": "5 Nächte",
+      "price": "540",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Hochsommer",
+      "dates": "12. Juli – 16. Aug.",
+      "min": "7 Nächte",
+      "price": "590",
+      "highlight": true,
+      "note": ""
+    },
+    {
+      "name": "Spätsommer",
+      "dates": "17. – 31. Aug.",
+      "min": "5 Nächte",
+      "price": "490",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "September",
+      "dates": "1. – 30. Sept.",
+      "min": "3 Nächte",
+      "price": "360",
+      "highlight": false,
+      "note": "ruhiger September"
+    }
   ],
   "cennikIncluded": [
-    { "title": "Haus",           "items": ["48 m² auf zwei Ebenen", "4 + 2 Schlafplätze", "Leinenbettwäsche bezogen", "Handtuchset", "Toilettenartikel in Spendern", "Endreinigung"] },
-    { "title": "Küche",          "items": ["Voll ausgestattete Küche", "Induktionskochfeld + Backofen", "Kühlschrank mit Gefrierfach", "Spülmaschine", "Kaffeemaschine", "Geschirr für 6 Pers."] },
-    { "title": "Terrasse",       "items": ["Tisch für 6 Pers.", "Liegestühle & Hängematte", "Gas-Grill", "Feuerstelle + Holz", "Abendbeleuchtung", "Rauchkessel für Tee"] },
-    { "title": "Komfort",        "items": ["WLAN 300 Mb/s", "Smart TV 50″", "Klimaanlage", "Heizung im Winter", "1 × Stellplatz", "Ruhezeit ab 22:00"] },
-    { "title": "Auf dem Gelände","items": ["Saisonaler Pool", "Spielplatz", "Holzpavillon", "Volleyballfeld", "Fahrradzone", "Persönliche Begrüßung"] }
+    {
+      "title": "Haus",
+      "items": [
+        "48 m² auf zwei Ebenen",
+        "6 Schlafplätze",
+        "Leinenbettwäsche bezogen",
+        "Handtuchset",
+        "Toilettenartikel in Spendern",
+        "Endreinigung"
+      ]
+    },
+    {
+      "title": "Küche",
+      "items": [
+        "Voll ausgestattete Küche",
+        "Induktionskochfeld + Backofen",
+        "Kühlschrank mit Gefrierfach",
+        "Spülmaschine",
+        "Kaffeemaschine",
+        "Geschirr für 6 Pers."
+      ]
+    },
+    {
+      "title": "Terrasse",
+      "items": [
+        "Tisch für 6 Pers.",
+        "Liegestühle & Hängematte",
+        "Gas-Grill",
+        "Feuerstelle + Holz",
+        "Abendbeleuchtung",
+        "Rauchkessel für Tee"
+      ]
+    },
+    {
+      "title": "Komfort",
+      "items": [
+        "WLAN 300 Mb/s",
+        "Fernseher",
+        "Klimaanlage",
+        "Heizung im Winter",
+        "1 × Stellplatz",
+        "Ruhezeit ab 22:00"
+      ]
+    },
+    {
+      "title": "Auf dem Gelände",
+      "items": [
+        "Saisonaler Pool",
+        "Spielplatz",
+        "Holzpavillon",
+        "Volleyballfeld",
+        "Fahrradzone",
+        "Persönliche Begrüßung"
+      ]
+    }
   ],
   "cennikExtras": [
-    { "name": "Kurtaxe",               "detail": "Gesetzlich vorgeschrieben, bei Anreise erhoben",          "price": "3,45 PLN / Pers. / Nacht" },
-    { "name": "Hund oder Katze",       "detail": "Max. 1 Tier / Haus, nach Voranmeldung",                   "price": "40 PLN / Nacht" },
-    { "name": "Zweites Auto",          "detail": "Erster Stellplatz inklusive; zweiter nach Reservierung",  "price": "20 PLN / Nacht" },
-    { "name": "Reisebett",             "detail": "Für Kinder bis 3 Jahre, mit Bettwäsche",                  "price": "kostenlos" },
-    { "name": "Extra-Handtuchset",     "detail": "Groß + klein + Küchentücher",                             "price": "15 PLN / Set" },
-    { "name": "Spätes Check-out",      "detail": "Bis 14:00 Uhr, je nach Verfügbarkeit",                    "price": "100 PLN" },
-    { "name": "Frühes Check-in",       "detail": "Ab 12:00 Uhr, je nach Verfügbarkeit",                     "price": "80 PLN" },
-    { "name": "Geschenkkarte",         "detail": "Aufenthaltsgutschein, beliebiger Betrag — 12 Monate gültig","price": "ab 500 PLN" }
+    {
+      "name": "Kurtaxe",
+      "detail": "Gesetzlich vorgeschrieben, bei Anreise erhoben",
+      "price": "3,45 PLN / Pers. / Nacht"
+    },
+    {
+      "name": "Hund oder Katze",
+      "detail": "Max. 1 Tier / Haus, nach Voranmeldung",
+      "price": "40 PLN / Nacht"
+    },
+    {
+      "name": "Zweites Auto",
+      "detail": "Erster Stellplatz inklusive; zweiter nach Reservierung",
+      "price": "20 PLN / Nacht"
+    },
+    {
+      "name": "Reisebett",
+      "detail": "Für Kinder bis 3 Jahre, mit Bettwäsche",
+      "price": "kostenlos"
+    },
+    {
+      "name": "Extra-Handtuchset",
+      "detail": "Groß + klein + Küchentücher",
+      "price": "15 PLN / Set"
+    },
+    {
+      "name": "Spätes Check-out",
+      "detail": "Bis 14:00 Uhr, je nach Verfügbarkeit",
+      "price": "100 PLN"
+    },
+    {
+      "name": "Frühes Check-in",
+      "detail": "Ab 12:00 Uhr, je nach Verfügbarkeit",
+      "price": "80 PLN"
+    },
+    {
+      "name": "Geschenkkarte",
+      "detail": "Aufenthaltsgutschein, beliebiger Betrag — 12 Monate gültig",
+      "price": "ab 500 PLN"
+    }
   ],
   "cennikSteps": [
-    { "n": "01", "title": "30 % Anzahlung",          "body": "Per Überweisung innerhalb von 2 Tagen nach Bestätigung. Rest bei Anreise — bar, BLIK oder Karte. Ohne Aufpreis.", "meta": "Buchung verbindlich ab Anzahlungseingang" },
-    { "n": "02", "title": "Kostenlose Stornierung",  "body": "Bis 60 Tage vor Anreise — 100 % Rückerstattung. Zwischen 60 und 30 Tagen — 50 %. Näher am Termin wird die Anzahlung auf einen anderen Aufenthalt übertragen.", "meta": "Vollständige AGB → Reiter AGB" },
-    { "n": "03", "title": "Check-in 15:00 / 10:00",  "body": "Wir begrüßen Gäste persönlich, zeigen das Haus und die Umgebung. Abreise ohne Eile — Schlüssel in der Box hinterlassen ist auch in Ordnung.", "meta": "Früh- / Spät-Check je nach Verfügbarkeit" }
+    {
+      "n": "01",
+      "title": "30 % Anzahlung",
+      "body": "Per Überweisung innerhalb von 2 Tagen nach Bestätigung. Rest bei Anreise — bar.",
+      "meta": "Buchung verbindlich ab Anzahlungseingang"
+    },
+    {
+      "n": "02",
+      "title": "Check-in 15:00 / 10:00",
+      "body": "Wir begrüßen Gäste persönlich, zeigen das Haus und die Umgebung. Früherer oder späterer Check-out/Check-in nach Verfügbarkeit.",
+      "meta": "Früh- / Spät-Check je nach Verfügbarkeit"
+    }
   ],
 
   "faqMetaTitle": "FAQ — Domki Na Pniu, Jarosławiec",
@@ -407,48 +584,92 @@
   "faqHeroItalic": "telefonisch beantworten.",
   "faqHeroLede": "Wir haben die Fragen gesammelt, die in E-Mails und SMS aus vergangenen Saisons immer wieder auftauchen. Wenn etwas fehlt — Barbara nimmt normalerweise innerhalb von 15 Minuten ab, auch abends.",
   "faqHeroMeta": [
-    { "label": "Fragen",       "value": "22" },
-    { "label": "Kategorien",   "value": "7" },
-    { "label": "Antwortzeit",  "value": "~15 Min." }
+    { "label": "Fragen", "value": "14" },
+    { "label": "Kategorien", "value": "5" },
+    { "label": "Antwortzeit", "value": "~15 Min." }
   ],
   "faqGroups": [
-    { "cat": "Buchung", "items": [
-      { "q": "Wie buche ich einen Aufenthalt?", "a": "Am schnellsten telefonisch unter +48 506 141 730 oder per E-Mail an domkinapniu@gmail.com. Nach der vorläufigen Terminbestätigung senden wir die Zahlungsdaten für die Anzahlung — mit Zahlungseingang ist die Buchung verbindlich." },
-      { "q": "Wie hoch ist die Anzahlung?", "a": "30 % des Gesamtbetrags. Die Anzahlung wird innerhalb von 2 Tagen nach Buchungsbestätigung überwiesen. Den Restbetrag begleichen Sie am Anreisetag — bar, per BLIK oder Karte." },
-      { "q": "Kann ich ein bestimmtes Haus buchen?", "a": "Es gibt zwölf Häuser, alle identisch in Größe, Einrichtung und Aussicht. Die Hausnummer vergeben wir am Anreisetag — so gibt es keine besseren oder schlechteren Kategorien." },
-      { "q": "Kann ich nur eine Nacht buchen?", "a": "Der Mindestaufenthalt variiert je nach Saison: 3 Nächte außerhalb der Saison, 4–5 Nächte an langen Wochenenden, 7 Nächte im Hochsommer (Samstag bis Samstag). Details auf der Preisseite." }
-    ]},
-    { "cat": "Stornierung", "items": [
-      { "q": "Was passiert, wenn ich storniere?", "a": "Bis 60 Tage vor Anreise — volle Rückerstattung der Anzahlung. Zwischen 60 und 30 Tagen — 50 %. Näher am Termin kann die Anzahlung auf einen anderen Aufenthalt in der Saison 2026 übertragen werden." },
-      { "q": "Kann ich mein Datum ändern?", "a": "Ja, einmal kostenlos — spätestens 30 Tage vor dem ursprünglichen Anreisedatum. Jede weitere Änderung kostet 100 PLN. Bei Preisunterschied durch Saisondifferenz passen wir entsprechend an." },
-      { "q": "Was, wenn das Wetter schlecht ist?", "a": "Schlechtes Wetter ist kein Stornierungsgrund — aber wenn es die ganze Woche regnet, gibt es im Haus einen Kamin, Bücher, Brettspiele, Waldspaziergänge und heißen Tee. Sommer ist unberechenbar." }
-    ]},
-    { "cat": "Aufenthalt", "items": [
-      { "q": "Ab wann kann ich einchecken?", "a": "Check-in ab 15:00 Uhr. Frühes Einchecken (ab 12:00 Uhr) für 80 PLN möglich — je nach Verfügbarkeit. Wir bitten um einen kurzen Anruf vor der Anreise, idealerweise eine Stunde vorher." },
-      { "q": "Bis wann muss ich auschecken?", "a": "Bis 10:00 Uhr. Spätes Auschecken bis 14:00 Uhr — 100 PLN, wenn an dem Tag keine Gäste ankommen. In der Hochsaison ist das meist nicht möglich." },
-      { "q": "Wohnt der Gastgeber auf dem Gelände?", "a": "Ja — Barbara wohnt am Ende des Grundstücks. Wir begrüßen Gäste persönlich, zeigen das Haus und geben Tipps. Wir sind jederzeit telefonisch erreichbar." },
-      { "q": "Gibt es WLAN im Haus?", "a": "Ja, 300 Mb/s Glasfaser mit Router in jedem Haus. Passwort auf dem Kühlschrank. Funktioniert gut für Homeoffice, Videokonferenzen und unterbrechungsfreies Streaming." }
-    ]},
-    { "cat": "Haus", "items": [
-      { "q": "Für wie viele Gäste ist ein Haus geeignet?", "a": "Optimal 4 Erwachsene + 2 Kinder. Hauptschlafzimmer mit Doppelbett 160 × 200, zweites Zimmer mit zwei Einzelbetten 90 × 200. Wohnzimmer: ausklappbares Sofa für 2. Reisebett auf Wunsch kostenlos." },
-      { "q": "Was ist im Preis enthalten?", "a": "Leinenbettwäsche, Handtücher, Toilettenartikel, Endreinigung, Brennholz, Parkplatz, WLAN, Klimaanlage, Heizung, Zugang zu Pool, Pavillon und Spielplatz. Kein Aufpreis für Strom oder Wasser." },
-      { "q": "Ist das Haus zum Kochen vollständig ausgestattet?", "a": "Vollständig. Induktionskochfeld, Backofen, Spülmaschine, Kühlschrank mit Gefrierfach, Kaffeemaschine, Toaster, Wasserkocher, Geschirr für 6, Grundgewürze und Olivenöl." },
-      { "q": "Gibt es Platz für Koffer, Kinderwagen, Fahrräder?", "a": "Unter jedem Haus gibt es einen Bereich für Fahrräder und Kinderwagen; innen einen Kleiderschrank für Koffer. Auf Wunsch Liegestühle und Picknickkörbe — bitte beim Check-in mitteilen." }
-    ]},
-    { "cat": "Strand & Umgebung", "items": [
-      { "q": "Wie weit ist es zum Strand?", "a": "180 Meter zum Strand 'Dubai' — über einen Kiefernwaldpfad, etwa 4 Minuten zu Fuß. In der Saison bewacht, weißer Sand, selten überfüllt. Die Steilküste — 600 Meter." },
-      { "q": "Was gibt es in der Umgebung zu sehen?", "a": "Leuchtturm von 1839 (800 m), Wasserpark Jarosławiec (1,2 km), Strandpromenade, Naturschutzgebiet Wicko-See (15 Min. Fahrrad), Ustka und Darłowo (40 Min. Auto)." },
-      { "q": "Kann ich mit dem Auto anreisen?", "a": "Ja, Parkplatz unter jedem Haus — ein Auto inklusive. Zweites Auto 20 PLN/Nacht, nach Voranmeldung. Von Warschau ca. 5,5 Std., von der Dreistadt — 2 Std., von Posen — 4 Std." },
-      { "q": "Gibt es Essensmöglichkeiten in der Nähe?", "a": "In Gehweite: vier Restaurants, zwei Fischimbisse, eine Eisdiele, eine kleine Bäckerei mit Croissants und ein Bio-Laden. Eine Liste unserer Lieblingsplätze liegt im Haus — mit Karte." }
-    ]},
-    { "cat": "Haustiere", "items": [
-      { "q": "Kann ich meinen Hund mitbringen?", "a": "Sehr gerne — viele Stammgäste reisen mit Vierbeinern an. Gebühr 40 PLN/Nacht, ein Tier pro Haus, nach vorheriger Absprache. Aktuelles Impfbuch erforderlich." },
-      { "q": "Gibt es einen Ort, wo ich den Hund frei laufen lassen kann?", "a": "Auf dem Gelände — ja, es ist eingezäunt. Außerhalb bitte Leine, besonders nahe Pool und Spielplatz. Der Strand 'Dubai' ist außerhalb der Saison hundefreundlich; im Juli/August gelten Einschränkungen." }
-    ]},
-    { "cat": "Zahlung", "items": [
-      { "q": "Wie kann ich am Anreisetag zahlen?", "a": "Bar, per BLIK oder Karte (kein Aufpreis). Rechnung auf Wunsch — bitte spätestens am Anreisetag mitteilen. Kurtaxe (3,45 PLN/Person/Nacht) wird separat in bar erhoben." },
-      { "q": "Erheben Sie eine Kaution?", "a": "Ja, 500 PLN — bar oder per BLIK bei Anreise. Wird vollständig am Abreisetag nach einer kurzen Hauskontrolle zurückgegeben — dauert etwa 15 Minuten." }
-    ]}
+    {
+      "cat": "Buchung",
+      "items": [
+        {
+          "q": "Kann ich ein Haus online buchen?",
+          "a": "Wir nehmen Buchungen telefonisch an. Ein Teil unserer Häuser ist außerdem über Booking.com verfügbar, ein Teil über private Reservierung."
+        },
+        {
+          "q": "Werden Buchungen ausschließlich über Booking.com abgewickelt?",
+          "a": "Nein. Wir nehmen Buchungen sowohl über Booking.com als auch direkt telefonisch an. Ein Teil der Häuser ist im Online-System verfügbar, ein Teil über private Reservierung."
+        },
+        {
+          "q": "Ist eine Anzahlung erforderlich?",
+          "a": "Ja, Voraussetzung für die Bestätigung der Buchung ist eine Anzahlung in Höhe von 30 % des Aufenthaltswerts."
+        },
+        {
+          "q": "Ist die Anzahlung erstattungsfähig?",
+          "a": "Die Anzahlung wird bei Rücktritt von der Buchung nicht erstattet. In begründeten Fällen ist nach vorheriger Kontaktaufnahme eine Terminänderung möglich."
+        }
+      ]
+    },
+    {
+      "cat": "Aufenthalt",
+      "items": [
+        {
+          "q": "Um wie viel Uhr beginnt und endet der Aufenthalt?",
+          "a": "Der Check-in ist um 15:00 Uhr, der Check-out am Abreisetag um 10:00 Uhr."
+        },
+        {
+          "q": "Was ist im Preis des Aufenthalts enthalten?",
+          "a": "Der Preis umfasst Wasser, Strom, Bettwäsche, Handtücher sowie Parkplatz (bis zu 2 Autos pro Haus)."
+        },
+        {
+          "q": "Ist Rauchen auf dem Gelände erlaubt?",
+          "a": "Nein, in den Häusern gilt ein striktes Rauchverbot."
+        },
+        {
+          "q": "Darf ich Besuch im Haus empfangen?",
+          "a": "Ja, aber nur nach vorheriger Absprache mit dem Vermieter."
+        },
+        {
+          "q": "Dürfen Kinder sich allein auf dem Gelände aufhalten?",
+          "a": "Nein, Kinder müssen während des gesamten Aufenthalts von Eltern oder Erziehungsberechtigten beaufsichtigt werden."
+        }
+      ]
+    },
+    {
+      "cat": "Zahlung",
+      "items": [
+        {
+          "q": "Wann muss der Aufenthalt bezahlt werden?",
+          "a": "Die Zahlung für den Aufenthalt erfolgt am Anreisetag — in bar oder per Überweisung."
+        },
+        {
+          "q": "Fallen zusätzliche Gebühren an?",
+          "a": "Ja, zusätzlich wird eine Kurtaxe gemäß den örtlichen Sätzen erhoben, sowie eine Tiergebühr (30 PLN/Nacht) und eine Gebühr für jede Person über 6 Gäste hinaus (80 PLN/Nacht)."
+        }
+      ]
+    },
+    {
+      "cat": "Haustiere",
+      "items": [
+        {
+          "q": "Darf ich mit einem Haustier kommen?",
+          "a": "Ja, wir akzeptieren kleine Haustiere. Es fällt eine zusätzliche Gebühr an, und es gelten die Regeln für den Aufenthalt mit Haustieren."
+        }
+      ]
+    },
+    {
+      "cat": "Haftung",
+      "items": [
+        {
+          "q": "Was passiert bei Schäden im Haus?",
+          "a": "Gäste haften in vollem Umfang finanziell für Schäden, die durch ihr Verschulden entstehen."
+        },
+        {
+          "q": "Haftet der Vermieter für persönliche Gegenstände und Fahrzeuge?",
+          "a": "Nein, der Vermieter haftet nicht für unbeaufsichtigt zurückgelassene Gegenstände oder für Schäden auf dem Parkplatz."
+        }
+      ]
+    }
   ],
 
   "galeriaMetaTitle": "Galerie — Domki Na Pniu, Jarosławiec",
@@ -459,24 +680,102 @@
   "galeriaHeroItalic": "wirklich aus.",
   "galeriaHeroLede": "Fotos mit einer gewöhnlichen Kamera an gewöhnlichen Tagen aufgenommen — ohne Nachbearbeitung, ohne gemietetes Gras. Wenn Sie auf einem Foto einen Kamin sehen, wartet genau dieser Kamin auf Sie.",
   "galeriaHeroMeta": [
-    { "label": "Fotos",        "value": "13" },
-    { "label": "Häuser",       "value": "12" },
+    { "label": "Fotos", "value": "13" },
+    { "label": "Häuser", "value": "12" },
     { "label": "Aktualisiert", "value": "September 2025" }
   ],
   "galeriaPhotos": [
-    { "id": "g01", "src": "/assets/hero-beach.jpg",      "cat": "Strand",     "title": "Dünen über 'Dubai'",              "cap": "Gras, Sand, 180 m von den Häusern" },
-    { "id": "g02", "src": "/assets/photo-1.png",         "cat": "Innenräume", "title": "Wohnzimmer am Kamin",             "cap": "Holz, Leinen, warmes Licht" },
-    { "id": "g03", "src": "/assets/banner-coast.png",    "cat": "Strand",     "title": "Küste nach dem Sturm",            "cap": "Oktobermorgen" },
-    { "id": "g04", "src": "/assets/photo-3.png",         "cat": "Abende",     "title": "Abend an der Feuerstelle",        "cap": "Brennholz inklusive" },
-    { "id": "g05", "src": "/assets/photo-4.png",         "cat": "Wald",       "title": "Kiefernwald",                     "cap": "Spaziergang zum Strand — 4 Min." },
-    { "id": "g06", "src": "/assets/photo-5.png",         "cat": "Häuser",     "title": "Private Veranda",                 "cap": "Terrasse mit Blick auf die Bäume" },
-    { "id": "g07", "src": "/assets/photo-6.png",         "cat": "Innenräume", "title": "Hauptschlafzimmer",               "cap": "Bett 160 × 200, Leinenbettwäsche" },
-    { "id": "g08", "src": "/assets/photo-2.png",         "cat": "Häuser",     "title": "Haus Nr. 4",                      "cap": "Lärche, Birken, Mittag" },
-    { "id": "g09", "src": "/assets/banner-coast-2.png",  "cat": "Strand",     "title": "Steilküste bei Jarosławiec",      "cap": "Spaziergang entlang der Küste" },
-    { "id": "g10", "src": "/assets/photo-sea-grass.png", "cat": "Details",    "title": "Dünengras",                       "cap": "Kleinigkeiten der Umgebung" },
-    { "id": "g11", "src": "/assets/photo-ig-7.png",      "cat": "Abende",     "title": "Sonnenuntergang von der Terrasse","cap": "Augustabend" },
-    { "id": "g12", "src": "/assets/photo-ig-8.png",      "cat": "Abende",     "title": "Nach dem Abendessen",             "cap": "Lichter, Hängematte, Wein" },
-    { "id": "g13", "src": "/assets/texture-pien.jpg",    "cat": "Details",    "title": "Lärchenholzmaserung",             "cap": "Das Material, aus dem die Häuser gebaut sind" }
+    {
+      "id": "g01",
+      "src": "/assets/hero-beach.jpg",
+      "cat": "Strand",
+      "title": "Dünen über 'Dubai'",
+      "cap": "Gras, Sand, 800 m von den Häusern"
+    },
+    {
+      "id": "g02",
+      "src": "/assets/photo-1.png",
+      "cat": "Innenräume",
+      "title": "Wohnzimmer am Kamin",
+      "cap": "Holz, Leinen, warmes Licht"
+    },
+    {
+      "id": "g03",
+      "src": "/assets/banner-coast.png",
+      "cat": "Strand",
+      "title": "Küste nach dem Sturm",
+      "cap": "Oktobermorgen"
+    },
+    {
+      "id": "g04",
+      "src": "/assets/photo-3.png",
+      "cat": "Abende",
+      "title": "Abend an der Feuerstelle",
+      "cap": "Brennholz inklusive"
+    },
+    {
+      "id": "g05",
+      "src": "/assets/photo-4.png",
+      "cat": "Wald",
+      "title": "Kiefernwald",
+      "cap": "Spaziergang zum Strand — 4 Min."
+    },
+    {
+      "id": "g06",
+      "src": "/assets/photo-5.png",
+      "cat": "Häuser",
+      "title": "Private Veranda",
+      "cap": "Terrasse mit Blick auf die Bäume"
+    },
+    {
+      "id": "g07",
+      "src": "/assets/photo-6.png",
+      "cat": "Innenräume",
+      "title": "Hauptschlafzimmer",
+      "cap": "Bett 160 × 200, Leinenbettwäsche"
+    },
+    {
+      "id": "g08",
+      "src": "/assets/photo-2.png",
+      "cat": "Häuser",
+      "title": "Haus Nr. 4",
+      "cap": "Lärche, Birken, Mittag"
+    },
+    {
+      "id": "g09",
+      "src": "/assets/banner-coast-2.png",
+      "cat": "Strand",
+      "title": "Steilküste bei Jarosławiec",
+      "cap": "Spaziergang entlang der Küste"
+    },
+    {
+      "id": "g10",
+      "src": "/assets/photo-sea-grass.png",
+      "cat": "Details",
+      "title": "Dünengras",
+      "cap": "Kleinigkeiten der Umgebung"
+    },
+    {
+      "id": "g11",
+      "src": "/assets/photo-ig-7.png",
+      "cat": "Abende",
+      "title": "Sonnenuntergang von der Terrasse",
+      "cap": "Augustabend"
+    },
+    {
+      "id": "g12",
+      "src": "/assets/photo-ig-8.png",
+      "cat": "Abende",
+      "title": "Nach dem Abendessen",
+      "cap": "Lichter, Hängematte, Wein"
+    },
+    {
+      "id": "g13",
+      "src": "/assets/texture-pien.jpg",
+      "cat": "Details",
+      "title": "Lärchenholzmaserung",
+      "cap": "Das Material, aus dem die Häuser gebaut sind"
+    }
   ],
 
   "regulaminMetaTitle": "AGB — Domki Na Pniu, Jarosławiec",
@@ -488,21 +787,146 @@
   "regulaminHeroLede": "Kurz gesagt: Seien Sie nett zum Haus, zu den Nachbarn und zum Wald. Der Rest sind Formalitäten. Vollständige Version unten, druckbar — wir erklären gerne bei Fragen.",
   "regulaminHeroMeta": [
     { "label": "Gültig ab", "value": "1. Jan. 2026" },
-    { "label": "Version",   "value": "5.0" },
-    { "label": "Seiten",    "value": "1 A4" }
+    { "label": "Version", "value": "5.0" },
+    { "label": "Seiten", "value": "1 A4" }
   ],
   "regulaminSections": [
-    { "id": "ogolne",          "rom": "I",    "title": "Allgemeine Bestimmungen",         "items": ["Diese AGB regeln die Bedingungen des Aufenthalts im Objekt „Domki Na Pniu”, ul. Morska 11, Jarosławiec (76-107), betrieben von Barbara Reszka — nachfolgend „Objekt” genannt.", "Die Buchung ist gleichbedeutend mit der Kenntnisnahme und Akzeptanz dieser AGB. Unkenntnis entbindet nicht von der Haftung für deren Nichteinhaltung.", "Der Gastgeber unternimmt alle Anstrengungen, um einen ruhigen, sicheren und komfortablen Aufenthalt zu gewährleisten."] },
-    { "id": "rezerwacja",      "rom": "II",   "title": "Buchung",                         "items": ["Buchungen können telefonisch unter +48 506 141 730, per E-Mail an domkinapniu@gmail.com oder über das Formular auf domkinapniu.pl vorgenommen werden.", "Eine Buchung ist verbindlich, sobald eine Anzahlung von 30 % des Gesamtbetrags innerhalb von 2 Tagen nach Bestätigung eingegangen ist.", "Bleibt die Anzahlung aus, wird die vorläufige Buchung automatisch storniert, ohne den Gast zu benachrichtigen.", "Die Zahlung der Anzahlung ist gleichbedeutend mit der Akzeptanz dieser AGB und der Buchungsbestätigung.", "Die Anzahl der Personen darf die bei der Buchung angegebene Zahl nicht überschreiten. Max. 4 Erwachsene + 2 Kinder. Nicht gemeldete Personen: 80 PLN/Nacht extra."] },
-    { "id": "platnosci",       "rom": "III",  "title": "Zahlungen und Anzahlung",         "items": ["Der Restbetrag wird am Anreisetag beglichen — bar, per BLIK oder Kreditkarte.", "Kurtaxe von 3,45 PLN/Person/Nacht wird gemäß Gemeinderatssatzung separat am Anreisetag erhoben.", "Am Anreisetag wird eine rückzahlbare Kaution von 500 PLN erhoben — bar oder per BLIK. Die Kaution wird vollständig am Abreisetag zurückgezahlt, sofern keine Schäden festgestellt wurden.", "Eine Rechnung wird auf Wunsch ausgestellt — muss spätestens am Anreisetag mitgeteilt werden.", "Nicht genutzte Aufenthaltszeiten begründen keine Reduzierung der Servicepauschale."] },
-    { "id": "doba",            "rom": "IV",   "title": "Aufenthaltstag",                  "items": ["Der Aufenthaltstag beginnt um 15:00 Uhr am Anreisetag und endet um 10:00 Uhr am Abreisetag.", "Ein- und Auschecken erfolgt in Anwesenheit des Gastgebers oder einer beauftragten Person.", "Frühes Einchecken (ab 12:00 Uhr) oder spätes Auschecken (bis 14:00 Uhr) ist je nach Verfügbarkeit möglich — Gebühr 80 PLN bzw. 100 PLN. Bitte telefonisch vorab vereinbaren.", "Der Schlüssel wird persönlich übergeben; in Ausnahmefällen kann er in der Schlüsselbox hinterlegt werden."] },
-    { "id": "zasady",          "rom": "V",    "title": "Nutzungsregeln",                  "items": ["Gäste sind verpflichtet, das Haus und die Umgebung in dem Zustand zu hinterlassen, in dem es bei der Anreise war, und Abfälle zu trennen.", "Das Rauchen sowie die Verwendung von Tabakprodukten und E-Zigaretten im Inneren der Häuser ist streng verboten. Rauchen ist nur an den dafür vorgesehenen Außenbereichen erlaubt.", "Das Umstellen von Möbeln und Betten sowie das Transportieren von Küchenutensilien zwischen den Häusern ist verboten.", "Die Nutzung von Feuerstelle, Grill und Kamin muss den Brandschutzvorschriften entsprechen — in Abstand von Holzkonstruktionen und unter ständiger Aufsicht.", "Der Pool ist saisonal geöffnet (15. Juni – 15. Sep.) von 10:00 bis 20:00 Uhr. Nutzung auf eigene Gefahr; Kinder unter 12 Jahren müssen begleitet werden."] },
-    { "id": "cisza",           "rom": "VI",   "title": "Ruhezeiten",                      "items": ["Ruhezeit gilt von 22:00 bis 07:00 Uhr.", "Während der Ruhezeiten darf das Verhalten der Gäste den Frieden anderer Aufenthalte nicht stören. Dies gilt auch für Terrassen, Feuerstellen und das Gelände.", "Bei grober Verletzung der Ruhezeiten ist der Gastgeber berechtigt, die Gäste ohne Rückerstattung zum Verlassen aufzufordern."] },
-    { "id": "zwierzeta",       "rom": "VII",  "title": "Haustiere",                       "items": ["Haustiere sind herzlich willkommen — vorausgesetzt, sie wurden bei der Buchung abgesprochen. Gebühr 40 PLN/Nacht.", "Wir akzeptieren maximal 1 Tier pro Haus. In besonderen Fällen nach individueller Absprache.", "Der Eigentümer trägt die volle Verantwortung für das Tier: sein Verhalten, Sauberkeit und etwaige Schäden.", "Auf dem Gelände müssen Haustiere an der Leine gehalten werden. Tiere dürfen nicht unbeaufsichtigt im Haus bleiben, wenn dies Lärm oder Schäden verursachen könnte.", "Ein aktuelles Impfbuch ist erforderlich."] },
-    { "id": "bezpieczenstwo",  "rom": "VIII", "title": "Sicherheit und Brandschutz",      "items": ["In jedem Haus befindet sich ein Feuerlöscher sowie Rauch- und Kohlenmonoxidmelder. Der Gastgeber zeigt den Standort beim Einchecken.", "Die Verwendung eigener elektrischer Heizgeräte, Kochplatten und aller leistungsstarken Geräte, die nicht zur Ausstattung gehören, ist verboten.", "Kerzen, Räucherstäbchen und andere offene Flammenquellen dürfen nur in dafür vorgesehenen Gefäßen und unter Aufsicht verwendet werden.", "Das unbegründete Auslösen des Feueralarms oder eines Feuerlöschers hat eine Gebühr von 500 PLN zur Folge.", "Das Gelände (außer Innenräume) wird überwacht — ausschließlich zur Sicherheit der Gäste."] },
-    { "id": "odpowiedzialnosc","rom": "IX",   "title": "Haftung",                         "items": ["Der Gast trägt die volle Haftung für Beschädigungen der Einrichtung, die durch ihn oder mit seiner Zustimmung anwesende Personen verursacht wurden.", "Eltern oder Erziehungsberechtigte tragen die volle Verantwortung für die Sicherheit der Kinder — insbesondere in der Nähe von Pool, Feuerstelle, Spielplatz und Sportfeld.", "Der Gastgeber haftet nicht für zurückgelassene Wertgegenstände oder Schäden durch unsachgemäße Nutzung.", "Der Parkplatz ist unbewacht — der Gastgeber haftet nicht für Beschädigungen oder Diebstahl von Fahrzeugen.", "Für einen verlorenen Schlüssel wird eine Gebühr von 150 PLN erhoben."] },
-    { "id": "anulacja",        "rom": "X",    "title": "Stornierung und Änderungen",      "items": ["Stornierung mehr als 60 Tage vor Anreise — vollständige Rückerstattung der Anzahlung.", "Stornierung 60–30 Tage vor Anreise — 50 % Rückerstattung.", "Stornierung weniger als 30 Tage vor Anreise — die Anzahlung ist nicht erstattungsfähig, kann aber auf einen anderen Aufenthalt in der Saison 2026 übertragen werden.", "Datumsänderung (einmalig, bis 30 Tage vor dem ursprünglichen Datum) ist kostenlos. Jede weitere Änderung kostet 100 PLN.", "Der Gastgeber behält sich das Recht vor, in Ausnahmefällen zu stornieren — der Gast erhält dann eine vollständige Rückerstattung."] },
-    { "id": "rodo",            "rom": "XI",   "title": "Personenbezogene Daten (DSGVO)",  "items": ["Verantwortlicher für die personenbezogenen Daten ist Barbara Reszka, ul. Morska 11, 76-107 Jarosławiec.", "Daten werden ausschließlich zur Abwicklung von Buchungen, Ausstellung von Buchhaltungsunterlagen und Erfüllung gesetzlicher Pflichten verarbeitet.", "Gäste haben das Recht auf Auskunft, Berichtigung, Einschränkung und Löschung ihrer Daten — soweit gesetzliche Pflichten dem nicht entgegenstehen.", "Die ausführliche Datenschutzerklärung ist unter domkinapniu.pl/polityka-prywatnosci und in gedruckter Form im Haus verfügbar."] },
-    { "id": "koncowe",         "rom": "XII",  "title": "Schlussbestimmungen",             "items": ["Angelegenheiten, die nicht durch diese AGB geregelt sind, unterliegen den Bestimmungen des Bürgerlichen Gesetzbuchs und dem Gesetz über Hoteldienstleistungen.", "Zuständiges Gericht für etwaige Streitigkeiten ist das für den Sitz des Objekts zuständige Gericht.", "Diese AGB sind ab dem 1. Januar 2026 bis auf Widerruf gültig. Die aktuelle Version ist unter domkinapniu.pl/regulamin verfügbar.", "Kontakt: +48 506 141 730 · domkinapniu@gmail.com · ul. Morska 11, 76-107 Jarosławiec."] }
+    {
+      "id": "ogolne",
+      "rom": "I",
+      "title": "Allgemeine Bestimmungen",
+      "items": [
+        "Diese AGB regeln die Bedingungen des Aufenthalts im Objekt „Domki Na Pniu”, ul. Morska 11, Jarosławiec (76-107), betrieben von Barbara Reszka — nachfolgend „Objekt” genannt.",
+        "Die Buchung ist gleichbedeutend mit der Kenntnisnahme und Akzeptanz dieser AGB. Unkenntnis entbindet nicht von der Haftung für deren Nichteinhaltung.",
+        "Der Gastgeber unternimmt alle Anstrengungen, um einen ruhigen, sicheren und komfortablen Aufenthalt zu gewährleisten."
+      ]
+    },
+    {
+      "id": "rezerwacja",
+      "rom": "II",
+      "title": "Buchung",
+      "items": [
+        "Buchungen können telefonisch unter +48 506 141 730, per E-Mail an domkinapniu@gmail.com oder über das Formular auf domkinapniu.pl vorgenommen werden.",
+        "Eine Buchung ist verbindlich, sobald eine Anzahlung von 30 % des Gesamtbetrags innerhalb von 2 Tagen nach Bestätigung eingegangen ist.",
+        "Bleibt die Anzahlung aus, wird die vorläufige Buchung automatisch storniert, ohne den Gast zu benachrichtigen.",
+        "Die Zahlung der Anzahlung ist gleichbedeutend mit der Akzeptanz dieser AGB und der Buchungsbestätigung.",
+        "Die Anzahl der Personen darf die bei der Buchung angegebene Zahl nicht überschreiten. Max. 4 Erwachsene + 2 Kinder. Nicht gemeldete Personen: 80 PLN/Nacht extra."
+      ]
+    },
+    {
+      "id": "platnosci",
+      "rom": "III",
+      "title": "Zahlungen und Anzahlung",
+      "items": [
+        "Der Restbetrag wird am Anreisetag beglichen — bar, per BLIK oder Kreditkarte.",
+        "Kurtaxe von 3,45 PLN/Person/Nacht wird gemäß Gemeinderatssatzung separat am Anreisetag erhoben.",
+        "Am Anreisetag wird eine rückzahlbare Kaution von 500 PLN erhoben — bar oder per BLIK. Die Kaution wird vollständig am Abreisetag zurückgezahlt, sofern keine Schäden festgestellt wurden.",
+        "Eine Rechnung wird auf Wunsch ausgestellt — muss spätestens am Anreisetag mitgeteilt werden.",
+        "Nicht genutzte Aufenthaltszeiten begründen keine Reduzierung der Servicepauschale."
+      ]
+    },
+    {
+      "id": "doba",
+      "rom": "IV",
+      "title": "Aufenthaltstag",
+      "items": [
+        "Der Aufenthaltstag beginnt um 15:00 Uhr am Anreisetag und endet um 10:00 Uhr am Abreisetag.",
+        "Ein- und Auschecken erfolgt in Anwesenheit des Gastgebers oder einer beauftragten Person.",
+        "Frühes Einchecken (ab 12:00 Uhr) oder spätes Auschecken (bis 14:00 Uhr) ist je nach Verfügbarkeit möglich — Gebühr 80 PLN bzw. 100 PLN. Bitte telefonisch vorab vereinbaren.",
+        "Der Schlüssel wird persönlich übergeben; in Ausnahmefällen kann er in der Schlüsselbox hinterlegt werden."
+      ]
+    },
+    {
+      "id": "zasady",
+      "rom": "V",
+      "title": "Nutzungsregeln",
+      "items": [
+        "Gäste sind verpflichtet, das Haus und die Umgebung in dem Zustand zu hinterlassen, in dem es bei der Anreise war, und Abfälle zu trennen.",
+        "Das Rauchen sowie die Verwendung von Tabakprodukten und E-Zigaretten im Inneren der Häuser ist streng verboten. Rauchen ist nur an den dafür vorgesehenen Außenbereichen erlaubt.",
+        "Das Umstellen von Möbeln und Betten sowie das Transportieren von Küchenutensilien zwischen den Häusern ist verboten.",
+        "Die Nutzung von Feuerstelle, Grill und Kamin muss den Brandschutzvorschriften entsprechen — in Abstand von Holzkonstruktionen und unter ständiger Aufsicht.",
+        "Der Pool ist saisonal geöffnet (15. Juni – 15. Sep.) von 10:00 bis 20:00 Uhr. Nutzung auf eigene Gefahr; Kinder unter 12 Jahren müssen begleitet werden."
+      ]
+    },
+    {
+      "id": "cisza",
+      "rom": "VI",
+      "title": "Ruhezeiten",
+      "items": [
+        "Ruhezeit gilt von 22:00 bis 07:00 Uhr.",
+        "Während der Ruhezeiten darf das Verhalten der Gäste den Frieden anderer Aufenthalte nicht stören. Dies gilt auch für Terrassen, Feuerstellen und das Gelände.",
+        "Bei grober Verletzung der Ruhezeiten ist der Gastgeber berechtigt, die Gäste ohne Rückerstattung zum Verlassen aufzufordern."
+      ]
+    },
+    {
+      "id": "zwierzeta",
+      "rom": "VII",
+      "title": "Haustiere",
+      "items": [
+        "Haustiere sind herzlich willkommen — vorausgesetzt, sie wurden bei der Buchung abgesprochen. Gebühr 40 PLN/Nacht.",
+        "Wir akzeptieren maximal 1 Tier pro Haus. In besonderen Fällen nach individueller Absprache.",
+        "Der Eigentümer trägt die volle Verantwortung für das Tier: sein Verhalten, Sauberkeit und etwaige Schäden.",
+        "Auf dem Gelände müssen Haustiere an der Leine gehalten werden. Tiere dürfen nicht unbeaufsichtigt im Haus bleiben, wenn dies Lärm oder Schäden verursachen könnte.",
+        "Ein aktuelles Impfbuch ist erforderlich."
+      ]
+    },
+    {
+      "id": "bezpieczenstwo",
+      "rom": "VIII",
+      "title": "Sicherheit und Brandschutz",
+      "items": [
+        "In jedem Haus befindet sich ein Feuerlöscher sowie Rauch- und Kohlenmonoxidmelder. Der Gastgeber zeigt den Standort beim Einchecken.",
+        "Die Verwendung eigener elektrischer Heizgeräte, Kochplatten und aller leistungsstarken Geräte, die nicht zur Ausstattung gehören, ist verboten.",
+        "Kerzen, Räucherstäbchen und andere offene Flammenquellen dürfen nur in dafür vorgesehenen Gefäßen und unter Aufsicht verwendet werden.",
+        "Das unbegründete Auslösen des Feueralarms oder eines Feuerlöschers hat eine Gebühr von 500 PLN zur Folge.",
+        "Das Gelände (außer Innenräume) wird überwacht — ausschließlich zur Sicherheit der Gäste."
+      ]
+    },
+    {
+      "id": "odpowiedzialnosc",
+      "rom": "IX",
+      "title": "Haftung",
+      "items": [
+        "Der Gast trägt die volle Haftung für Beschädigungen der Einrichtung, die durch ihn oder mit seiner Zustimmung anwesende Personen verursacht wurden.",
+        "Eltern oder Erziehungsberechtigte tragen die volle Verantwortung für die Sicherheit der Kinder — insbesondere in der Nähe von Pool, Feuerstelle, Spielplatz und Sportfeld.",
+        "Der Gastgeber haftet nicht für zurückgelassene Wertgegenstände oder Schäden durch unsachgemäße Nutzung.",
+        "Der Parkplatz ist unbewacht — der Gastgeber haftet nicht für Beschädigungen oder Diebstahl von Fahrzeugen.",
+        "Für einen verlorenen Schlüssel wird eine Gebühr von 150 PLN erhoben."
+      ]
+    },
+    {
+      "id": "anulacja",
+      "rom": "X",
+      "title": "Stornierung und Änderungen",
+      "items": [
+        "Stornierung mehr als 60 Tage vor Anreise — vollständige Rückerstattung der Anzahlung.",
+        "Stornierung 60–30 Tage vor Anreise — 50 % Rückerstattung.",
+        "Stornierung weniger als 30 Tage vor Anreise — die Anzahlung ist nicht erstattungsfähig, kann aber auf einen anderen Aufenthalt in der Saison 2026 übertragen werden.",
+        "Datumsänderung (einmalig, bis 30 Tage vor dem ursprünglichen Datum) ist kostenlos. Jede weitere Änderung kostet 100 PLN.",
+        "Der Gastgeber behält sich das Recht vor, in Ausnahmefällen zu stornieren — der Gast erhält dann eine vollständige Rückerstattung."
+      ]
+    },
+    {
+      "id": "rodo",
+      "rom": "XI",
+      "title": "Personenbezogene Daten (DSGVO)",
+      "items": [
+        "Verantwortlicher für die personenbezogenen Daten ist Barbara Reszka, ul. Morska 11, 76-107 Jarosławiec.",
+        "Daten werden ausschließlich zur Abwicklung von Buchungen, Ausstellung von Buchhaltungsunterlagen und Erfüllung gesetzlicher Pflichten verarbeitet.",
+        "Gäste haben das Recht auf Auskunft, Berichtigung, Einschränkung und Löschung ihrer Daten — soweit gesetzliche Pflichten dem nicht entgegenstehen.",
+        "Die ausführliche Datenschutzerklärung ist unter domkinapniu.pl/polityka-prywatnosci und in gedruckter Form im Haus verfügbar."
+      ]
+    },
+    {
+      "id": "koncowe",
+      "rom": "XII",
+      "title": "Schlussbestimmungen",
+      "items": [
+        "Angelegenheiten, die nicht durch diese AGB geregelt sind, unterliegen den Bestimmungen des Bürgerlichen Gesetzbuchs und dem Gesetz über Hoteldienstleistungen.",
+        "Zuständiges Gericht für etwaige Streitigkeiten ist das für den Sitz des Objekts zuständige Gericht.",
+        "Diese AGB sind ab dem 1. Januar 2026 bis auf Widerruf gültig. Die aktuelle Version ist unter domkinapniu.pl/regulamin verfügbar.",
+        "Kontakt: +48 506 141 730 · domkinapniu@gmail.com · ul. Morska 11, 76-107 Jarosławiec."
+      ]
+    }
   ]
 }

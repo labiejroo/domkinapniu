@@ -1,0 +1,924 @@
+{
+  "siteName": "Domki Na Pniu",
+  "siteSubtitle": "Chaty",
+  "siteTagline": "Luxusní dovolenkové chaty · Jarosławiec, ul. Morska 11",
+  "season": "Sezóna 2026",
+  "summerSeason": "Léto 2026",
+  "openBookings": "otevřené rezervace →",
+
+  "address": "ul. Morska 11, 76-107 Jarosławiec",
+  "email": "domkinapniu@gmail.com",
+  "phone": "+48 506 141 730",
+  "phoneDisplay": "+48 506 141 730",
+
+  "heroHeadline": "Váš odpočinek.",
+  "heroHeadlineItalic": "u moře.",
+  "heroDescription": "Dvanáct dřevěných chat v klidném a tichém prostředí, 800 m od pláže „Dubaj“ v Jarosławci.\nHosty vítáme osobně. Komfortní odpočinek blízko moře a přírody.",
+  "heroStats": [
+    { "value": "800 m", "label": "k pláži, lesní cestou" },
+    { "value": "52 m²", "label": "patrová chata s terasou" },
+    { "value": "12 chat", "label": "komorní, soukromý pozemek" },
+    { "value": "4,96 / 5", "label": "ze 187 hodnocení" }
+  ],
+
+  "checkAvailability": "Zkontrolovat dostupnost",
+  "bookStay": "Zarezervovat pobyt",
+  "fullGallery": "Zobrazit celou galerii",
+  "fullSpec": "Úplná specifikace",
+  "learnHistory": "Náš příběh",
+
+  "storyEyebrow": "— O místě",
+  "storyHeadline": "Postaveno",
+  "storyHeadlineItalic": "na pařezu",
+  "storyHeadlineEnd": "doslova.",
+  "storyQuote": "„Postavené ze smrkového dřeva, kolem toho nejkrásnějšího, co tu příroda zanechala.“",
+  "storyBody1": "Naše chaty jsou komfortní, celoroční prostory o ploše 52 m². V přízemí se nachází obytný prostor s plně vybavenou kuchyní a terasou — ideální na ranní kávu i večerní odpočinek. V patře se nacházejí dvě samostatné ložnice s malou šatnou.\n\nNa pozemku na vás čeká bazén, hřiště na volejbal a atrakce pro nejmenší. Večery můžete strávit v útulném dřevěném altánu, stvořeném pro společné chvíle a dlouhé rozhovory.\n\nMazlíčci jsou u nás vítáni — víme, že dovolená chutná nejlépe v plném počtu.",
+  "storyBody2": "Od roku 2022 vedeme toto místo s vášní a nasazením a vytváříme ideální útočiště pro rodiny, páry i menší skupiny, které hledají skutečný odpočinek u moře — v přírodní atmosféře, bez spěchu a umělosti.",
+  "storyStats": [
+    { "n": "2019", "label": "Rok otevření" },
+    { "n": "12", "label": "Chat" },
+    { "n": "52 m²", "label": "Plocha" }
+  ],
+
+  "featureEyebrow": "— Interiéry a okolí",
+  "featureHeadline": "Vše, co potřebujete,",
+  "featureHeadlineItalic": "abyste už nikdy neodjeli.",
+  "featureItems": [
+    { "id": 1, "title": "Dřevo a len", "sub": "Přírodní interiéry, dubové podlahy, lněné závěsy." },
+    { "id": 2, "title": "Večer u ohně", "sub": "Ohniště + dřevo na topení v ceně." },
+    { "id": 3, "title": "Borovicový les", "sub": "Cesta na pláž lesem: 4 minuty." },
+    {
+      "id": 4,
+      "title": "Soukromá veranda",
+      "sub": "Každá chata má vlastní terasu s výhledem do stromů."
+    },
+    {
+      "id": 5,
+      "title": "Klimatizace + WiFi 300 Mb/s",
+      "sub": "Práce na dálku na dovolené — bez omluv."
+    }
+  ],
+
+  "cottageEyebrow": "— Vaše chata",
+  "cottageHeadline": "Všechny stejné.",
+  "cottageHeadlineItalic": "Proto perfektní.",
+  "cottageDescription": "Dvanáct identických chat — stejný charakter, stejná velikost, stejná cena. Každá rezervace přináší stejnou kvalitu — 52 m² na dvou úrovních, soukromá terasa, prostor pro 6 hostů.",
+  "cottageChips": ["52 m²", "6 hostů", "2 ložnice", "od 82 € / noc"],
+  "cottageIncludedEyebrow": "— V ceně pobytu",
+  "cottageIncludedHeadline": "Vše na vás",
+  "cottageIncludedHeadlineItalic": "už tady čeká.",
+  "clickRoomHint": "Klikněte na místnost a zobrazíte fotku",
+  "floorGround": "Přízemí",
+  "floorUpper": "Patro",
+  "stairsLabel": "schody",
+  "groundFloorMeta": "terasa",
+  "upperFloorMeta": "2 ložnice",
+  "rooms": {
+    "salon": {
+      "name": "Obytný prostor + kuchyně",
+      "planLabel": "Obytný prostor",
+      "level": "přízemí",
+      "desc": "Otevřený prostor s měkkou sedačkou, jídelním stolem pro šest osob a plně vybavenou kuchyní. Vysoké okno s výhledem do stromů; krb připravený na chladnější večery.",
+      "tags": ["Krb na dřevo", "Stůl pro 6 osob", "Indukce + myčka", "Televize"]
+    },
+    "lazienka": {
+      "name": "Koupelna",
+      "planLabel": "Koupelna",
+      "level": "přízemí",
+      "desc": "Walk-in sprcha s dešťovou sprchovou hlavicí, podlahové vytápění a kompletní sada toaletních potřeb v dávkovačích na doplnění. Podsvícené zrcadlo.",
+      "tags": ["Walk-in sprcha", "Podlahové vytápění", "Toaletní potřeby v ceně"]
+    },
+    "taras": {
+      "name": "Terasa s ohništěm",
+      "planLabel": "Terasa",
+      "level": "přízemí",
+      "desc": "Dřevěná terasa s velkým stolem, lehátky a soukromým ohništěm.",
+      "tags": ["Plynový gril", "Ohniště + dřevo", "Stůl pro 6 osob", "Lehátka a houpací síť"]
+    },
+    "sypialnia1": {
+      "name": "Hlavní ložnice",
+      "planLabel": "Hlavní ložnice",
+      "level": "patro",
+      "desc": "Manželská postel 160 × 200 s hotelovým povlečením a vlněnou dekou. V pokoji najdete toaletní stolek, komodu a zatemňovací rolety. Přistýlka je možná na vyžádání, šatní skříň se nachází na chodbě.",
+      "tags": [
+        "Postel 160 × 200",
+        "Hotelové povlečení",
+        "Toaletní stolek",
+        "Komoda",
+        "Šatní skříň",
+        "Přistýlka na vyžádání",
+        "Zatemňovací rolety"
+      ]
+    },
+    "korytarz": {
+      "name": "Chodba",
+      "planLabel": "Chodba",
+      "level": "patro",
+      "desc": "Chodba spojující obě ložnice, s přístupem do šatní skříně a schodištěm do přízemí.",
+      "tags": ["Šatní skříň", "Schodiště do přízemí"]
+    },
+    "sypialnia2": {
+      "name": "Dětská ložnice",
+      "planLabel": "Dětský pokoj",
+      "level": "patro",
+      "desc": "Dvě postele 90 × 200. Teplé světlo lampičky, police s knihami a společenskými hrami na deštivý večer.",
+      "tags": ["2 × postel 90 × 200", "Noční světla"]
+    }
+  },
+  "equipment": [
+    {
+      "title": "Kuchyně",
+      "items": [
+        "Kuchyňský ostrůvek",
+        "Indukční deska",
+        "Myčka nádobí",
+        "Chladnička s mrazákem",
+        "Kávovar",
+        "Toustovač + rychlovarná konvice",
+        "Nádobí pro 6 osob"
+      ]
+    },
+    {
+      "title": "Ložnice",
+      "items": [
+        "Manželská postel 160 × 200",
+        "2 × postel 90 × 200",
+        "Hotelové povlečení",
+        "Ručníky + župany",
+        "Zatemňovací rolety",
+        "Postýlka na vyžádání"
+      ]
+    },
+    {
+      "title": "Koupelna",
+      "items": [
+        "Walk-in sprcha",
+        "Dešťová sprchová hlavice",
+        "Vysoušeč vlasů",
+        "Toaletní potřeby v dávkovačích",
+        "Podlahové vytápění",
+        "Pračka na vyžádání"
+      ]
+    },
+    {
+      "title": "Terasa a zahrada",
+      "items": [
+        "Stůl pro 6 osob",
+        "Lehátka a houpací síť",
+        "Plynový gril",
+        "Ohniště + dřevo",
+        "Večerní osvětlení",
+        "Hřiště na volejbal"
+      ]
+    },
+    {
+      "title": "Komfort",
+      "items": [
+        "WiFi 300 Mb/s",
+        "Televize",
+        "Klimatizace",
+        "Zimní vytápění",
+        "Soukromé parkování",
+        "Mazlíčci vítáni"
+      ]
+    }
+  ],
+
+  "okoliceEyebrow": "— Okolí a atrakce",
+  "okoliceHeadline": "Vše důležité",
+  "okoliceHeadlineItalic": "na dosah procházky.",
+  "okoliceDescription": "Jarosławiec je malé přímořské městečko mezi Ustkou a Darłowem, známé širokou plání, klifovým pobřežím, historickým majákem a blízkým jezerem Wicko. V okolí najdete také aquapark, přímořskou promenádu a řadu turistických tras.",
+  "placeHeader": "Místo",
+  "distanceHeader": "Vzdálenost",
+  "nearbyPlaces": [
+    { "place": "Hlídaná pláž s bílým pískem", "dist": "800 m", "detail": "lesní procházka, 4 min" },
+    { "place": "Přímořská promenáda", "dist": "5 min", "detail": "restaurace, zmrzlina, obchody" },
+    {
+      "place": "Maják z 19. století",
+      "dist": "800 m",
+      "detail": "výška 33 m, vyhlídková plošina"
+    },
+    { "place": "Aquapark Jarosławiec", "dist": "1,2 km", "detail": "bazény, skluzavky, sauna" },
+    {
+      "place": "Přírodní rezervace jezero Wicko",
+      "dist": "15 min",
+      "detail": "cyklistika, ptáci, koupání"
+    },
+    { "place": "Ustka a Darłowo", "dist": "40 min", "detail": "přístavy, stará města, marina" }
+  ],
+
+  "testimonialEyebrow": "— Recenze hostů",
+  "testimonialQuote": "Skvělá dovolená na ideálním místě — udržované, obklopené krásnou přírodou, s úžasnými majiteli, díky kterým jsme se cítili vítáni od prvního dne. Chaty byly čisté, útulné a dobře vybavené, s promyšleným detailem pro hosty. Doporučujeme každému, kdo hledá klidnou rodinnou dovolenou blízko přírody.",
+  "testimonialAuthor": "Joanna",
+  "testimonialDate": "19. srpna 2025",
+  "testimonialCounter": "01 / 187",
+  "prevReview": "Předchozí recenze",
+  "nextReview": "Další recenze",
+
+  "bookingEyebrow": "— Léto 2026 je otevřené",
+  "bookingHeadline": "Vaše dovolená",
+  "bookingHeadlineItalic": "je jen jedno kliknutí daleko.",
+  "bookingArrival": "Příjezd",
+  "bookingDeparture": "Odjezd",
+  "bookingGuests": "Hosté",
+  "bookingPhoneNote": "Nemáte volné termíny na <b>Bookingu</b>? ",
+  "bookingPhoneNoteBold": "Zavolejte nám přímo:",
+  "bookingPhoneSpeed": "Některé chaty rezervujeme pouze přímo, takže často máme volné termíny, které nejsou vidět na rezervačních portálech.",
+  "adultsLabel": "Dospělí",
+  "childrenLabel": "Děti",
+  "adultsCountLabel": "{adults, plural, one {# dospělý} few {# dospělí} other {# dospělých}}",
+  "childrenCountLabel": "{children, plural, one {# dítě} few {# děti} other {# dětí}}",
+  "decreaseLabel": "Snížit: {label}",
+  "increaseLabel": "Zvýšit: {label}",
+  "skipToContent": "Přejít na obsah",
+
+  "footerTagline": "Dřevěné dovolenkové chaty v Jarosławci. 800 m od pláže, pro 4–6 hostů. Hosty vítáme osobně.",
+  "footerColumns": [
+    {
+      "title": "Stránka",
+      "links": [
+        { "label": "O nás", "href": "/#o-nas" },
+        { "label": "Chaty", "href": "/#domki" },
+        { "label": "Galerie", "href": "/#galeria" },
+        { "label": "Okolí", "href": "/#okolica" },
+        { "label": "Ceník", "href": "/cennik" },
+        { "label": "FAQ", "href": "/faq" },
+        { "label": "Blog", "href": "#blog" }
+      ]
+    },
+    {
+      "title": "Rezervace",
+      "links": [
+        { "label": "Zkontrolovat dostupnost", "href": "/#rezerwacja" },
+        { "label": "Podmínky", "href": "/regulamin" },
+        { "label": "Storno podmínky", "href": "#anulacja" },
+        { "label": "Dárkový poukaz", "href": "#voucher" },
+        { "label": "Kontakt", "href": "/#kontakt" }
+      ]
+    },
+    {
+      "title": "Kontakt",
+      "links": [
+        { "label": "+48 506 141 730", "href": "tel:+48506141730" },
+        { "label": "domkinapniu@gmail.com", "href": "mailto:domkinapniu@gmail.com" }
+      ]
+    }
+  ],
+  "footerLegal": [{ "label": "Podmínky", "href": "/regulamin" }],
+  "checkinLabel": "Check-in / Check-out",
+  "checkinValue": "15:00 / 10:00",
+  "copyright": "© 2026 Domki Na Pniu",
+  "madeByLabel": "Web vytvořil",
+
+  "ratingScore": "8,9",
+  "ratingCount": "82 hodnocení",
+
+  "langPl": "PL",
+  "langEn": "ENG",
+  "langDe": "DE",
+  "langCz": "CZ",
+  "selectLanguage": "Vyberte jazyk",
+
+  "navItems": [
+    { "label": "O nás", "href": "/#o-nas" },
+    { "label": "Chaty", "href": "/#domki" },
+    { "label": "Galerie", "href": "/galeria" },
+    { "label": "Okolí", "href": "/#okolica" },
+    { "label": "Ceník", "href": "/cennik" },
+    { "label": "FAQ", "href": "/faq" },
+    { "label": "Kontakt", "href": "/#kontakt" }
+  ],
+
+  "navigateLabel": "Navigovat",
+
+  "starsLabel": "{n} z 5",
+
+  "metaTitle": "Domki Na Pniu · Jarosławiec",
+  "metaDescription": "Dvanáct dřevěných dovolenkových chat 800 m od pláže v Jarosławci. Pro 4–6 osob. Hosty vítáme osobně.",
+  "ogDescription": "Luxusní dovolenkové chaty 800 m od pláže. Klid. Příroda. Osobní přístup.",
+
+  "notFoundMetaTitle": "Stránka nenalezena — Domki Na Pniu",
+  "notFoundHeroCurrent": "404",
+  "notFoundHeroTitle": "404. Tahle cesta",
+  "notFoundHeroItalic": "nenajdete.",
+  "notFoundHeroLede": "Stránka, kterou hledáte, neexistuje nebo byla přesunuta. Zkontrolujte ceník, FAQ, nebo se vraťte na hlavní stránku.",
+  "notFoundCtaHome": "Zpět na hlavní stránku",
+  "notFoundCtaPricing": "Zobrazit ceník",
+
+  "galeriaAll": "Vše",
+  "galeriaPhotoCount": "{count, plural, one {# fotka} few {# fotky} other {# fotek}}",
+  "galeriaInstagramEyebrow": "— Denní dávka",
+  "galeriaInstagramDesc": "Nejčerstvější fotky najdete na Instagramu @domkinapniu — jiný večer, jiná denní doba, každý den.",
+  "galeriaInstagramCTA": "Otevřít Instagram",
+  "galeriaPricingCTA": "Zobrazit ceník",
+  "galeriaClose": "Zavřít",
+  "galeriaPrev": "Předchozí",
+  "galeriaNext": "Další",
+
+  "faqFilterAll": "Vše",
+  "faqShowing": "Zobrazeno {filtered} z {total}",
+  "faqCategoryLabel": "— Kategorie",
+  "faqQuestionCount": "{count, plural, one {# otázka} few {# otázky} other {# otázek}}",
+  "faqCtaEyebrow": "— Nenašli jste odpověď?",
+  "faqCtaTitle": "Zavolejte nám.",
+  "faqCtaTitleItalic": "Nejrychlejší cesta.",
+  "faqCtaDesc": "Barbara obvykle zvedne telefon během několika minut — i večer. E-mail chodí do stejné schránky.",
+  "faqCtaPhone": "Telefon",
+  "faqCtaEmail": "E-mail",
+
+  "cennikColSeason": "Sezóna",
+  "cennikColDates": "Termín",
+  "cennikColMin": "Min. pobyt",
+  "cennikColPrice": "Cena za noc",
+  "cennikHighSeason": "Hlavní sezóna",
+  "cennikPriceFrom": "od",
+  "cennikPriceCurrency": "PLN",
+  "cennikPriceUnit": "za noc",
+
+  "regulaminToc": "— Obsah",
+  "regulaminDownloadPdf": "Stáhnout PDF",
+  "regulaminFaqLink": "Často kladené otázky",
+  "regulaminSummaryLabel": "Nejdůležitější v jednom odstavci",
+  "regulaminSummary": "Check-in 15:00 / check-out 10:00. Noční klid 22:00 – 7:00. Mazlíčci po domluvě. Zákaz kouření uvnitř. Ohniště používejte odpovědně — dřevo je v ceně.",
+  "regulaminFooterNote": "Děkujeme za přečtení. Pokud je něco nejasné — zavolejte nebo napište, nejrychleji odpovídáme telefonicky.",
+  "regulaminCallBtn": "Zavolat",
+  "regulaminWriteBtn": "Napsat",
+
+  "bookingArrivalSample": "So, 12. července",
+  "bookingDepartureSample": "So, 19. července",
+  "bookingGuestsSample": "2 dospělí, 2 děti",
+  "footerContactTitle": "Kontakt",
+
+  "cennikMetaTitle": "Ceník — Domki Na Pniu, Jarosławiec",
+  "cennikMetaDesc": "Ceny dovolenkových chat Domki Na Pniu v Jarosławci — sezóna 2026.",
+  "cennikHeroCurrent": "Ceník",
+  "cennikHeroEyebrow": "Sezóna 2026 · Ceník",
+  "cennikHeroTitle": "Jedna kvalita.",
+  "cennikHeroItalic": "Jedna jednoduchá cena.",
+  "cennikHeroLede": "Dvanáct chat, stejná sazba pro všechny. Žádná kategorie „lepší“ či „horší“. Platíte za noc — vše, co potřebujete, je už uvnitř.",
+  "cennikHeroMeta": [
+    { "label": "Od", "value": "350 PLN / noc" },
+    { "label": "Chata pro", "value": "6 hostů, možnost přistýlky" },
+    { "label": "Check-in", "value": "15:00 / 10:00" }
+  ],
+  "cennikTableEyebrow": "— Sazby",
+  "cennikTableTitle": "Vyberte si",
+  "cennikTableItalic": "vaši sezónu.",
+  "cennikTableNote": "Cena se vztahuje na celou chatu, ne na počet osob. V ceně pobytu jsou zahrnuty všechny základní poplatky, včetně spotřeby elektřiny — žádné další náklady ani překvapení na místě. Na místě je vybírán místní poplatek z pobytu v souladu s platnými místními předpisy.",
+  "cennikLoyaltyText": "Při pobytu trvajícím minimálně 7 dní vítáme naše hosty lahví prosecca jako dárek.",
+  "cennikLoyaltyCTA": "Zkontrolovat dostupnost",
+  "cennikIncludedEyebrow": "— V ceně pobytu",
+  "cennikIncludedTitle": "Vše, co",
+  "cennikIncludedItalic": "je už uvnitř.",
+  "cennikIncludedNote": "Žádný účet za elektřinu, žádný poplatek za dřevo, žádný příplatek za povlečení a ručníky. Klimatizace, vytápění a WiFi nejsou extra — tak to má být.",
+  "cennikExtrasEyebrow": "— Příplatky",
+  "cennikExtrasTitle": "Jen to, co",
+  "cennikExtrasItalic": "skutečně doplácíte.",
+  "cennikExtrasNote": "Úplný seznam. Žádné hvězdičky, žádný „servisní poplatek“, žádné dodatečné účtování elektřiny na konci pobytu. Co vidíte tady, je vše.",
+  "cennikExtrasCol1": "Položka",
+  "cennikExtrasCol2": "Sazba",
+  "cennikDepositTitle": "Vratná kauce",
+  "cennikDepositBody": "500 PLN, vybírá se při příjezdu (hotově nebo BLIK). Vrácena v plné výši při odjezdu po krátké kontrole chaty — obvykle trvá asi 15 minut.",
+  "cennikStepsEyebrow": "— Podmínky rezervace",
+  "cennikStepsTitle": "Dvě jednoduché věci,",
+  "cennikStepsItalic": "které je dobré znát.",
+  "cennikLinksRegulamin": "Úplné obchodní podmínky",
+  "cennikLinksFaq": "Často kladené otázky",
+  "cennikSeasons": [
+    {
+      "name": "Květen",
+      "dates": "5. – 31. května",
+      "min": "3 noci",
+      "price": "350",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Májové svátky",
+      "dates": "1. – 3. května",
+      "min": "3 noci",
+      "price": "400",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Červen",
+      "dates": "1. – 3. června",
+      "min": "3 noci",
+      "price": "400",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Boží tělo",
+      "dates": "4. – 7. června",
+      "min": "3 noci",
+      "price": "450",
+      "highlight": false,
+      "note": "dlouhý víkend"
+    },
+    {
+      "name": "Červen",
+      "dates": "8. – 26. června",
+      "min": "3 noci",
+      "price": "400",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Začátek sezóny",
+      "dates": "27. června – 11. července",
+      "min": "5 nocí",
+      "price": "540",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Vrchol léta",
+      "dates": "12. července – 16. srpna",
+      "min": "7 nocí",
+      "price": "590",
+      "highlight": true,
+      "note": ""
+    },
+    {
+      "name": "Konec léta",
+      "dates": "17. – 31. srpna",
+      "min": "5 nocí",
+      "price": "490",
+      "highlight": false,
+      "note": ""
+    },
+    {
+      "name": "Září",
+      "dates": "1. – 30. září",
+      "min": "3 noci",
+      "price": "360",
+      "highlight": false,
+      "note": "klidné září"
+    }
+  ],
+  "cennikIncluded": [
+    {
+      "title": "Chata",
+      "items": [
+        "48 m² na dvou úrovních",
+        "6 lůžek",
+        "Povlečené lněné povlečení",
+        "Kompletní sada ručníků",
+        "Toaletní potřeby v dávkovačích",
+        "Závěrečný úklid"
+      ]
+    },
+    {
+      "title": "Kuchyně",
+      "items": [
+        "Plně vybavená kuchyně",
+        "Indukční deska + trouba",
+        "Chladnička s mrazákem",
+        "Myčka nádobí",
+        "Kávovar",
+        "Nádobí pro 6 osob"
+      ]
+    },
+    {
+      "title": "Terasa",
+      "items": [
+        "Stůl pro 6 osob",
+        "Lehátka a houpací síť",
+        "Plynový gril",
+        "Ohniště + dřevo",
+        "Večerní osvětlení",
+        "Kotlík na čaj"
+      ]
+    },
+    {
+      "title": "Komfort",
+      "items": [
+        "WiFi 300 Mb/s",
+        "Televize",
+        "Klimatizace",
+        "Zimní vytápění",
+        "1 × parkovací místo",
+        "Noční klid po 22:00"
+      ]
+    },
+    {
+      "title": "Na pozemku",
+      "items": [
+        "Sezónní bazén",
+        "Hřiště pro děti",
+        "Dřevěný altán",
+        "Hřiště na volejbal",
+        "Cyklistická zóna",
+        "Osobní přivítání"
+      ]
+    }
+  ],
+  "cennikExtras": [
+    {
+      "name": "Místní poplatek",
+      "detail": "Vyžadováno zákonem, vybírá se při příjezdu",
+      "price": "3,45 PLN / osoba / noc"
+    },
+    {
+      "name": "Pes nebo kočka",
+      "detail": "Max. 1 zvíře / chata, po předchozí domluvě",
+      "price": "40 PLN / noc"
+    },
+    {
+      "name": "Druhé auto",
+      "detail": "První parkovací místo v ceně; druhé po rezervaci",
+      "price": "20 PLN / noc"
+    },
+    { "name": "Cestovní postýlka", "detail": "Pro děti do 3 let, s povlečením", "price": "zdarma" },
+    {
+      "name": "Sada ručníků navíc",
+      "detail": "Velký + malý + kuchyňské utěrky",
+      "price": "15 PLN / sada"
+    },
+    {
+      "name": "Pozdní check-out",
+      "detail": "Do 14:00, dle dostupnosti",
+      "price": "100 PLN"
+    },
+    {
+      "name": "Brzký check-in",
+      "detail": "Od 12:00, dle dostupnosti",
+      "price": "80 PLN"
+    },
+    {
+      "name": "Dárková karta",
+      "detail": "Poukaz na pobyt, jakákoli částka — platnost 12 měsíců",
+      "price": "od 500 PLN"
+    }
+  ],
+  "cennikSteps": [
+    {
+      "n": "01",
+      "title": "Záloha 30 %",
+      "body": "Platba bankovním převodem do 2 dnů od potvrzení. Zbytek při příjezdu — hotově.",
+      "meta": "rezervace je závazná od zaplacení zálohy"
+    },
+    {
+      "n": "02",
+      "title": "Check-in 15:00 / 10:00",
+      "body": "Hosty vítáme osobně, ukážeme chatu i okolí. Dřívější nebo pozdější odjezd/příjezd dle dostupnosti.",
+      "meta": "brzký / pozdní check dle dostupnosti"
+    }
+  ],
+
+  "faqMetaTitle": "FAQ — Domki Na Pniu, Jarosławiec",
+  "faqMetaDesc": "Často kladené otázky o pobytu v Domki Na Pniu v Jarosławci.",
+  "faqHeroCurrent": "FAQ",
+  "faqHeroEyebrow": "FAQ · často kladené otázky",
+  "faqHeroTitle": "Otázky, na které",
+  "faqHeroItalic": "obvykle odpovídáme telefonicky.",
+  "faqHeroLede": "Shromáždili jsme ty, které se opakovaně objevují v e-mailech a zprávách z minulých sezón. Pokud zde něco nenajdete — Barbara to obvykle zvedne do 15 minut, i večer.",
+  "faqHeroMeta": [
+    { "label": "Otázek", "value": "14" },
+    { "label": "Kategorií", "value": "5" },
+    { "label": "Doba odezvy", "value": "~15 min" }
+  ],
+  "faqGroups": [
+    {
+      "cat": "Rezervace",
+      "items": [
+        {
+          "q": "Mohu si chatu rezervovat online?",
+          "a": "Rezervace přijímáme telefonicky. Část našich chat je dostupná také v systému Booking.com, část formou soukromé rezervace."
+        },
+        {
+          "q": "Jsou rezervace zajišťovány výhradně přes Booking.com?",
+          "a": "Ne. Rezervace realizujeme jak přes Booking.com, tak přímo telefonicky. Část chat je dostupná v online systému, část formou soukromé rezervace."
+        },
+        {
+          "q": "Je vyžadována záloha?",
+          "a": "Ano, podmínkou potvrzení rezervace je zaplacení zálohy ve výši 30 % hodnoty pobytu."
+        },
+        {
+          "q": "Je záloha vratná?",
+          "a": "Záloha je nevratná v případě zrušení rezervace. V odůvodněných případech je po předchozím kontaktu možná změna termínu pobytu."
+        }
+      ]
+    },
+    {
+      "cat": "Pobyt",
+      "items": [
+        {
+          "q": "V kolik hodin pobyt začíná a končí?",
+          "a": "Pobyt začíná v 15:00 a končí v 10:00 v den odjezdu."
+        },
+        {
+          "q": "Co je zahrnuto v ceně pobytu?",
+          "a": "Cena zahrnuje vodu, elektřinu, povlečení, ručníky a parkování (až 2 auta na chatu)."
+        },
+        {
+          "q": "Je na území areálu povoleno kouření?",
+          "a": "Ne, v chatách platí úplný zákaz kouření."
+        },
+        {
+          "q": "Mohu mít v chatě návštěvu?",
+          "a": "Ano, ale pouze po předchozí domluvě s majitelem."
+        },
+        {
+          "q": "Mohou se děti pohybovat po areálu samy?",
+          "a": "Ne, děti musí být po celou dobu pobytu pod dohledem rodičů nebo dozoru."
+        }
+      ]
+    },
+    {
+      "cat": "Platby",
+      "items": [
+        {
+          "q": "Kdy je třeba uhradit pobyt?",
+          "a": "Poplatek za pobyt je třeba uhradit v den příjezdu — v hotovosti nebo bankovním převodem."
+        },
+        {
+          "q": "Platí se nějaké další poplatky?",
+          "a": "Ano, dodatečně je vybírán místní poplatek z pobytu podle místních sazeb, poplatek za zvíře (30 PLN/noc) a poplatek za každou osobu nad 6 hostů (80 PLN/noc)."
+        }
+      ]
+    },
+    {
+      "cat": "Mazlíčci",
+      "items": [
+        {
+          "q": "Mohu přijet se zvířetem?",
+          "a": "Ano, akceptujeme malá zvířata. Platí dodatečný poplatek a podmínky pobytu se zvířaty."
+        }
+      ]
+    },
+    {
+      "cat": "Odpovědnost",
+      "items": [
+        {
+          "q": "Co se stane v případě poškození chaty?",
+          "a": "Hosté nesou plnou finanční odpovědnost za škody způsobené z jejich viny."
+        },
+        {
+          "q": "Odpovídá majitel za osobní věci a auta?",
+          "a": "Ne, majitel nenese odpovědnost za věci ponechané bez dozoru ani za škody na parkovišti."
+        }
+      ]
+    }
+  ],
+
+  "galeriaMetaTitle": "Galerie — Domki Na Pniu, Jarosławiec",
+  "galeriaMetaDesc": "Fotografie chat, interiérů, pláže a okolí — Domki Na Pniu v Jarosławci.",
+  "galeriaHeroCurrent": "Galerie",
+  "galeriaHeroEyebrow": "Galerie",
+  "galeriaHeroTitle": "Takhle to",
+  "galeriaHeroItalic": "skutečně vypadá.",
+  "galeriaHeroLede": "Fotky pořízené běžným fotoaparátem, ve všední dny — bez retuší a pronajatého trávníku. Pokud na fotce vidíte krb, přesně tento krb na vás čeká.",
+  "galeriaHeroMeta": [
+    { "label": "Fotek", "value": "13" },
+    { "label": "Chat", "value": "12" },
+    { "label": "Aktualizováno", "value": "září 2025" }
+  ],
+  "galeriaPhotos": [
+    {
+      "id": "g01",
+      "src": "/assets/hero-beach.jpg",
+      "cat": "Pláž",
+      "title": "Duny nad „Dubajem“",
+      "cap": "Tráva, písek, 800 m od chat"
+    },
+    {
+      "id": "g02",
+      "src": "/assets/photo-1.png",
+      "cat": "Interiéry",
+      "title": "Obytný prostor u krbu",
+      "cap": "Dřevo, len, teplé světlo"
+    },
+    {
+      "id": "g03",
+      "src": "/assets/banner-coast.png",
+      "cat": "Pláž",
+      "title": "Pobřeží po bouři",
+      "cap": "Říjnové ráno"
+    },
+    {
+      "id": "g04",
+      "src": "/assets/photo-3.png",
+      "cat": "Večery",
+      "title": "Večer u ohniště",
+      "cap": "Dřevo v ceně"
+    },
+    {
+      "id": "g05",
+      "src": "/assets/photo-4.png",
+      "cat": "Les",
+      "title": "Borovicový les",
+      "cap": "Cesta na pláž — 4 min"
+    },
+    {
+      "id": "g06",
+      "src": "/assets/photo-5.png",
+      "cat": "Chaty",
+      "title": "Soukromá veranda",
+      "cap": "Terasa s výhledem do stromů"
+    },
+    {
+      "id": "g07",
+      "src": "/assets/photo-6.png",
+      "cat": "Interiéry",
+      "title": "Hlavní ložnice",
+      "cap": "Postel 160 × 200, lněné povlečení"
+    },
+    {
+      "id": "g08",
+      "src": "/assets/photo-2.png",
+      "cat": "Chaty",
+      "title": "Chata č. 4",
+      "cap": "Modřín, břízy, poledne"
+    },
+    {
+      "id": "g09",
+      "src": "/assets/banner-coast-2.png",
+      "cat": "Pláž",
+      "title": "Klif u Jarosławce",
+      "cap": "Procházka po pobřeží"
+    },
+    {
+      "id": "g10",
+      "src": "/assets/photo-sea-grass.png",
+      "cat": "Detaily",
+      "title": "Dunová tráva",
+      "cap": "Drobnosti z okolí"
+    },
+    {
+      "id": "g11",
+      "src": "/assets/photo-ig-7.png",
+      "cat": "Večery",
+      "title": "Západ slunce z terasy",
+      "cap": "Srpnový večer"
+    },
+    {
+      "id": "g12",
+      "src": "/assets/photo-ig-8.png",
+      "cat": "Večery",
+      "title": "Po večeři",
+      "cap": "Světýlka, houpací síť, víno"
+    },
+    {
+      "id": "g13",
+      "src": "/assets/texture-pien.jpg",
+      "cat": "Detaily",
+      "title": "Kresba modřínového dřeva",
+      "cap": "Materiál, ze kterého jsou chaty"
+    }
+  ],
+
+  "regulaminMetaTitle": "Podmínky — Domki Na Pniu, Jarosławiec",
+  "regulaminMetaDesc": "Podmínky pobytu v Domki Na Pniu v Jarosławci.",
+  "regulaminHeroCurrent": "Podmínky",
+  "regulaminHeroEyebrow": "Podmínky pobytu · sezóna 2026",
+  "regulaminHeroTitle": "Pravidla psaná",
+  "regulaminHeroItalic": "jednoduchým jazykem.",
+  "regulaminHeroLede": "Stručně: chovejte se hezky k chatě, sousedům i lesu. Zbytek jsou formality, které musí mít každé ubytovací zařízení. Plná verze níže, k vytištění — rádi cokoliv vysvětlíme, pokud máte pochybnosti.",
+  "regulaminHeroMeta": [
+    { "label": "Platné od", "value": "1. ledna 2026" },
+    { "label": "Verze", "value": "5.0" },
+    { "label": "Stran", "value": "1 A4" }
+  ],
+  "regulaminSections": [
+    {
+      "id": "ogolne",
+      "rom": "I",
+      "title": "Obecná ustanovení",
+      "items": [
+        "Tyto podmínky upravují podmínky pobytu v objektu „Domki Na Pniu“ na adrese ul. Morska 11, Jarosławiec (76-107), provozovaném Barbarou Reszkovou — dále jen „Objekt“.",
+        "Provedení rezervace je rovnocenné s přečtením a přijetím těchto podmínek. Nepřečtení podmínek nezbavuje odpovědnosti za jejich nedodržení.",
+        "Provozovatel vynakládá veškeré úsilí, aby pobyt hostů v Objektu byl klidný, bezpečný a pohodlný."
+      ]
+    },
+    {
+      "id": "rezerwacja",
+      "rom": "II",
+      "title": "Rezervace",
+      "items": [
+        "Rezervace lze provést telefonicky na čísle +48 506 141 730, e-mailem na domkinapniu@gmail.com nebo prostřednictvím formuláře na domkinapniu.pl.",
+        "Rezervace je závazná po zaplacení 30% zálohy na uvedený bankovní účet do 2 dnů od obdržení prvotního potvrzení.",
+        "Nezaplacení zálohy ve stanovené lhůtě má za následek automatické zrušení rezervace bez upozornění.",
+        "Zaplacení zálohy je rovnocenné s přijetím těchto podmínek a potvrzením rezervace.",
+        "Počet hostů nesmí překročit počet nahlášený při rezervaci. Max. 4 dospělí + 2 děti. Pobyt nenahlášené osoby vyžaduje příplatek 80 PLN/noc."
+      ]
+    },
+    {
+      "id": "platnosci",
+      "rom": "III",
+      "title": "Platby a záloha",
+      "items": [
+        "Zbylá částka se hradí při příjezdu — hotově, BLIK nebo kartou.",
+        "Místní poplatek 3,45 PLN/osoba/noc se účtuje samostatně při příjezdu, na základě usnesení místního zastupitelstva.",
+        "Vratná kauce 500 PLN se vybírá při příjezdu — hotově nebo BLIK. Vrácena v plné výši při odjezdu po kontrole.",
+        "Faktura se vystavuje na vyžádání — nutno nahlásit nejpozději v den příjezdu.",
+        "Nevyužitá část zaplaceného pobytu neopravňuje hosta ke snížení ceny služby."
+      ]
+    },
+    {
+      "id": "doba",
+      "rom": "IV",
+      "title": "Pobytový den",
+      "items": [
+        "Pobytový den začíná v 15:00 v den příjezdu a končí v 10:00 v den odjezdu.",
+        "Check-in a check-out probíhají v přítomnosti provozovatele nebo zplnomocněné osoby.",
+        "Brzký check-in (od 12:00) nebo pozdní check-out (do 14:00) je k dispozici dle dostupnosti — poplatek 80 PLN nebo 100 PLN. Domluvte se prosím předem telefonicky.",
+        "Klíč se předává osobně; ve výjimečných případech může být uložen v boxu na klíče."
+      ]
+    },
+    {
+      "id": "zasady",
+      "rom": "V",
+      "title": "Zásady užívání",
+      "items": [
+        "Hosté jsou povinni udržovat chatu a okolí ve stejném stavu čistoty jako při příjezdu a třídit odpad do připravených nádob.",
+        "Kouření tabáku, používání tabákových výrobků a elektronických cigaret uvnitř chat je striktně zakázáno. Kouření je povoleno pouze na vyhrazených venkovních místech.",
+        "Je zakázáno přemísťovat nábytek a postele v rámci chat nebo přenášet kuchyňské vybavení mezi chatami.",
+        "Používání ohniště, grilu a krbu musí být v souladu s požárními předpisy — v dostatečné vzdálenosti od dřevěných konstrukcí a pod neustálým dohledem dospělé osoby.",
+        "Bazén je v provozu sezónně (15. 6. – 15. 9.) od 10:00 do 20:00. Použití je na vlastní riziko; děti do 12 let musí být v doprovodu dospělé osoby."
+      ]
+    },
+    {
+      "id": "cisza",
+      "rom": "VI",
+      "title": "Noční klid",
+      "items": [
+        "Noční klid platí od 22:00 do 7:00.",
+        "Během nočního klidu nesmí hosté rušit klid ostatních pobytů. Platí to i pro terasy, ohniště a pozemek kolem chat.",
+        "V případě závažného porušení nočního klidu má provozovatel právo požádat hosty o odjezd z Objektu bez náhrady."
+      ]
+    },
+    {
+      "id": "zwierzeta",
+      "rom": "VII",
+      "title": "Mazlíčci",
+      "items": [
+        "Mazlíčci jsou vítáni — za podmínky, že jsou předem domluveni s provozovatelem při rezervaci. Poplatek 40 PLN/noc.",
+        "Přijímáme maximálně 1 zvíře na chatu. Výjimky lze povolit ve zvláštních případech po individuální domluvě.",
+        "Majitel nese plnou odpovědnost za zvíře: jeho chování, čistotu a případné škody.",
+        "Na pozemku Objektu musí být mazlíčci na vodítku. Zvířata nelze nechávat bez dozoru, pokud by to mohlo způsobit hluk nebo škody.",
+        "Vyžaduje se aktuální očkovací průkaz."
+      ]
+    },
+    {
+      "id": "bezpieczenstwo",
+      "rom": "VIII",
+      "title": "Bezpečnost a požární ochrana",
+      "items": [
+        "Každá chata je vybavena hasicím přístrojem, detektorem kouře a detektorem oxidu uhelnatého. Provozovatel ukáže umístění hasicího přístroje při check-inu.",
+        "Je zakázáno používat vlastní elektrické ohřívače, varné desky, indukční rychlovarné konvice a jakákoli vysoce výkonná zařízení, která nejsou součástí vybavení chaty.",
+        "Svíčky, vonné tyčinky a jiné zdroje otevřeného ohně lze používat pouze v určených držácích a pod dohledem dospělé osoby.",
+        "Neoprávněné spuštění požárního alarmu nebo hasicího přístroje má za následek poplatek 500 PLN.",
+        "Pozemek Objektu (mimo interiéry chat) je monitorován — výhradně z důvodu bezpečnosti hostů."
+      ]
+    },
+    {
+      "id": "odpowiedzialnosc",
+      "rom": "IX",
+      "title": "Odpovědnost",
+      "items": [
+        "Host nese plnou finanční odpovědnost za škody nebo zničení vybavení chaty způsobené jím samotným nebo osobami v Objektu s jeho souhlasem.",
+        "Rodiče nebo zákonní zástupci nesou plnou odpovědnost za bezpečnost dětí — zejména v blízkosti bazénu, ohniště, hřiště pro děti a sportoviště.",
+        "Provozovatel neodpovídá za cenné věci zanechané v chatách ani za škody vzniklé nesprávným používáním vybavení.",
+        "Parkoviště je nehlídané — provozovatel neodpovídá za škody na vozidlech ani za jejich odcizení.",
+        "Za ztracený klíč od chaty se účtuje poplatek 150 PLN."
+      ]
+    },
+    {
+      "id": "anulacja",
+      "rom": "X",
+      "title": "Storno a změny",
+      "items": [
+        "Storno více než 60 dní před příjezdem — vrácení celé zálohy.",
+        "Storno 60–30 dní před příjezdem — vrácení 50 % zálohy.",
+        "Storno méně než 30 dní před příjezdem — záloha je nevratná, ale lze ji převést na jiný pobyt v roce 2026, dle dostupnosti.",
+        "Změna termínu rezervace (jednou, do 30 dnů před původním termínem) je zdarma. Každá další změna stojí 100 PLN.",
+        "Provozovatel si vyhrazuje právo zrušit pobyt ve výjimečných případech (např. technická havárie) — v takovém případě host obdrží plnou refundaci."
+      ]
+    },
+    {
+      "id": "rodo",
+      "rom": "XI",
+      "title": "Osobní údaje (GDPR)",
+      "items": [
+        "Správcem osobních údajů hostů je Barbara Reszka, ul. Morska 11, 76-107 Jarosławiec.",
+        "Údaje jsou zpracovávány výhradně za účelem zpracování rezervací, vystavování účetních dokladů a splnění zákonných povinností.",
+        "Hosté mají právo na přístup, opravu, omezení zpracování a vymazání svých údajů — v rozsahu, který nepokrývají zákonné povinnosti správce.",
+        "Podrobné zásady ochrany osobních údajů jsou k dispozici na domkinapniu.pl/polityka-prywatnosci a v tištěné podobě v chatě."
+      ]
+    },
+    {
+      "id": "koncowe",
+      "rom": "XII",
+      "title": "Závěrečná ustanovení",
+      "items": [
+        "Záležitosti neupravené těmito podmínkami se řídí ustanoveními občanského zákoníku a zákona o hotelových službách.",
+        "Příslušným soudem pro veškeré spory vyplývající ze smlouvy o pronájmu je soud místně příslušný sídlu Objektu.",
+        "Tyto podmínky platí od 1. ledna 2026 až do odvolání. Aktuální verze je k dispozici na domkinapniu.pl/regulamin.",
+        "Kontakt: +48 506 141 730 · domkinapniu@gmail.com · ul. Morska 11, 76-107 Jarosławiec."
+      ]
+    }
+  ]
+}

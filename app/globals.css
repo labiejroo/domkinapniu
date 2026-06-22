@@ -61,6 +61,12 @@
     @apply bg-brand-sunlight text-brand-black font-body antialiased;
   }
 
+  :focus-visible {
+    outline: 2px solid theme('colors.mustard.500');
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
   @media (prefers-reduced-motion: reduce) {
     *,
     *::before,

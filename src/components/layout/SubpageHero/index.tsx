@@ -16,7 +16,7 @@ interface SubpageHeroProps {
 }
 
 export const SubpageHero = ({ current, eyebrow, italic, lede, meta, title }: SubpageHeroProps) => (
-  <section className="bg-brand-sunlight text-brand-green-900 px-16 pt-[88px] pb-24 border-b border-brand-green-900/10">
+  <section className="bg-brand-sunlight text-brand-green-900 px-16 max-[600px]:px-8 pt-[88px] pb-24">
     <div className="max-w-[1280px] mx-auto">
       <div className="flex items-center gap-2 text-[11px] tracking-[0.16em] uppercase text-brand-green-900/55 font-semibold mb-14">
         <Link href="/" className="text-inherit no-underline">Domki Na Pniu</Link>
@@ -24,7 +24,7 @@ export const SubpageHero = ({ current, eyebrow, italic, lede, meta, title }: Sub
         <span className="text-brand-mustard-700">{current}</span>
       </div>
 
-      <div className="grid grid-cols-[1.2fr_1fr] gap-24 items-end">
+      <div className="grid grid-cols-1 tablet:grid-cols-[1.2fr_1fr] gap-12 tablet:gap-24 items-start">
         <div>
           {eyebrow && (
             <SmallCap>
@@ -34,14 +34,14 @@ export const SubpageHero = ({ current, eyebrow, italic, lede, meta, title }: Sub
               </span>
             </SmallCap>
           )}
-          <Display size="xl" className="mt-6">
+          <Display as="h1" size="xl" className="mt-6">
             {title}
             <br />
             <Italic>{italic}</Italic>
           </Display>
         </div>
 
-        <div className="pb-3">
+        <div>
           {lede && (
             <p className="m-0 text-[17px] leading-[1.7] text-brand-green-900/80 max-w-[42ch]">{lede}</p>
           )}

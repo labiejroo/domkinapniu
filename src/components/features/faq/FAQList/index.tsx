@@ -27,8 +27,8 @@ export const FAQList = ({ groups }: FAQListProps) => {
 
   return (
     <>
-      <section className="sticky top-[88px] z-30 bg-brand-sunlight px-16 py-8 border-b border-brand-green-900/15">
-        <div className="max-w-[1280px] mx-auto flex items-center justify-between gap-6 flex-wrap">
+      <section className="sticky top-[88px] z-30 bg-brand-sunlight px-5 md:px-8 tablet:px-16 py-5 md:py-6 tablet:py-8 border-b border-brand-green-900/15">
+        <div className="max-w-[1280px] mx-auto flex items-center justify-between gap-4 md:gap-6 flex-wrap">
           <div className="flex flex-wrap gap-2">
             {[null, ...groups.map((g) => g.cat)].map((c) => {
               const active = c === filter;
@@ -42,14 +42,14 @@ export const FAQList = ({ groups }: FAQListProps) => {
                     'rounded-full border border-brand-green-900/20',
                     'text-xs font-semibold tracking-[0.06em] cursor-pointer',
                     'inline-flex items-center gap-2 transition-colors px-[18px] py-[10px]',
-                    active ? 'bg-brand-green-900 text-brand-sunlight' : 'bg-transparent text-brand-green-900'
+                    active ? 'bg-brand-black text-brand-sunlight border-brand-black' : 'bg-transparent text-green-900'
                   )}
                 >
                   {c === null ? t('faqFilterAll') : c}
                   <span
                     className={cn(
                       'text-[10px] opacity-70 px-1.5 py-0.5 rounded-full tabular-nums',
-                      active ? 'bg-brand-sunlight/20' : 'bg-brand-green-900/10'
+                      active ? 'bg-brand-sunlight/25' : 'bg-green-900/10'
                     )}
                   >
                     {count}
@@ -64,14 +64,14 @@ export const FAQList = ({ groups }: FAQListProps) => {
         </div>
       </section>
 
-      <section className="bg-brand-eggshell px-16 pt-24 pb-32">
+      <section className="bg-brand-eggshell px-5 md:px-8 tablet:px-16 pt-16 md:pt-20 tablet:pt-24 pb-20 md:pb-24 tablet:pb-32">
         <div className="max-w-[1280px] mx-auto">
           {filtered.map((group, gi) => (
-            <div key={group.cat} className={gi === filtered.length - 1 ? '' : 'mb-20'}>
-              <div className="grid grid-cols-[280px_1fr] gap-24 items-start">
-                <div className="sticky top-[160px]">
+            <div key={group.cat} className={gi === filtered.length - 1 ? '' : 'mb-12 md:mb-20'}>
+              <div className="grid grid-cols-1 tablet:grid-cols-[280px_1fr] gap-6 tablet:gap-24 items-start">
+                <div className="tablet:sticky tablet:top-[160px]">
                   <SmallCap>{t('faqCategoryLabel')} {String(gi + 1).padStart(2, '0')}</SmallCap>
-                  <h2 className="m-0 mt-5 font-display text-[38px] font-normal tracking-[-0.02em] text-brand-green-900 leading-[1.15]">
+                  <h2 className="m-0 mt-5 font-display text-[26px] md:text-[38px] font-normal tracking-[-0.02em] text-brand-green-900 leading-[1.15]">
                     {group.cat}
                   </h2>
                   <div className="mt-3 text-[13px] text-brand-green-900/60">
@@ -79,7 +79,7 @@ export const FAQList = ({ groups }: FAQListProps) => {
                   </div>
                 </div>
 
-                <div className="bg-brand-sunlight border border-brand-green-900/15 rounded-sm px-8 pt-2 pb-8">
+                <div className="bg-brand-sunlight border border-brand-green-900/15 rounded-sm px-5 md:px-8 pt-2 pb-5 md:pb-8">
                   {group.items.map((it, i) => {
                     const key = `${group.cat.toLowerCase()}-${i}`;
                     return (
@@ -98,10 +98,10 @@ export const FAQList = ({ groups }: FAQListProps) => {
             </div>
           ))}
 
-          <div className="mt-24 bg-brand-green-900 text-brand-sunlight px-14 py-16 grid grid-cols-[1.2fr_1fr] gap-16 items-center rounded-sm">
+          <div className="mt-16 md:mt-24 bg-brand-green-900 text-brand-sunlight px-6 md:px-10 tablet:px-14 py-10 md:py-12 tablet:py-16 grid grid-cols-1 tablet:grid-cols-[1.2fr_1fr] gap-8 tablet:gap-16 items-center rounded-sm">
             <div>
               <SmallCap tone="mustard-light">{t('faqCtaEyebrow')}</SmallCap>
-              <h3 className="m-0 mt-5 font-display text-[40px] font-normal tracking-[-0.02em] text-brand-sunlight leading-[1.1]">
+              <h3 className="m-0 mt-5 font-display text-[28px] md:text-[40px] font-normal tracking-[-0.02em] text-brand-sunlight leading-[1.1]">
                 {t('faqCtaTitle')} <Italic tone="mustard-light">{t('faqCtaTitleItalic')}</Italic>
               </h3>
               <p className="mt-5 text-base leading-[1.7] max-w-[46ch] text-brand-sunlight/75">
@@ -157,11 +157,11 @@ function FAQItem({ a, idKey, open, q, setOpen }: FAQItemProps) {
       <button
         type="button"
         onClick={() => setOpen(isOpen ? null : idKey)}
-        className="w-full text-left bg-transparent border-0 py-7 cursor-pointer grid grid-cols-[1fr_auto] gap-8 items-center text-brand-green-900"
+        className="w-full text-left bg-transparent border-0 py-5 md:py-7 cursor-pointer grid grid-cols-[1fr_auto] gap-4 md:gap-8 items-center text-brand-green-900"
       >
         <span
           className={cn(
-            'font-display text-[22px] font-medium tracking-[-0.01em] leading-[1.3]',
+            'font-display text-[17px] md:text-[22px] font-medium tracking-[-0.01em] leading-[1.3]',
             isOpen ? 'text-brand-green-900' : 'text-brand-green-900/85'
           )}
         >
@@ -169,12 +169,12 @@ function FAQItem({ a, idKey, open, q, setOpen }: FAQItemProps) {
         </span>
         <span
           className={cn(
-            'w-[42px] h-[42px] rounded-full inline-flex items-center justify-center transition-all',
+            'w-[34px] h-[34px] md:w-[42px] md:h-[42px] shrink-0 rounded-full inline-flex items-center justify-center transition-all',
             'border border-brand-green-900/25',
             isOpen ? 'bg-brand-mustard-500 rotate-45' : 'bg-transparent'
           )}
         >
-          <Icon name="plus" size={18} />
+          <Icon name="plus" size={16} />
         </span>
       </button>
       <div

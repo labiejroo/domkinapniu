@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Icon } from '@/components/ui/Icon';
@@ -52,8 +52,9 @@ const FloorPlan = ({ active, isUpper, rooms, onSelect }: FloorPlanProps) => {
     { id: 'taras', d: 'M 40 290 L 570 290 L 570 360 L 40 360 Z', label: rooms.taras.planLabel, cx: 305, cy: 328 },
   ];
   const pietroRooms: Array<{ id: RoomId; d: string; label: string; cx: number; cy: number }> = [
-    { id: 'sypialnia1', d: 'M 40 40 L 310 40 L 310 290 L 40 290 Z', label: rooms.sypialnia1.planLabel, cx: 175, cy: 165 },
-    { id: 'sypialnia2', d: 'M 310 40 L 570 40 L 570 290 L 310 290 Z', label: rooms.sypialnia2.planLabel, cx: 440, cy: 165 },
+    { id: 'sypialnia1', d: 'M 40 40 L 260 40 L 260 290 L 40 290 Z', label: rooms.sypialnia1.planLabel, cx: 150, cy: 165 },
+    { id: 'korytarz', d: 'M 260 40 L 360 40 L 360 290 L 260 290 Z', label: rooms.korytarz.planLabel, cx: 310, cy: 165 },
+    { id: 'sypialnia2', d: 'M 360 40 L 570 40 L 570 290 L 360 290 Z', label: rooms.sypialnia2.planLabel, cx: 465, cy: 165 },
   ];
 
   const roomList = isUpper ? pietroRooms : parterRooms;
@@ -104,21 +105,24 @@ const FloorPlan = ({ active, isUpper, rooms, onSelect }: FloorPlanProps) => {
             </text>
           </g>
         )}
-        {isUpper && (
-          <rect
-            x="295"
-            y="240"
-            width="30"
-            height="50"
-            fill="rgba(26,36,25,0.05)"
-            stroke="rgba(26,36,25,0.3)"
-            strokeWidth="0.8"
-          />
-        )}
         {roomList.map((r) => {
           const isActive = r.id === active;
           return (
-            <g key={r.id} onClick={() => onSelect(r.id)} style={{ cursor: 'pointer' }}>
+            <g
+              key={r.id}
+              role="button"
+              tabIndex={0}
+              aria-pressed={isActive}
+              aria-label={r.label}
+              onClick={() => onSelect(r.id)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault();
+                  onSelect(r.id);
+                }
+              }}
+              style={{ cursor: 'pointer' }}
+            >
               <path
                 d={r.d}
                 fill={isActive ? '#c79d09' : 'rgba(255,252,245,0.6)'}
@@ -131,26 +135,11 @@ const FloorPlan = ({ active, isUpper, rooms, onSelect }: FloorPlanProps) => {
                 x={r.cx}
                 y={r.cy}
                 textAnchor="middle"
-                fontSize={r.id === 'lazienka' ? 13 : 17}
+                fontSize={r.id === 'lazienka' || r.id === 'korytarz' ? 13 : 17}
                 fill="#1a2419"
                 style={{ fontFamily: labelFont, fontStyle: 'italic', pointerEvents: 'none' }}
               >
                 {r.label}
-              </text>
-              <text
-                x={r.cx}
-                y={r.cy + 18}
-                textAnchor="middle"
-                fontSize="10"
-                fill="rgba(26,36,25,0.55)"
-                style={{
-                  pointerEvents: 'none',
-                  letterSpacing: '0.18em',
-                  textTransform: 'uppercase',
-                  fontWeight: 600,
-                }}
-              >
-                {ROOM_ASSETS[r.id].size}
               </text>
             </g>
           );
@@ -164,11 +153,11 @@ const FloorPlan = ({ active, isUpper, rooms, onSelect }: FloorPlanProps) => {
           </g>
         )}
         {isUpper && (
-          <g fill="none" stroke="rgba(26,36,25,0.35)" strokeWidth="1">
-            <line x1="280" y1="260" x2="310" y2="260" stroke="#F0EFED" strokeWidth="3" />
-            <path d="M 280 260 A 30 30 0 0 1 310 260" strokeDasharray="2 2" />
-            <line x1="310" y1="260" x2="340" y2="260" stroke="#F0EFED" strokeWidth="3" />
-            <path d="M 310 260 A 30 30 0 0 0 340 260" strokeDasharray="2 2" />
+          <g fill="none" stroke="rgba(26,36,25,0.35)" strokeWidth="1" style={{ pointerEvents: 'none' }}>
+            <line x1="260" y1="145" x2="260" y2="185" stroke="#F0EFED" strokeWidth="3" />
+            <path d="M 260 145 A 40 40 0 0 0 260 185" strokeDasharray="2 2" />
+            <line x1="360" y1="145" x2="360" y2="185" stroke="#F0EFED" strokeWidth="3" />
+            <path d="M 360 145 A 40 40 0 0 1 360 185" strokeDasharray="2 2" />
           </g>
         )}
         {!isUpper && (
@@ -195,6 +184,17 @@ const FloorPlan = ({ active, isUpper, rooms, onSelect }: FloorPlanProps) => {
 export const CottageAnatomy = () => {
   const t = useTranslations();
   const [active, setActive] = useState<RoomId>('salon');
+  const imageRef = useRef<HTMLDivElement | null>(null);
+
+  const handleSelect = (id: RoomId) => {
+    setActive(id);
+    if (typeof window !== 'undefined' && window.innerWidth < 800) {
+      // allow image to update then scroll
+      setTimeout(() => {
+        imageRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 80);
+    }
+  };
   const rooms = t.raw('rooms') as Record<RoomId, RoomCopy>;
   const equipment = t.raw('equipment') as EquipmentColumn[];
   const cottageChips = t.raw('cottageChips') as string[];
@@ -203,9 +203,9 @@ export const CottageAnatomy = () => {
   const idx = ORDER.indexOf(active);
 
   return (
-    <section id="domki" className="bg-brand-sunlight px-5 md:px-8 lg:px-16 py-16 md:py-24 lg:py-32">
+    <section id="domki" className="bg-brand-sunlight px-5 md:px-8 tablet:px-16 py-16 md:py-24 tablet:py-32">
       <div className="max-w-layout mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-end mb-10 md:mb-20">
+        <div className="grid grid-cols-1 tablet:grid-cols-2 gap-8 items-start mb-10 tablet:mb-20">
           <div>
             <SmallCap className="text-mustard-700">{t('cottageEyebrow')}</SmallCap>
             <Display size="md" className="mt-5 text-green-900">
@@ -229,9 +229,10 @@ export const CottageAnatomy = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-[1.15fr_1fr] gap-10 lg:gap-16 items-start">
+        <div className="grid grid-cols-1 tablet:grid-cols-[1.15fr_1fr] gap-10 tablet:gap-16 items-start">
           <div>
             <div
+              ref={imageRef}
               className={`relative rounded overflow-hidden ${active === 'salon' ? 'bg-brand-sunlight' : 'bg-green-800'}`}
               style={{ aspectRatio: '4/5' }}
             >
@@ -252,9 +253,6 @@ export const CottageAnatomy = () => {
                   }}
                 />
               )}
-              <div className="absolute top-4 left-4 md:top-5 md:left-5 inline-flex items-center gap-2 px-3 py-1.5 bg-brand-sunlight/94 text-green-900 text-[11px] font-bold tracking-[0.16em] uppercase rounded-full">
-                {roomCopy.level} · {roomAsset.size}
-              </div>
             </div>
             <div
               className="mt-6 grid gap-4 items-baseline"
@@ -282,9 +280,9 @@ export const CottageAnatomy = () => {
             </ul>
           </div>
 
-          <div className="flex flex-col gap-5 lg:sticky lg:top-[120px]">
-            <FloorPlan isUpper={true} active={active} rooms={rooms} onSelect={setActive} />
-            <FloorPlan isUpper={false} active={active} rooms={rooms} onSelect={setActive} />
+          <div className="flex flex-col gap-5 tablet:sticky tablet:top-[120px]">
+            <FloorPlan isUpper={true} active={active} rooms={rooms} onSelect={handleSelect} />
+            <FloorPlan isUpper={false} active={active} rooms={rooms} onSelect={handleSelect} />
             <div className="flex items-center gap-2 text-[11px] tracking-[0.14em] uppercase text-green-900/55 font-semibold">
               <span className="w-3 h-3 bg-mustard-500 rounded-sm shrink-0" />
               {t('clickRoomHint')}
@@ -302,7 +300,7 @@ export const CottageAnatomy = () => {
               </Display>
             </div>
           </div>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 md:gap-10">
+          <div className="grid grid-cols-2 md:grid-cols-3 tablet:grid-cols-5 gap-8 md:gap-10">
             {equipment.map((col) => (
               <EqCol key={col.title} title={col.title} items={col.items} />
             ))}

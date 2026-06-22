@@ -34,7 +34,7 @@ export const TopBar = () => {
           >
             <Icon name="mail" size={14} color="#d6b13e" />
             <span className="hidden xl:inline">{t('email')}</span>
-            <span className="xl:hidden">Email</span>
+            <span className="xl:hidden">domkinapniu@gmail.com</span>
           </a>
           <a
             href={`tel:${t('phone').replace(/\s/g, '')}`}
@@ -47,13 +47,16 @@ export const TopBar = () => {
 
         <div className="flex md:hidden items-center gap-2">
           <Icon name="phone" size={14} color="#d6b13e" />
-          <a href={`tel:${t('phone').replace(/\s/g, '')}`} className="text-brand-sunlight font-semibold no-underline">
+          <a
+            href={`tel:${t('phone').replace(/\s/g, '')}`}
+            className="text-brand-sunlight font-semibold no-underline"
+          >
             {t('phone')}
           </a>
         </div>
 
         <div className="flex gap-4 items-center">
-          <div className="inline-flex gap-1.5 items-center text-[13px]">
+          <div className="hidden md:inline-flex gap-1.5 items-center text-[13px]">
             {routing.locales.map((l, i) => (
               <span key={l} className="inline-flex items-center gap-1.5">
                 {i > 0 && <span className="opacity-30">·</span>}
@@ -62,14 +65,45 @@ export const TopBar = () => {
                   onClick={() => router.replace(pathname, { locale: l })}
                   className={cn(
                     'bg-transparent border-0 cursor-pointer text-[13px] px-0',
-                    locale === l ? 'text-mustard-300 font-semibold' : 'text-green-200/70 hover:text-green-200'
+                    locale === l
+                      ? 'text-mustard-300 font-semibold'
+                      : 'text-green-200/70 hover:text-green-200'
                   )}
                 >
-                  {l === 'pl' ? t('langPl') : l === 'en' ? t('langEn') : t('langDe')}
+                  {l === 'pl'
+                    ? t('langPl')
+                    : l === 'en'
+                      ? t('langEn')
+                      : l === 'de'
+                        ? t('langDe')
+                        : t('langCz')}
                 </button>
               </span>
             ))}
           </div>
+
+          <label htmlFor="localeSelect" className="sr-only">
+            {t('selectLanguage')}
+          </label>
+          <select
+            id="localeSelect"
+            value={locale}
+            onChange={(event) => router.replace(pathname, { locale: event.target.value })}
+            className="md:hidden bg-brand-black text-green-200/70 border border-white/10 rounded-sm px-2 py-1 text-[13px] leading-[1.1] outline-none transition duration-150 hover:border-white/20 focus:border-mustard-300 focus:text-green-100"
+          >
+            {routing.locales.map((l) => (
+              <option key={l} value={l}>
+                {l === 'pl'
+                  ? t('langPl')
+                  : l === 'en'
+                    ? t('langEn')
+                    : l === 'de'
+                      ? t('langDe')
+                      : t('langCz')}
+              </option>
+            ))}
+          </select>
+
           <span className="w-px h-3.5 bg-white/20" />
           <span className="inline-flex items-center gap-1.5 text-white">
             <Icon name="star" size={12} color="#d6b13e" />

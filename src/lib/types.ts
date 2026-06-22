@@ -40,7 +40,7 @@ export type IconName =
   | 'heart'
   | 'brand-mark';
 
-export type RoomId = 'salon' | 'lazienka' | 'taras' | 'sypialnia1' | 'sypialnia2';
+export type RoomId = 'salon' | 'lazienka' | 'taras' | 'sypialnia1' | 'korytarz' | 'sypialnia2';
 
 export interface Room {
   name: string;

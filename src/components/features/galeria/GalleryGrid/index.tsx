@@ -20,6 +20,8 @@ interface GalleryGridProps {
   photos: Photo[];
 }
 
+const CATEGORY_ORDER = ['Domki', 'Posesja', 'Wieczory', 'Plaża'];
+
 const MOSAIC: Record<string, { col: string; emph?: boolean; row: string }> = {
   g01: { col: 'col-start-1 col-end-8',  emph: true, row: 'row-span-4' },
   g02: { col: 'col-start-8 col-end-13', row: 'row-span-3' },
@@ -41,10 +43,10 @@ export const GalleryGrid = ({ photos }: GalleryGridProps) => {
   const [filter, setFilter] = useState<string | null>(null);
   const [open, setOpen] = useState<Photo | null>(null);
 
-  const cats = useMemo(
-    () => Array.from(new Set(photos.map((p) => p.cat))),
-    [photos]
-  );
+  const cats = useMemo(() => {
+    const present = new Set(photos.map((p) => p.cat));
+    return CATEGORY_ORDER.filter((c) => present.has(c));
+  }, [photos]);
 
   const filtered = filter === null ? photos : photos.filter((p) => p.cat === filter);
 
@@ -132,7 +134,7 @@ export const GalleryGrid = ({ photos }: GalleryGridProps) => {
             </p>
             <div className="mt-8 inline-flex gap-3">
               <a
-                href="https://instagram.com/domkinapniu"
+                href="https://www.instagram.com/domki_napniu"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 bg-transparent text-brand-green-900 border-[1.5px] border-brand-green-900/25 px-5 py-3.5 rounded-full text-xs font-bold tracking-[0.12em] uppercase no-underline"

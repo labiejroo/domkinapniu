@@ -13,8 +13,8 @@ export const Okolica = () => {
         <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,0 L0,0 Z" fill="#FFFCF5" />
       </svg>
 
-      <div className="max-w-layout mx-auto px-5 md:px-8 lg:px-16 pb-16 md:pb-24 lg:pb-32">
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.4fr] gap-12 lg:gap-24 items-start">
+      <div className="max-w-layout mx-auto px-5 md:px-8 tablet:px-16 pb-16 md:pb-24 tablet:pb-32">
+        <div className="grid grid-cols-1 tablet:grid-cols-[1fr_1.4fr] gap-12 tablet:gap-24 items-start">
           <div>
             <SmallCap className="text-mustard-300">{t('okoliceEyebrow')}</SmallCap>
             <Display size="md" className="mt-5 text-brand-sunlight">

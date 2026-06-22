@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { SubpageHero } from '@/components/layout/SubpageHero';
 import { BookingCTA } from '@/components/features/home/BookingCTA';
 import { GalleryGrid, type Photo } from '@/components/features/galeria/GalleryGrid';
+import { buildPageMetadata } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -11,10 +12,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale });
-  return {
+  return buildPageMetadata({
+    locale,
+    href: '/galeria',
     title: t('galeriaMetaTitle'),
     description: t('galeriaMetaDesc'),
-  };
+  });
 }
 
 export default async function GaleriaPage({

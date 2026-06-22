@@ -15,28 +15,33 @@ interface CounterProps {
   onChange: (v: number) => void;
 }
 
-const Counter = ({ label, value, min, max, onChange }: CounterProps) => (
-  <div className="flex items-center justify-between gap-4 py-2.5">
-    <span className="text-[14px] text-brand-sunlight">{label}</span>
-    <div className="flex items-center gap-3">
-      <button
-        type="button"
-        onClick={() => onChange(Math.max(min, value - 1))}
-        className="w-8 h-8 rounded-full border border-white/25 text-brand-sunlight flex items-center justify-center hover:border-white/50 transition-colors duration-150 text-lg leading-none"
-      >
-        −
-      </button>
-      <span className="w-5 text-center text-[15px] text-brand-sunlight tabular-nums font-semibold">{value}</span>
-      <button
-        type="button"
-        onClick={() => onChange(Math.min(max, value + 1))}
-        className="w-8 h-8 rounded-full border border-white/25 text-brand-sunlight flex items-center justify-center hover:border-white/50 transition-colors duration-150 text-lg leading-none"
-      >
-        +
-      </button>
+const Counter = ({ label, value, min, max, onChange }: CounterProps) => {
+  const t = useTranslations();
+  return (
+    <div className="flex items-center justify-between gap-4 py-2.5">
+      <span className="text-[14px] text-brand-sunlight">{label}</span>
+      <div className="flex items-center gap-3">
+        <button
+          type="button"
+          aria-label={t('decreaseLabel', { label })}
+          onClick={() => onChange(Math.max(min, value - 1))}
+          className="w-8 h-8 rounded-full border border-white/25 text-brand-sunlight flex items-center justify-center hover:border-white/50 transition-colors duration-150 text-lg leading-none"
+        >
+          −
+        </button>
+        <span className="w-5 text-center text-[15px] text-brand-sunlight tabular-nums font-semibold">{value}</span>
+        <button
+          type="button"
+          aria-label={t('increaseLabel', { label })}
+          onClick={() => onChange(Math.min(max, value + 1))}
+          className="w-8 h-8 rounded-full border border-white/25 text-brand-sunlight flex items-center justify-center hover:border-white/50 transition-colors duration-150 text-lg leading-none"
+        >
+          +
+        </button>
+      </div>
     </div>
-  </div>
-);
+  );
+};
 
 export const BookingCTA = () => {
   const t = useTranslations();
@@ -114,7 +119,7 @@ export const BookingCTA = () => {
               <input type="date" value={arrival} min={today}
                 onChange={(e) => setArrival(e.target.value)}
                 style={inputStyle}
-                className="bg-transparent border-0 text-brand-sunlight text-[14px] cursor-pointer outline-none w-full" />
+                className="bg-transparent border-0 text-brand-sunlight text-[14px] cursor-pointer w-full" />
             </div>
           </label>
           <label className={FIELD}>
@@ -124,11 +129,17 @@ export const BookingCTA = () => {
               <input type="date" value={departure} min={arrival || today}
                 onChange={(e) => setDeparture(e.target.value)}
                 style={inputStyle}
-                className="bg-transparent border-0 text-brand-sunlight text-[14px] cursor-pointer outline-none w-full" />
+                className="bg-transparent border-0 text-brand-sunlight text-[14px] cursor-pointer w-full" />
             </div>
           </label>
           <div ref={guestsMobileRef} className="relative">
-            <button type="button" onClick={() => setShowGuests((v) => !v)} className={`w-full ${FIELD}`}>
+            <button
+              type="button"
+              aria-expanded={showGuests}
+              aria-haspopup="true"
+              onClick={() => setShowGuests((v) => !v)}
+              className={`w-full ${FIELD}`}
+            >
               <span className={LABEL}>{t('bookingGuests')}</span>
               <div className={VALUE}>
                 <Icon name="users" size={14} color="rgba(255,252,245,0.6)" />
@@ -153,7 +164,7 @@ export const BookingCTA = () => {
               <input type="date" value={arrival} min={today}
                 onChange={(e) => setArrival(e.target.value)}
                 style={inputStyle}
-                className="bg-transparent border-0 text-brand-sunlight text-[14px] cursor-pointer outline-none w-full" />
+                className="bg-transparent border-0 text-brand-sunlight text-[14px] cursor-pointer w-full" />
             </div>
           </label>
           <label className={FIELD}>
@@ -163,11 +174,17 @@ export const BookingCTA = () => {
               <input type="date" value={departure} min={arrival || today}
                 onChange={(e) => setDeparture(e.target.value)}
                 style={inputStyle}
-                className="bg-transparent border-0 text-brand-sunlight text-[14px] cursor-pointer outline-none w-full" />
+                className="bg-transparent border-0 text-brand-sunlight text-[14px] cursor-pointer w-full" />
             </div>
           </label>
           <div ref={guestsDesktopRef} className="relative">
-            <button type="button" onClick={() => setShowGuests((v) => !v)} className={`h-full w-full text-left ${FIELD}`}>
+            <button
+              type="button"
+              aria-expanded={showGuests}
+              aria-haspopup="true"
+              onClick={() => setShowGuests((v) => !v)}
+              className={`h-full w-full text-left ${FIELD}`}
+            >
               <span className={LABEL}>{t('bookingGuests')}</span>
               <div className={VALUE}>
                 <Icon name="users" size={14} color="rgba(255,252,245,0.6)" />
@@ -183,10 +200,12 @@ export const BookingCTA = () => {
         </div>
 
         <p className="mt-6 text-[21px] text-brand-sunlight">
-          {t('bookingPhoneNote')}<span className="font-bold">{t('bookingPhoneNoteBold')}</span>{' · '}
+          {t.rich('bookingPhoneNote', { b: (chunks) => <span className="font-bold">{chunks}</span> })}
+          <span className="font-bold">{t('bookingPhoneNoteBold')}</span>{' '}
           <a href={`tel:${t('phone').replace(/\s/g, '')}`} className="text-mustard-300 font-semibold no-underline">
             {t('phoneDisplay')}
-          </a>{' '}
+          </a>.
+          <br />
           {t('bookingPhoneSpeed')}
         </p>
       </div>

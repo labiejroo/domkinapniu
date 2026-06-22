@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
+import { usePathname, Link } from '@/i18n/navigation';
 import { Icon } from '@/components/ui/Icon';
 import { BrandMark } from '@/components/ui/Brand';
 import { cn } from '@/lib/utils';
@@ -11,7 +11,17 @@ import type { NavItem } from '@/lib/types';
 export const NavBar = () => {
   const t = useTranslations();
   const navItems = t.raw('navItems') as NavItem[];
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [clickedHref, setClickedHref] = useState<string | null>(null);
+
+  const activeHref = (() => {
+    const subpageMatch = navItems.find((item) => {
+      const p = (item.href || '/').split('#')[0];
+      return p && p !== '/' && pathname === p;
+    });
+    return subpageMatch ? subpageMatch.href : clickedHref;
+  })();
 
   return (
     <nav className="bg-brand-black text-brand-sunlight sticky top-0 z-50 border-b border-white/[0.08]">
@@ -30,16 +40,23 @@ export const NavBar = () => {
         </Link>
 
         <ul className="hidden lg:flex gap-9 list-none m-0 p-0">
-          {navItems.map((item) => (
-            <li key={item.label}>
-              <Link
-                href={item.href || '/'}
-                className="no-underline text-[14px] font-medium tracking-wider text-white/80 transition-colors duration-150 hover:text-mustard-300"
-              >
-                {item.label}
-              </Link>
-            </li>
-          ))}
+          {navItems.map((item) => {
+            const active = activeHref === item.href;
+            return (
+              <li key={item.label}>
+                <Link
+                  href={item.href || '/'}
+                  onClick={() => setClickedHref(item.href)}
+                  className={cn(
+                    'no-underline text-[14px] font-medium tracking-wider transition-colors duration-150',
+                    active ? 'text-mustard-300' : 'text-white/80 hover:text-mustard-300'
+                  )}
+                >
+                  {item.label}
+                </Link>
+              </li>
+            );
+          })}
         </ul>
 
         <div className="flex items-center gap-3">
@@ -66,7 +83,7 @@ export const NavBar = () => {
       <div
         className={cn(
           'lg:hidden bg-green-800 border-t border-white/10 overflow-hidden transition-all duration-300',
-          open ? 'max-h-[400px] opacity-100' : 'max-h-0 opacity-0'
+          open ? 'max-h-[500px] md:max-h-[400px] opacity-100' : 'max-h-0 opacity-0'
         )}
       >
         <ul className="list-none m-0 p-0 px-5 py-4 flex flex-col gap-1">

@@ -1,15 +1,17 @@
 'use client';
 
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { BrandMark } from '@/components/ui/Brand';
 import { SmallCap } from '@/components/ui/Typography';
 import { SOCIALS } from './constants';
-import type { FooterColumn } from '@/lib/types';
+import type { FooterColumn, FooterLink } from '@/lib/types';
 
 export const Footer = () => {
   const t = useTranslations();
   const footerColumns = t.raw('footerColumns') as FooterColumn[];
-  const footerLegal = t.raw('footerLegal') as string[];
+  const footerLegal = t.raw('footerLegal') as FooterLink[];
   return (
     <footer id="kontakt" className="bg-green-900 text-brand-sunlight pt-16 md:pt-20 lg:pt-24 pb-8 px-5 md:px-8 lg:px-16">
       <div className="max-w-layout mx-auto">
@@ -65,13 +67,30 @@ export const Footer = () => {
                 )}
                 {col.links.map((link) => (
                   <li key={link.label}>
-                    <a
-                      href={link.href}
-                      {...(link.href.startsWith('http') && { target: '_blank', rel: 'noopener noreferrer' })}
-                      className="text-[13px] md:text-[14px] text-white/75 no-underline transition-colors duration-150 hover:text-white"
-                    >
-                      {link.label}
-                    </a>
+                    {link.href.startsWith('http') ? (
+                      <a
+                        href={link.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-[13px] md:text-[14px] text-white/75 no-underline transition-colors duration-150 hover:text-white"
+                      >
+                        {link.label}
+                      </a>
+                    ) : link.href.startsWith('tel:') || link.href.startsWith('mailto:') ? (
+                      <a
+                        href={link.href}
+                        className="text-[13px] md:text-[14px] text-white/75 no-underline transition-colors duration-150 hover:text-white"
+                      >
+                        {link.label}
+                      </a>
+                    ) : (
+                      <Link
+                        href={link.href}
+                        className="text-[13px] md:text-[14px] text-white/75 no-underline transition-colors duration-150 hover:text-white"
+                      >
+                        {link.label}
+                      </Link>
+                    )}
                   </li>
                 ))}
                 {i === footerColumns.length - 1 && (
@@ -89,11 +108,22 @@ export const Footer = () => {
           <span>{t('copyright')}</span>
           <div className="flex gap-5">
             {footerLegal.map((l) => (
-              <a key={l} href="#" className="text-inherit no-underline hover:text-white/80 transition-colors duration-150">
-                {l}
-              </a>
+              <Link key={l.label} href={l.href} className="text-inherit no-underline hover:text-white/80 transition-colors duration-150">
+                {l.label}
+              </Link>
             ))}
           </div>
+          <a
+            href="https://wizjaikod.netlify.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-inherit no-underline hover:text-white/80 transition-colors duration-150"
+          >
+            <span>{t('madeByLabel')}</span>
+            <span className="inline-flex items-center bg-brand-sunlight rounded-sm px-2 py-1">
+              <Image src="/assets/logo-ink.png" alt="WizjaKod" width={893} height={209} className="h-3.5 w-auto" />
+            </span>
+          </a>
         </div>
       </div>
     </footer>

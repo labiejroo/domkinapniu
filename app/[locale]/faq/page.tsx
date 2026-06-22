@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { SubpageHero } from '@/components/layout/SubpageHero';
 import { BookingCTA } from '@/components/features/home/BookingCTA';
 import { FAQList, type FAQGroup } from '@/components/features/faq/FAQList';
+import { buildPageMetadata } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -11,10 +12,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale });
-  return {
+  return buildPageMetadata({
+    locale,
+    href: '/faq',
     title: t('faqMetaTitle'),
     description: t('faqMetaDesc'),
-  };
+  });
 }
 
 export default async function FAQPage({
@@ -33,7 +36,6 @@ export default async function FAQPage({
     <>
       <SubpageHero
         current={t('faqHeroCurrent')}
-        eyebrow={t('faqHeroEyebrow')}
         title={t('faqHeroTitle')}
         italic={t('faqHeroItalic')}
         lede={t('faqHeroLede')}

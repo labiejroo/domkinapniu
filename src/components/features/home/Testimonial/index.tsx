@@ -25,7 +25,7 @@ export const Testimonial = () => {
   const review = reviews[idx];
 
   return (
-    <section className="bg-brand-eggshell min-h-[650px] lg:min-h-[550px] py-24 md:py-32 lg:py-20 px-5 md:px-8 lg:px-16 flex flex-col">
+    <section className="bg-brand-eggshell min-h-[660px] py-24 md:py-32 lg:py-20 px-5 md:px-8 lg:px-16 flex flex-col">
       <div className="max-w-[960px] w-full mx-auto flex flex-col flex-1">
         <div className="relative inline-flex items-center justify-center w-full">
           <span
