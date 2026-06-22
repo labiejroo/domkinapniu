@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { getPathname } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
 
-export const SITE_URL = 'https://domkinapniu.pl';
+export const SITE_URL = 'https://www.domkinapniu.pl';
 export const SITE_NAME = 'Domki Na Pniu';
 export const DEFAULT_OG_IMAGE = { url: '/assets/hero-beach.jpg', width: 5376, height: 3840 };
 
@@ -13,10 +13,17 @@ const ogLocaleMap: Record<string, string> = {
   cz: 'cs_CZ',
 };
 
+export const hreflangMap: Record<string, string> = {
+  pl: 'pl',
+  en: 'en',
+  de: 'de',
+  cz: 'cs',
+};
+
 export function buildAlternates(locale: string, href: string) {
   const languages: Record<string, string> = {};
   for (const l of routing.locales) {
-    languages[l] = getPathname({ href, locale: l });
+    languages[hreflangMap[l] ?? l] = getPathname({ href, locale: l });
   }
   languages['x-default'] = getPathname({ href, locale: routing.defaultLocale });
 
