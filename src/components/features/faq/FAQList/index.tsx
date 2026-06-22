@@ -27,12 +27,13 @@ export const FAQList = ({ groups }: FAQListProps) => {
 
   return (
     <>
-      <section className="sticky top-[88px] z-30 bg-brand-sunlight px-5 md:px-8 tablet:px-16 py-5 md:py-6 tablet:py-8 border-b border-brand-green-900/15">
+      <section className="top-[88px] z-30 bg-brand-sunlight px-5 md:px-8 tablet:px-16 py-5 md:py-6 tablet:py-8 border-b border-brand-green-900/15">
         <div className="max-w-[1280px] mx-auto flex items-center justify-between gap-4 md:gap-6 flex-wrap">
           <div className="flex flex-wrap gap-2">
             {[null, ...groups.map((g) => g.cat)].map((c) => {
               const active = c === filter;
-              const count = c === null ? flatCount : groups.find((g) => g.cat === c)?.items.length ?? 0;
+              const count =
+                c === null ? flatCount : (groups.find((g) => g.cat === c)?.items.length ?? 0);
               return (
                 <button
                   key={c ?? '__all__'}
@@ -42,7 +43,9 @@ export const FAQList = ({ groups }: FAQListProps) => {
                     'rounded-full border border-brand-green-900/20',
                     'text-xs font-semibold tracking-[0.06em] cursor-pointer',
                     'inline-flex items-center gap-2 transition-colors px-[18px] py-[10px]',
-                    active ? 'bg-brand-black text-brand-sunlight border-brand-black' : 'bg-transparent text-green-900'
+                    active
+                      ? 'bg-brand-black text-brand-sunlight border-brand-black'
+                      : 'bg-transparent text-green-900'
                   )}
                 >
                   {c === null ? t('faqFilterAll') : c}
@@ -70,7 +73,9 @@ export const FAQList = ({ groups }: FAQListProps) => {
             <div key={group.cat} className={gi === filtered.length - 1 ? '' : 'mb-12 md:mb-20'}>
               <div className="grid grid-cols-1 tablet:grid-cols-[280px_1fr] gap-6 tablet:gap-24 items-start">
                 <div className="tablet:sticky tablet:top-[160px]">
-                  <SmallCap>{t('faqCategoryLabel')} {String(gi + 1).padStart(2, '0')}</SmallCap>
+                  <SmallCap>
+                    {t('faqCategoryLabel')} {String(gi + 1).padStart(2, '0')}
+                  </SmallCap>
                   <h2 className="m-0 mt-5 font-display text-[26px] md:text-[38px] font-normal tracking-[-0.02em] text-brand-green-900 leading-[1.15]">
                     {group.cat}
                   </h2>
@@ -101,10 +106,10 @@ export const FAQList = ({ groups }: FAQListProps) => {
           <div className="mt-16 md:mt-24 bg-brand-green-900 text-brand-sunlight px-6 md:px-10 tablet:px-14 py-10 md:py-12 tablet:py-16 grid grid-cols-1 tablet:grid-cols-[1.2fr_1fr] gap-8 tablet:gap-16 items-center rounded-sm">
             <div>
               <SmallCap tone="mustard-light">{t('faqCtaEyebrow')}</SmallCap>
-              <h3 className="m-0 mt-5 font-display text-[28px] md:text-[40px] font-normal tracking-[-0.02em] text-brand-sunlight leading-[1.1]">
+              <h3 className="m-0 mt-5 font-display text-[28px] max-[450px]:text-[22px] md:text-[40px] font-normal tracking-[-0.02em] text-brand-sunlight leading-[1.1]">
                 {t('faqCtaTitle')} <Italic tone="mustard-light">{t('faqCtaTitleItalic')}</Italic>
               </h3>
-              <p className="mt-5 text-base leading-[1.7] max-w-[46ch] text-brand-sunlight/75">
+              <p className="mt-5 text-base max-[450px]:text-[13px] leading-[1.7] max-w-[46ch] text-brand-sunlight/75">
                 {t('faqCtaDesc')}
               </p>
             </div>
@@ -116,8 +121,12 @@ export const FAQList = ({ groups }: FAQListProps) => {
               >
                 <Icon name="phone" size={20} color="#e3c66e" />
                 <div>
-                  <div className="text-[11px] tracking-[0.2em] uppercase font-bold text-brand-mustard-300">{t('faqCtaPhone')}</div>
-                  <div className="font-display text-[22px] font-medium mt-1">+48 506 141 730</div>
+                  <div className="text-[11px] tracking-[0.2em] uppercase font-bold text-brand-mustard-300">
+                    {t('faqCtaPhone')}
+                  </div>
+                  <div className="font-display text-[22px] max-[450px]:text-[12px] font-medium mt-1">
+                    +48 506 141 730
+                  </div>
                 </div>
                 <Icon name="arrow-up-right" size={18} color="rgba(255,252,245,0.65)" />
               </a>
@@ -127,8 +136,12 @@ export const FAQList = ({ groups }: FAQListProps) => {
               >
                 <Icon name="mail" size={20} color="#e3c66e" />
                 <div>
-                  <div className="text-[11px] tracking-[0.2em] uppercase font-bold text-brand-mustard-300">{t('faqCtaEmail')}</div>
-                  <div className="font-display text-lg font-medium mt-1">domkinapniu@gmail.com</div>
+                  <div className="text-[11px] tracking-[0.2em] uppercase font-bold text-brand-mustard-300">
+                    {t('faqCtaEmail')}
+                  </div>
+                  <div className="font-display text-lg max-[450px]:text-[10px] font-medium mt-1">
+                    domkinapniu@gmail.com
+                  </div>
                 </div>
                 <Icon name="arrow-up-right" size={18} color="rgba(255,252,245,0.65)" />
               </a>
@@ -184,7 +197,9 @@ function FAQItem({ a, idKey, open, q, setOpen }: FAQItemProps) {
           transitionTimingFunction: 'cubic-bezier(.16,1,.3,1)',
         }}
       >
-        <p className="m-0 pt-1 pb-7 max-w-[62ch] text-base leading-[1.7] text-brand-green-900/80">{a}</p>
+        <p className="m-0 pt-1 pb-7 max-w-[62ch] text-base leading-[1.7] text-brand-green-900/80">
+          {a}
+        </p>
       </div>
     </div>
   );

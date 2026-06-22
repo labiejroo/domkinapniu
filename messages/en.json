@@ -1,7 +1,7 @@
 {
   "siteName": "Domki Na Pniu",
   "siteSubtitle": "Cottages",
-  "siteTagline": "Premium holiday cottages · Jarosławiec, ul. Morska 11",
+  "siteTagline": "Premium holiday cottages by the sea · Jarosławiec, ul. Morska 11",
   "season": "Season 2026",
   "summerSeason": "Summer 2026",
   "openBookings": "open bookings →",
@@ -13,7 +13,7 @@
 
   "heroHeadline": "Your relaxation.",
   "heroHeadlineItalic": "by the sea.",
-  "heroDescription": "Twelve wooden cottages in a quiet, peaceful setting, 800 m from \"Dubai\" beach in Jarosławiec.\nWe welcome our guests personally. Comfortable relaxation close to the sea and nature.",
+  "heroDescription": "Twelve wooden holiday cottages by the sea, in a quiet, peaceful setting 800 m from \"Dubai\" beach in Jarosławiec.\nWe welcome our guests personally. Comfortable relaxation close to the sea and nature.",
   "heroStats": [
     { "value": "800 m", "label": "to the beach, forest path" },
     { "value": "52 m²", "label": "two-storey cottage with terrace" },
@@ -289,9 +289,9 @@
 
   "starsLabel": "{n} of 5",
 
-  "metaTitle": "Domki Na Pniu · Jarosławiec",
-  "metaDescription": "Twelve wooden holiday cottages 800 m from the beach in Jarosławiec. For 4–6 people. We welcome guests personally.",
-  "ogDescription": "Premium holiday cottages 800 m from the beach. Quiet. Natural. Personal.",
+  "metaTitle": "Domki Na Pniu — holiday cottages by the sea in Jarosławiec",
+  "metaDescription": "Holiday cottages by the sea in Jarosławiec, Poland — 12 wooden cottages, 800 m from the beach, for 4–6 guests. A quiet seaside getaway. We welcome guests personally.",
+  "ogDescription": "Holiday cottages by the sea in Jarosławiec, 800 m from the beach. Quiet. Natural. Personal.",
 
   "notFoundMetaTitle": "Page not found — Domki Na Pniu",
   "notFoundHeroCurrent": "404",
@@ -346,7 +346,7 @@
   "footerContactTitle": "Contact",
 
   "cennikMetaTitle": "Pricing — Domki Na Pniu, Jarosławiec",
-  "cennikMetaDesc": "Holiday cottage rates at Domki Na Pniu in Jarosławiec — 2026 season.",
+  "cennikMetaDesc": "Holiday cottage rates by the sea in Jarosławiec — 2026 season.",
   "cennikHeroCurrent": "Pricing",
   "cennikHeroEyebrow": "Season 2026 · Pricing",
   "cennikHeroTitle": "One quality.",
@@ -565,7 +565,7 @@
   ],
 
   "faqMetaTitle": "FAQ — Domki Na Pniu, Jarosławiec",
-  "faqMetaDesc": "Frequently asked questions about staying at Domki Na Pniu in Jarosławiec.",
+  "faqMetaDesc": "Frequently asked questions about staying at our holiday cottages by the sea in Jarosławiec.",
   "faqHeroCurrent": "FAQ",
   "faqHeroEyebrow": "FAQ · frequently asked questions",
   "faqHeroTitle": "Questions we usually",
@@ -661,7 +661,7 @@
   ],
 
   "galeriaMetaTitle": "Gallery — Domki Na Pniu, Jarosławiec",
-  "galeriaMetaDesc": "Photos of the cottages, interiors, beach and surroundings — Domki Na Pniu in Jarosławiec.",
+  "galeriaMetaDesc": "Photos of our holiday cottages by the sea, interiors, beach and surroundings in Jarosławiec.",
   "galeriaHeroCurrent": "Gallery",
   "galeriaHeroEyebrow": "Gallery",
   "galeriaHeroTitle": "What it",
@@ -674,100 +674,317 @@
   ],
   "galeriaPhotos": [
     {
-      "id": "g01",
-      "src": "/assets/hero-beach.jpg",
-      "cat": "Beach",
-      "title": "Dunes above 'Dubai'",
-      "cap": "Grass, sand, 800 m from the cottages"
-    },
-    {
-      "id": "g02",
-      "src": "/assets/photo-1.png",
-      "cat": "Interiors",
-      "title": "Living room by the fire",
-      "cap": "Wood, linen, warm light"
-    },
-    {
-      "id": "g03",
-      "src": "/assets/banner-coast.png",
-      "cat": "Beach",
-      "title": "Shore after the storm",
-      "cap": "October morning"
-    },
-    {
-      "id": "g04",
-      "src": "/assets/photo-3.png",
-      "cat": "Evenings",
-      "title": "Evening by the firepit",
-      "cap": "Firewood included"
-    },
-    {
-      "id": "g05",
-      "src": "/assets/photo-4.png",
-      "cat": "Forest",
-      "title": "Pine forest",
-      "cap": "Walk to the beach — 4 min"
-    },
-    {
-      "id": "g06",
-      "src": "/assets/photo-5.png",
+      "id": "g14",
+      "src": "/assets/0.jpg",
       "cat": "Cottages",
-      "title": "Private veranda",
-      "cap": "Terrace with a view of the trees"
+      "title": "Birches by the cottages",
+      "cap": "Greenery wrapping the grounds"
     },
     {
-      "id": "g07",
-      "src": "/assets/photo-6.png",
-      "cat": "Interiors",
+      "id": "g15",
+      "src": "/assets/14.jpg",
+      "cat": "Cottages",
+      "title": "Cottage entrance",
+      "cap": "Wooden façade, terrace, potted plants"
+    },
+    {
+      "id": "g16",
+      "src": "/assets/15.jpg",
+      "cat": "Cottages",
+      "title": "Grill on the lawn",
+      "cap": "Shared space between the cottages"
+    },
+    {
+      "id": "g17",
+      "src": "/assets/6.jpg",
+      "cat": "Cottages",
+      "title": "Living room with a loft",
+      "cap": "Open space, wooden stairs"
+    },
+    {
+      "id": "g18",
+      "src": "/assets/1.jpg",
+      "cat": "Cottages",
+      "title": "Living room in the evening",
+      "cap": "Warm light, green curtains"
+    },
+    {
+      "id": "g19",
+      "src": "/assets/7.jpg",
+      "cat": "Cottages",
+      "title": "Hallway and dining area",
+      "cap": "First impression after stepping inside"
+    },
+    {
+      "id": "g20",
+      "src": "/assets/8.jpg",
+      "cat": "Cottages",
+      "title": "Wood-slice detail",
+      "cap": "Handmade touches in the interior"
+    },
+    {
+      "id": "g21",
+      "src": "/assets/9.jpg",
+      "cat": "Cottages",
+      "title": "Kitchen",
+      "cap": "Induction hob, coffee machine, sink"
+    },
+    {
+      "id": "g22",
+      "src": "/assets/10.jpg",
+      "cat": "Cottages",
+      "title": "Table for four",
+      "cap": "Shared meals with the people you love"
+    },
+    {
+      "id": "g23",
+      "src": "/assets/11.jpg",
+      "cat": "Cottages",
+      "title": "Wood-slice coffee table",
+      "cap": "A detail from the living room"
+    },
+    {
+      "id": "g24",
+      "src": "/assets/3.jpg",
+      "cat": "Cottages",
+      "title": "Bathroom with shower",
+      "cap": "Stone-look tiles, black accents"
+    },
+    {
+      "id": "g25",
+      "src": "/assets/4.jpg",
+      "cat": "Cottages",
+      "title": "Bathroom — WC area",
+      "cap": "Functional and stylish"
+    },
+    {
+      "id": "g26",
+      "src": "/assets/5.jpg",
+      "cat": "Cottages",
+      "title": "Stairs to the upper floor",
+      "cap": "View from the loft to the hallway"
+    },
+    {
+      "id": "g27",
+      "src": "/assets/12.jpg",
+      "cat": "Cottages",
+      "title": "Children's bedroom",
+      "cap": "Two single beds"
+    },
+    {
+      "id": "g28",
+      "src": "/assets/13.jpg",
+      "cat": "Cottages",
+      "title": "Bedroom with a desk",
+      "cap": "A spot for a bit of work or study"
+    },
+    {
+      "id": "g29",
+      "src": "/assets/16.jpg",
+      "cat": "Cottages",
+      "title": "Flamingo bedding",
+      "cap": "A playful detail in the kids' room"
+    },
+    {
+      "id": "g30",
+      "src": "/assets/17.jpg",
+      "cat": "Cottages",
       "title": "Master bedroom",
-      "cap": "160 × 200 bed, linen bedding"
+      "cap": "160 × 200 bed, floral linen"
     },
     {
-      "id": "g08",
-      "src": "/assets/photo-2.png",
+      "id": "g31",
+      "src": "/assets/18.jpg",
       "cat": "Cottages",
-      "title": "Cottage no. 4",
-      "cap": "Larch, birches, midday"
+      "title": "Second bedroom",
+      "cap": "A comfortable spot to sleep"
     },
     {
-      "id": "g09",
-      "src": "/assets/banner-coast-2.png",
+      "id": "g32",
+      "src": "/assets/19.jpg",
+      "cat": "Cottages",
+      "title": "Bedroom in the evening",
+      "cap": "Cosy light from the bedside lamps"
+    },
+    {
+      "id": "g33",
+      "src": "/assets/a.jpg",
+      "cat": "Grounds",
+      "title": "Children's playground",
+      "cap": "Wooden climbing frame, swings, rope net"
+    },
+    {
+      "id": "g34",
+      "src": "/assets/b.jpg",
+      "cat": "Grounds",
+      "title": "Parking by the cottages",
+      "cap": "Parking spaces on site"
+    },
+    {
+      "id": "g35",
+      "src": "/assets/c.jpg",
+      "cat": "Grounds",
+      "title": "Beach volleyball court",
+      "cap": "Sand, a net, fun until evening"
+    },
+    {
+      "id": "g36",
+      "src": "/assets/d.jpg",
+      "cat": "Grounds",
+      "title": "Pool on the lawn",
+      "cap": "Above-ground pool with a ladder"
+    },
+    {
+      "id": "g37",
+      "src": "/assets/e.jpg",
+      "cat": "Grounds",
+      "title": "A swim in the pool",
+      "cap": "A moment to cool off on a hot day"
+    },
+    {
+      "id": "g38",
+      "src": "/assets/f.jpg",
+      "cat": "Grounds",
+      "title": "Grills and play area",
+      "cap": "Shared space between the cottages"
+    },
+    {
+      "id": "g39",
+      "src": "/assets/g.jpg",
+      "cat": "Grounds",
+      "title": "Terrace with loungers",
+      "cap": "Umbrellas, towels, afternoon sun"
+    },
+    {
+      "id": "g40",
+      "src": "/assets/h.jpg",
+      "cat": "Grounds",
+      "title": "Pool at sunset",
+      "cap": "Golden light, an inflatable flamingo"
+    },
+    {
+      "id": "g41",
+      "src": "/assets/i.jpg",
+      "cat": "Grounds",
+      "title": "Aerial view of the grounds",
+      "cap": "Volleyball court and pool"
+    },
+    {
+      "id": "g42",
+      "src": "/assets/j.jpg",
+      "cat": "Grounds",
+      "title": "Gazebo and lounge area",
+      "cap": "Kids' table, pool, sun loungers"
+    },
+    {
+      "id": "g43",
+      "src": "/assets/k.jpg",
+      "cat": "Grounds",
+      "title": "Green courtyard",
+      "cap": "Gazebo, pool, loungers under the birches"
+    },
+    {
+      "id": "g44",
+      "src": "/assets/l.jpg",
+      "cat": "Grounds",
+      "title": "Path along the cottages",
+      "cap": "Planters, chairs, a grill"
+    },
+    {
+      "id": "g45",
+      "src": "/assets/tarrace1.jpeg",
+      "cat": "Grounds",
+      "title": "Path to the terrace",
+      "cap": "Flower beds and a stone path"
+    },
+    {
+      "id": "g46",
+      "src": "/assets/tarrace2.jpeg",
+      "cat": "Grounds",
+      "title": "Private terrace",
+      "cap": "Table, rattan chairs, a parasol"
+    },
+    {
+      "id": "g47",
+      "src": "/assets/evenings1.jpg",
+      "cat": "Evenings",
+      "title": "Birches wrapped in fairy lights",
+      "cap": "Evening glow across the lawn"
+    },
+    {
+      "id": "g48",
+      "src": "/assets/evenings2.jpg",
+      "cat": "Evenings",
+      "title": "Path at night",
+      "cap": "Lit walkway between the cottages"
+    },
+    {
+      "id": "g49",
+      "src": "/assets/evenings3.jpg",
+      "cat": "Evenings",
+      "title": "Warm light inside",
+      "cap": "View from the loft into the living room"
+    },
+    {
+      "id": "g50",
+      "src": "/assets/evenings4.jpg",
+      "cat": "Evenings",
+      "title": "Cottages at dusk",
+      "cap": "Lanterns along the façade"
+    },
+    {
+      "id": "g51",
+      "src": "/assets/evenings5.jpg",
+      "cat": "Evenings",
+      "title": "Façade by night",
+      "cap": "Wood glowing in warm light"
+    },
+    {
+      "id": "g52",
+      "src": "/assets/gazebo1.jpg",
+      "cat": "Grounds",
+      "title": "Morning coffee in the gazebo",
+      "cap": "Rattan furniture, a view of the garden"
+    },
+    {
+      "id": "g53",
+      "src": "/assets/gazebo2.jpg",
+      "cat": "Grounds",
+      "title": "Wooden gazebo",
+      "cap": "Fairy lights, framed by hedges"
+    },
+    {
+      "id": "g54",
+      "src": "/assets/plaza1.jpg",
       "cat": "Beach",
-      "title": "Cliff at Jarosławiec",
-      "cap": "Walk along the coast"
+      "title": "The wide beach in Jarosławiec",
+      "cap": "Golden sand and a view of the breakwater"
     },
     {
-      "id": "g10",
-      "src": "/assets/photo-sea-grass.png",
-      "cat": "Details",
-      "title": "Dune grass",
-      "cap": "Little things of the area"
+      "id": "g55",
+      "src": "/assets/plaza2.jpg",
+      "cat": "Beach",
+      "title": "Fishing boats on the shore",
+      "cap": "Jarosławiec's fishing tradition"
     },
     {
-      "id": "g11",
-      "src": "/assets/photo-ig-7.png",
-      "cat": "Evenings",
-      "title": "Sunset from the terrace",
-      "cap": "August evening"
+      "id": "g56",
+      "src": "/assets/plaza3.jpg",
+      "cat": "Beach",
+      "title": "Way down to the beach",
+      "cap": "Wooden steps through the dunes"
     },
     {
-      "id": "g12",
-      "src": "/assets/photo-ig-8.png",
-      "cat": "Evenings",
-      "title": "After dinner",
-      "cap": "Lights, hammock, wine"
-    },
-    {
-      "id": "g13",
-      "src": "/assets/texture-pien.jpg",
-      "cat": "Details",
-      "title": "Larch wood grain",
-      "cap": "The material the cottages are made of"
+      "id": "g57",
+      "src": "/assets/plaza4.jpg",
+      "cat": "Beach",
+      "title": "Sunset over the sea",
+      "cap": "Boardwalk leading to the beach"
     }
   ],
 
   "regulaminMetaTitle": "Terms & Conditions — Domki Na Pniu, Jarosławiec",
-  "regulaminMetaDesc": "Terms and conditions for staying at Domki Na Pniu in Jarosławiec.",
+  "regulaminMetaDesc": "Terms and conditions for staying at our holiday cottages by the sea in Jarosławiec.",
   "regulaminHeroCurrent": "Terms",
   "regulaminHeroEyebrow": "Terms & Conditions · season 2026",
   "regulaminHeroTitle": "Rules written",

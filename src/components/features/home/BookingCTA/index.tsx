@@ -96,7 +96,7 @@ export const BookingCTA = () => {
       style={{ background: 'color-mix(in oklab, #865F36 32%, #000)' }}
     >
       <div className="absolute inset-0 opacity-[0.42]">
-        <Image src="/assets/texture-pien.jpg" alt="" fill aria-hidden className="object-cover"
+        <Image src="/assets/wood-texture.jpg" alt="" fill aria-hidden className="object-cover"
           style={{ filter: 'saturate(0.9) contrast(1.05) brightness(1.05)' }} sizes="100vw" />
       </div>
       <div className="absolute inset-0 opacity-60"

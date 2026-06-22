@@ -1,7 +1,7 @@
 {
   "siteName": "Domki Na Pniu",
   "siteSubtitle": "Ferienhäuser",
-  "siteTagline": "Premium Ferienhäuser · Jarosławiec, ul. Morska 11",
+  "siteTagline": "Premium Ferienhäuser am Meer · Jarosławiec, ul. Morska 11",
   "season": "Saison 2026",
   "summerSeason": "Sommer 2026",
   "openBookings": "offene Buchungen →",
@@ -13,7 +13,7 @@
 
   "heroHeadline": "Deine Entspannung.",
   "heroHeadlineItalic": "am Meer.",
-  "heroDescription": "Zwölf Holzferienhäuser in ruhiger, beschaulicher Lage, 800 m vom Strand „Dubai” in Jarosławiec.\nWir begrüßen unsere Gäste persönlich. Komfortable Erholung in der Nähe von Meer und Natur.",
+  "heroDescription": "Zwölf Holzferienhäuser am Meer, in ruhiger, beschaulicher Lage 800 m vom Strand „Dubai” in Jarosławiec.\nWir begrüßen unsere Gäste persönlich. Komfortable Erholung in der Nähe von Meer und Natur.",
   "heroStats": [
     { "value": "800 m", "label": "zum Strand, durch den Wald" },
     { "value": "52 m²", "label": "zweistöckiges Haus mit Terrasse" },
@@ -297,9 +297,9 @@
 
   "starsLabel": "{n} von 5",
 
-  "metaTitle": "Domki Na Pniu · Jarosławiec",
-  "metaDescription": "Zwölf Holzferienhäuser 800 m vom Strand in Jarosławiec. Für 4–6 Personen. Wir begrüßen unsere Gäste persönlich.",
-  "ogDescription": "Premium Ferienhäuser 800 m vom Strand. Ruhig. Natürlich. Persönlich.",
+  "metaTitle": "Domki Na Pniu — Ferienhäuser am Meer in Jarosławiec",
+  "metaDescription": "Ferienhäuser am Meer in Jarosławiec, Polen — 12 Holzferienhäuser, 800 m vom Strand, für 4–6 Personen. Ruhiger Urlaub am Meer. Wir begrüßen unsere Gäste persönlich.",
+  "ogDescription": "Ferienhäuser am Meer in Jarosławiec, 800 m vom Strand. Ruhig. Natürlich. Persönlich.",
 
   "notFoundMetaTitle": "Seite nicht gefunden — Domki Na Pniu",
   "notFoundHeroCurrent": "404",
@@ -354,7 +354,7 @@
   "footerContactTitle": "Kontakt",
 
   "cennikMetaTitle": "Preise — Domki Na Pniu, Jarosławiec",
-  "cennikMetaDesc": "Preisliste für Ferienhäuser Domki Na Pniu in Jarosławiec — Saison 2026.",
+  "cennikMetaDesc": "Preisliste für Ferienhäuser am Meer in Jarosławiec — Saison 2026.",
   "cennikHeroCurrent": "Preise",
   "cennikHeroEyebrow": "Saison 2026 · Preise",
   "cennikHeroTitle": "Eine Qualität.",
@@ -577,7 +577,7 @@
   ],
 
   "faqMetaTitle": "FAQ — Domki Na Pniu, Jarosławiec",
-  "faqMetaDesc": "Häufig gestellte Fragen zu einem Aufenthalt in den Domki Na Pniu in Jarosławiec.",
+  "faqMetaDesc": "Häufig gestellte Fragen zum Aufenthalt in unseren Ferienhäusern am Meer in Jarosławiec.",
   "faqHeroCurrent": "FAQ",
   "faqHeroEyebrow": "FAQ · häufig gestellte Fragen",
   "faqHeroTitle": "Fragen, die wir meistens",
@@ -673,7 +673,7 @@
   ],
 
   "galeriaMetaTitle": "Galerie — Domki Na Pniu, Jarosławiec",
-  "galeriaMetaDesc": "Fotos der Häuser, Innenräume, des Strandes und der Umgebung — Domki Na Pniu in Jarosławiec.",
+  "galeriaMetaDesc": "Fotos unserer Ferienhäuser am Meer, der Innenräume, des Strandes und der Umgebung in Jarosławiec.",
   "galeriaHeroCurrent": "Galerie",
   "galeriaHeroEyebrow": "Galerie",
   "galeriaHeroTitle": "So sieht es",
@@ -686,100 +686,317 @@
   ],
   "galeriaPhotos": [
     {
-      "id": "g01",
-      "src": "/assets/hero-beach.jpg",
-      "cat": "Strand",
-      "title": "Dünen über 'Dubai'",
-      "cap": "Gras, Sand, 800 m von den Häusern"
-    },
-    {
-      "id": "g02",
-      "src": "/assets/photo-1.png",
-      "cat": "Innenräume",
-      "title": "Wohnzimmer am Kamin",
-      "cap": "Holz, Leinen, warmes Licht"
-    },
-    {
-      "id": "g03",
-      "src": "/assets/banner-coast.png",
-      "cat": "Strand",
-      "title": "Küste nach dem Sturm",
-      "cap": "Oktobermorgen"
-    },
-    {
-      "id": "g04",
-      "src": "/assets/photo-3.png",
-      "cat": "Abende",
-      "title": "Abend an der Feuerstelle",
-      "cap": "Brennholz inklusive"
-    },
-    {
-      "id": "g05",
-      "src": "/assets/photo-4.png",
-      "cat": "Wald",
-      "title": "Kiefernwald",
-      "cap": "Spaziergang zum Strand — 4 Min."
-    },
-    {
-      "id": "g06",
-      "src": "/assets/photo-5.png",
+      "id": "g14",
+      "src": "/assets/0.jpg",
       "cat": "Häuser",
-      "title": "Private Veranda",
-      "cap": "Terrasse mit Blick auf die Bäume"
+      "title": "Birken vor den Häusern",
+      "cap": "Grün, das die Anlage umhüllt"
     },
     {
-      "id": "g07",
-      "src": "/assets/photo-6.png",
-      "cat": "Innenräume",
+      "id": "g15",
+      "src": "/assets/14.jpg",
+      "cat": "Häuser",
+      "title": "Eingang zum Haus",
+      "cap": "Holzfassade, Terrasse, Pflanzkübel"
+    },
+    {
+      "id": "g16",
+      "src": "/assets/15.jpg",
+      "cat": "Häuser",
+      "title": "Grill auf der Wiese",
+      "cap": "Gemeinsamer Bereich zwischen den Häusern"
+    },
+    {
+      "id": "g17",
+      "src": "/assets/6.jpg",
+      "cat": "Häuser",
+      "title": "Wohnzimmer mit Empore",
+      "cap": "Offener Raum, Holztreppe"
+    },
+    {
+      "id": "g18",
+      "src": "/assets/1.jpg",
+      "cat": "Häuser",
+      "title": "Wohnzimmer am Abend",
+      "cap": "Warmes Licht, grüne Vorhänge"
+    },
+    {
+      "id": "g19",
+      "src": "/assets/7.jpg",
+      "cat": "Häuser",
+      "title": "Flur und Essbereich",
+      "cap": "Erster Eindruck nach dem Eintreten"
+    },
+    {
+      "id": "g20",
+      "src": "/assets/8.jpg",
+      "cat": "Häuser",
+      "title": "Detail aus einer Holzscheibe",
+      "cap": "Handgemachte Akzente im Interieur"
+    },
+    {
+      "id": "g21",
+      "src": "/assets/9.jpg",
+      "cat": "Häuser",
+      "title": "Küche",
+      "cap": "Induktionskochfeld, Kaffeemaschine, Spüle"
+    },
+    {
+      "id": "g22",
+      "src": "/assets/10.jpg",
+      "cat": "Häuser",
+      "title": "Tisch für vier",
+      "cap": "Gemeinsame Mahlzeiten mit der Familie"
+    },
+    {
+      "id": "g23",
+      "src": "/assets/11.jpg",
+      "cat": "Häuser",
+      "title": "Couchtisch aus Holzscheibe",
+      "cap": "Ein Detail aus dem Wohnzimmer"
+    },
+    {
+      "id": "g24",
+      "src": "/assets/3.jpg",
+      "cat": "Häuser",
+      "title": "Badezimmer mit Dusche",
+      "cap": "Steinoptik-Fliesen, schwarze Akzente"
+    },
+    {
+      "id": "g25",
+      "src": "/assets/4.jpg",
+      "cat": "Häuser",
+      "title": "Badezimmer — WC-Bereich",
+      "cap": "Funktional und stilvoll"
+    },
+    {
+      "id": "g26",
+      "src": "/assets/5.jpg",
+      "cat": "Häuser",
+      "title": "Treppe ins Obergeschoss",
+      "cap": "Blick von der Empore in den Flur"
+    },
+    {
+      "id": "g27",
+      "src": "/assets/12.jpg",
+      "cat": "Häuser",
+      "title": "Kinderzimmer",
+      "cap": "Zwei Einzelbetten"
+    },
+    {
+      "id": "g28",
+      "src": "/assets/13.jpg",
+      "cat": "Häuser",
+      "title": "Schlafzimmer mit Schreibtisch",
+      "cap": "Ein Platz für etwas Arbeit oder Lernen"
+    },
+    {
+      "id": "g29",
+      "src": "/assets/16.jpg",
+      "cat": "Häuser",
+      "title": "Bettwäsche mit Flamingos",
+      "cap": "Ein verspieltes Detail im Kinderzimmer"
+    },
+    {
+      "id": "g30",
+      "src": "/assets/17.jpg",
+      "cat": "Häuser",
       "title": "Hauptschlafzimmer",
-      "cap": "Bett 160 × 200, Leinenbettwäsche"
+      "cap": "Bett 160 × 200, Blumenbettwäsche"
     },
     {
-      "id": "g08",
-      "src": "/assets/photo-2.png",
+      "id": "g31",
+      "src": "/assets/18.jpg",
       "cat": "Häuser",
-      "title": "Haus Nr. 4",
-      "cap": "Lärche, Birken, Mittag"
+      "title": "Zweites Schlafzimmer",
+      "cap": "Ein gemütlicher Platz zum Schlafen"
     },
     {
-      "id": "g09",
-      "src": "/assets/banner-coast-2.png",
+      "id": "g32",
+      "src": "/assets/19.jpg",
+      "cat": "Häuser",
+      "title": "Schlafzimmer am Abend",
+      "cap": "Gemütliches Licht der Nachttischlampen"
+    },
+    {
+      "id": "g33",
+      "src": "/assets/a.jpg",
+      "cat": "Gelände",
+      "title": "Kinderspielplatz",
+      "cap": "Holzklettergerüst, Schaukeln, Kletternetz"
+    },
+    {
+      "id": "g34",
+      "src": "/assets/b.jpg",
+      "cat": "Gelände",
+      "title": "Parkplatz bei den Häusern",
+      "cap": "Parkplätze auf dem Gelände"
+    },
+    {
+      "id": "g35",
+      "src": "/assets/c.jpg",
+      "cat": "Gelände",
+      "title": "Beachvolleyballfeld",
+      "cap": "Sand, Netz, Spaß bis zum Abend"
+    },
+    {
+      "id": "g36",
+      "src": "/assets/d.jpg",
+      "cat": "Gelände",
+      "title": "Pool auf der Wiese",
+      "cap": "Aufstellpool mit Leiter"
+    },
+    {
+      "id": "g37",
+      "src": "/assets/e.jpg",
+      "cat": "Gelände",
+      "title": "Abkühlung im Pool",
+      "cap": "Ein Moment der Erholung an einem heißen Tag"
+    },
+    {
+      "id": "g38",
+      "src": "/assets/f.jpg",
+      "cat": "Gelände",
+      "title": "Grillplatz und Spielbereich",
+      "cap": "Gemeinsamer Bereich zwischen den Häusern"
+    },
+    {
+      "id": "g39",
+      "src": "/assets/g.jpg",
+      "cat": "Gelände",
+      "title": "Terrasse mit Liegen",
+      "cap": "Sonnenschirme, Handtücher, Nachmittagssonne"
+    },
+    {
+      "id": "g40",
+      "src": "/assets/h.jpg",
+      "cat": "Gelände",
+      "title": "Pool bei Sonnenuntergang",
+      "cap": "Goldenes Licht, ein aufblasbarer Flamingo"
+    },
+    {
+      "id": "g41",
+      "src": "/assets/i.jpg",
+      "cat": "Gelände",
+      "title": "Luftaufnahme des Geländes",
+      "cap": "Volleyballfeld und Pool"
+    },
+    {
+      "id": "g42",
+      "src": "/assets/j.jpg",
+      "cat": "Gelände",
+      "title": "Pavillon und Loungebereich",
+      "cap": "Kindertisch, Pool, Liegestühle"
+    },
+    {
+      "id": "g43",
+      "src": "/assets/k.jpg",
+      "cat": "Gelände",
+      "title": "Grüner Innenhof",
+      "cap": "Pavillon, Pool, Liegen unter den Birken"
+    },
+    {
+      "id": "g44",
+      "src": "/assets/l.jpg",
+      "cat": "Gelände",
+      "title": "Weg entlang der Häuser",
+      "cap": "Pflanzkübel, Stühle, Grill"
+    },
+    {
+      "id": "g45",
+      "src": "/assets/tarrace1.jpeg",
+      "cat": "Gelände",
+      "title": "Weg zur Terrasse",
+      "cap": "Blumenbeete und ein Steinweg"
+    },
+    {
+      "id": "g46",
+      "src": "/assets/tarrace2.jpeg",
+      "cat": "Gelände",
+      "title": "Private Terrasse",
+      "cap": "Tisch, Rattanstühle, Sonnenschirm"
+    },
+    {
+      "id": "g47",
+      "src": "/assets/evenings1.jpg",
+      "cat": "Abende",
+      "title": "Birken mit Lichterketten",
+      "cap": "Abendlicher Glanz auf der Wiese"
+    },
+    {
+      "id": "g48",
+      "src": "/assets/evenings2.jpg",
+      "cat": "Abende",
+      "title": "Weg bei Nacht",
+      "cap": "Beleuchteter Pfad zwischen den Häusern"
+    },
+    {
+      "id": "g49",
+      "src": "/assets/evenings3.jpg",
+      "cat": "Abende",
+      "title": "Warmes Licht im Inneren",
+      "cap": "Blick von der Empore ins Wohnzimmer"
+    },
+    {
+      "id": "g50",
+      "src": "/assets/evenings4.jpg",
+      "cat": "Abende",
+      "title": "Häuser in der Dämmerung",
+      "cap": "Laternen entlang der Fassade"
+    },
+    {
+      "id": "g51",
+      "src": "/assets/evenings5.jpg",
+      "cat": "Abende",
+      "title": "Fassade bei Nacht",
+      "cap": "Holz im warmen Lichterschein"
+    },
+    {
+      "id": "g52",
+      "src": "/assets/gazebo1.jpg",
+      "cat": "Gelände",
+      "title": "Morgenkaffee im Pavillon",
+      "cap": "Rattanmöbel mit Blick in den Garten"
+    },
+    {
+      "id": "g53",
+      "src": "/assets/gazebo2.jpg",
+      "cat": "Gelände",
+      "title": "Hölzerner Pavillon",
+      "cap": "Lichterketten, umrahmt von Hecken"
+    },
+    {
+      "id": "g54",
+      "src": "/assets/plaza1.jpg",
       "cat": "Strand",
-      "title": "Steilküste bei Jarosławiec",
-      "cap": "Spaziergang entlang der Küste"
+      "title": "Der weite Strand in Jarosławiec",
+      "cap": "Goldener Sand und Blick auf die Mole"
     },
     {
-      "id": "g10",
-      "src": "/assets/photo-sea-grass.png",
-      "cat": "Details",
-      "title": "Dünengras",
-      "cap": "Kleinigkeiten der Umgebung"
+      "id": "g55",
+      "src": "/assets/plaza2.jpg",
+      "cat": "Strand",
+      "title": "Fischerboote am Strand",
+      "cap": "Die Fischertradition von Jarosławiec"
     },
     {
-      "id": "g11",
-      "src": "/assets/photo-ig-7.png",
-      "cat": "Abende",
-      "title": "Sonnenuntergang von der Terrasse",
-      "cap": "Augustabend"
+      "id": "g56",
+      "src": "/assets/plaza3.jpg",
+      "cat": "Strand",
+      "title": "Abstieg zum Strand",
+      "cap": "Holzstufen durch die Dünen"
     },
     {
-      "id": "g12",
-      "src": "/assets/photo-ig-8.png",
-      "cat": "Abende",
-      "title": "Nach dem Abendessen",
-      "cap": "Lichter, Hängematte, Wein"
-    },
-    {
-      "id": "g13",
-      "src": "/assets/texture-pien.jpg",
-      "cat": "Details",
-      "title": "Lärchenholzmaserung",
-      "cap": "Das Material, aus dem die Häuser gebaut sind"
+      "id": "g57",
+      "src": "/assets/plaza4.jpg",
+      "cat": "Strand",
+      "title": "Sonnenuntergang über dem Meer",
+      "cap": "Bohlenweg zum Strand"
     }
   ],
 
   "regulaminMetaTitle": "AGB — Domki Na Pniu, Jarosławiec",
-  "regulaminMetaDesc": "Allgemeine Geschäftsbedingungen für einen Aufenthalt in den Domki Na Pniu in Jarosławiec.",
+  "regulaminMetaDesc": "Allgemeine Geschäftsbedingungen für den Aufenthalt in unseren Ferienhäusern am Meer in Jarosławiec.",
   "regulaminHeroCurrent": "AGB",
   "regulaminHeroEyebrow": "AGB · Saison 2026",
   "regulaminHeroTitle": "Regeln geschrieben",

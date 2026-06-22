@@ -2,7 +2,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { routing } from '@/i18n/routing';
-import { buildPageMetadata } from '@/lib/seo';
+import { buildLodgingBusinessJsonLd, buildPageMetadata } from '@/lib/seo';
 import { TopBar } from '@/components/layout/TopBar';
 import { NavBar } from '@/components/layout/NavBar';
 import { Footer } from '@/components/features/home/Footer';
@@ -39,9 +39,14 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
   const messages = await getMessages();
   const t = await getTranslations({ locale });
+  const lodgingJsonLd = buildLodgingBusinessJsonLd();
 
   return (
     <NextIntlClientProvider messages={messages}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(lodgingJsonLd) }}
+      />
       <div className="font-body bg-brand-sunlight text-brand-green-900 min-h-screen">
         <a
           href="#main-content"

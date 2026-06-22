@@ -13,7 +13,7 @@ export const BookingCTA = async () => {
     >
       <div className="absolute inset-0 opacity-40">
         <Image
-          src="/assets/texture-pien.jpg"
+          src="/assets/wood-texture.jpg"
           alt=""
           fill
           className="object-cover"

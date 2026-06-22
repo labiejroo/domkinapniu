@@ -25,7 +25,7 @@ export const Testimonial = () => {
   const review = reviews[idx];
 
   return (
-    <section className="bg-brand-eggshell min-h-[660px] py-24 md:py-32 lg:py-20 px-5 md:px-8 lg:px-16 flex flex-col">
+    <section className="bg-brand-eggshell min-h-[600px] pt-24 md:pt-32 lg:pt-20 pb-8 px-5 md:px-8 lg:px-16 flex flex-col">
       <div className="max-w-[960px] w-full mx-auto flex flex-col flex-1">
         <div className="relative inline-flex items-center justify-center w-full">
           <span
@@ -35,10 +35,12 @@ export const Testimonial = () => {
           >
             "
           </span>
-          <SmallCap className="text-mustard-700 text-center relative z-10">{t('testimonialEyebrow')}</SmallCap>
+          <SmallCap className="text-mustard-700 text-center relative z-10">
+            {t('testimonialEyebrow')}
+          </SmallCap>
         </div>
 
-        <div className="mt-8 mb-10">
+        <div className="mt-8 mb-10 min-h-[100px]">
           <p
             className="font-serif text-green-900 italic font-normal leading-snug text-center"
             style={{ fontSize: getQuoteFontSize(review.quote.length) }}
@@ -53,7 +55,7 @@ export const Testimonial = () => {
           <div className="text-[13px] text-green-900/55">{review.date}</div>
         </div>
 
-        <div className="mt-auto pt-10 md:pt-12 flex justify-center gap-3 items-center">
+        <div className="mt-auto pt-2 md:mt-0 md:pt-12 flex justify-center gap-3 items-center">
           <button
             type="button"
             aria-label={t('prevReview')}

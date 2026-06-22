@@ -1,7 +1,7 @@
 {
   "siteName": "Domki Na Pniu",
   "siteSubtitle": "Domki",
-  "siteTagline": "Premium domki letniskowe · Jarosławiec, ul. Morska 11",
+  "siteTagline": "Premium domki letniskowe nad morzem · Jarosławiec, ul. Morska 11",
   "season": "Sezon 2026",
   "summerSeason": "Lato 2026",
   "openBookings": "otwarte rezerwacje →",
@@ -13,7 +13,7 @@
 
   "heroHeadline": "Twój relaks.",
   "heroHeadlineItalic": "nad morzem.",
-  "heroDescription": "Dwanaście drewnianych domków w cichej, spokojnej okolicy, 800 m od plaży „Dubaj” w Jarosławcu.\nWitamy gości osobiście. Komfortowy wypoczynek blisko morza i natury.",
+  "heroDescription": "Dwanaście drewnianych domków letniskowych nad morzem, w cichej, spokojnej okolicy 800 m od plaży „Dubaj” w Jarosławcu.\nWitamy gości osobiście. Komfortowy wypoczynek blisko morza i natury.",
   "heroStats": [
     { "value": "800 m", "label": "do plaży oraz promenady" },
     { "value": "52 m²", "label": "piętrowego domku z tarasem" },
@@ -289,9 +289,9 @@
 
   "starsLabel": "{n} z 5",
 
-  "metaTitle": "Domki Na Pniu · Jarosławiec",
-  "metaDescription": "Dwanaście drewnianych domków letniskowych 800 m od plaży w Jarosławcu. Dla 4–6 osób. Witamy gości osobiście.",
-  "ogDescription": "Premium domki letniskowe 800 m od plaży. Cicho. Naturalnie. Osobiście.",
+  "metaTitle": "Domki Na Pniu — domki letniskowe nad morzem w Jarosławcu",
+  "metaDescription": "Domki letniskowe nad morzem w Jarosławcu — 12 drewnianych domków, 800 m od plaży, dla 4–6 osób. Wczasy nad morzem w spokojnej okolicy. Witamy gości osobiście.",
+  "ogDescription": "Domki letniskowe nad morzem w Jarosławcu, 800 m od plaży. Cicho. Naturalnie. Osobiście.",
 
   "notFoundMetaTitle": "Strona nie znaleziona — Domki Na Pniu",
   "notFoundHeroCurrent": "404",
@@ -346,7 +346,7 @@
   "footerContactTitle": "Kontakt",
 
   "cennikMetaTitle": "Cennik — Domki Na Pniu, Jarosławiec",
-  "cennikMetaDesc": "Cennik domków letniskowych Na Pniu w Jarosławcu — sezon 2026.",
+  "cennikMetaDesc": "Cennik domków letniskowych nad morzem w Jarosławcu — sezon 2026.",
   "cennikHeroCurrent": "Cennik",
   "cennikHeroEyebrow": "Sezon 2026 · Cennik",
   "cennikHeroTitle": "Jedna jakość.",
@@ -569,7 +569,7 @@
   ],
 
   "faqMetaTitle": "FAQ — Domki Na Pniu, Jarosławiec",
-  "faqMetaDesc": "Najczęściej zadawane pytania dotyczące pobytu w Domkach Na Pniu w Jarosławcu.",
+  "faqMetaDesc": "Najczęściej zadawane pytania dotyczące pobytu w domkach letniskowych nad morzem w Jarosławcu.",
   "faqHeroCurrent": "FAQ",
   "faqHeroEyebrow": "",
   "faqHeroTitle": "Pytania, na które",
@@ -665,7 +665,7 @@
   ],
 
   "galeriaMetaTitle": "Galeria — Domki Na Pniu, Jarosławiec",
-  "galeriaMetaDesc": "Zdjęcia domków, wnętrz, plaży i okolicy — Domki Na Pniu w Jarosławcu.",
+  "galeriaMetaDesc": "Zdjęcia domków letniskowych nad morzem, wnętrz, plaży i okolicy w Jarosławcu.",
   "galeriaHeroCurrent": "Galeria",
   "galeriaHeroEyebrow": "Galeria",
   "galeriaHeroTitle": "Tak wygląda",
@@ -678,100 +678,317 @@
   ],
   "galeriaPhotos": [
     {
-      "id": "g01",
-      "src": "/assets/hero-beach.jpg",
-      "cat": "Plaża",
-      "title": "Wydmy nad „Dubajem”",
-      "cap": "Trawa, piasek, 800 m od domków"
-    },
-    {
-      "id": "g02",
-      "src": "/assets/photo-1.png",
+      "id": "g14",
+      "src": "/assets/0.jpg",
       "cat": "Domki",
-      "title": "Salon przy kominku",
-      "cap": "Drewno, len, ciepłe światło"
+      "title": "Brzozy przed domkami",
+      "cap": "Zieleń, która otula osiedle"
     },
     {
-      "id": "g03",
-      "src": "/assets/banner-coast.png",
-      "cat": "Plaża",
-      "title": "Brzeg po sztormie",
-      "cap": "Październikowy poranek"
-    },
-    {
-      "id": "g04",
-      "src": "/assets/photo-3.png",
-      "cat": "Wieczory",
-      "title": "Wieczór przy palenisku",
-      "cap": "Drewno wliczone w cenę"
-    },
-    {
-      "id": "g05",
-      "src": "/assets/photo-4.png",
-      "cat": "Posesja",
-      "title": "Sosnowy las",
-      "cap": "Spacer do plaży — 4 min"
-    },
-    {
-      "id": "g06",
-      "src": "/assets/photo-5.png",
+      "id": "g15",
+      "src": "/assets/14.jpg",
       "cat": "Domki",
-      "title": "Prywatna weranda",
-      "cap": "Taras z widokiem na drzewa"
+      "title": "Wejście do domku",
+      "cap": "Drewniana elewacja, taras, donice"
     },
     {
-      "id": "g07",
-      "src": "/assets/photo-6.png",
+      "id": "g16",
+      "src": "/assets/15.jpg",
+      "cat": "Domki",
+      "title": "Grill na trawie",
+      "cap": "Wspólna przestrzeń między domkami"
+    },
+    {
+      "id": "g17",
+      "src": "/assets/6.jpg",
+      "cat": "Domki",
+      "title": "Salon z antresolą",
+      "cap": "Otwarta przestrzeń, drewniane schody"
+    },
+    {
+      "id": "g18",
+      "src": "/assets/1.jpg",
+      "cat": "Domki",
+      "title": "Salon wieczorową porą",
+      "cap": "Ciepłe światło, zielone zasłony"
+    },
+    {
+      "id": "g19",
+      "src": "/assets/7.jpg",
+      "cat": "Domki",
+      "title": "Hol i jadalnia",
+      "cap": "Pierwsze wejrzenie po wejściu do domku"
+    },
+    {
+      "id": "g20",
+      "src": "/assets/8.jpg",
+      "cat": "Domki",
+      "title": "Detal ze słoja drewna",
+      "cap": "Rękodzieło w wystroju wnętrza"
+    },
+    {
+      "id": "g21",
+      "src": "/assets/9.jpg",
+      "cat": "Domki",
+      "title": "Kuchnia",
+      "cap": "Płyta indukcyjna, ekspres, zlew"
+    },
+    {
+      "id": "g22",
+      "src": "/assets/10.jpg",
+      "cat": "Domki",
+      "title": "Stół na cztery osoby",
+      "cap": "Wspólne posiłki w gronie bliskich"
+    },
+    {
+      "id": "g23",
+      "src": "/assets/11.jpg",
+      "cat": "Domki",
+      "title": "Stolik z plastra drewna",
+      "cap": "Detal salonowej przestrzeni"
+    },
+    {
+      "id": "g24",
+      "src": "/assets/3.jpg",
+      "cat": "Domki",
+      "title": "Łazienka z prysznicem",
+      "cap": "Kamienna mozaika, czarne detale"
+    },
+    {
+      "id": "g25",
+      "src": "/assets/4.jpg",
+      "cat": "Domki",
+      "title": "Łazienka — strefa WC",
+      "cap": "Funkcjonalnie i stylowo"
+    },
+    {
+      "id": "g26",
+      "src": "/assets/5.jpg",
+      "cat": "Domki",
+      "title": "Schody na piętro",
+      "cap": "Widok z antresoli na hol"
+    },
+    {
+      "id": "g27",
+      "src": "/assets/12.jpg",
+      "cat": "Domki",
+      "title": "Sypialnia dziecięca",
+      "cap": "Dwa łóżka jednoosobowe"
+    },
+    {
+      "id": "g28",
+      "src": "/assets/13.jpg",
+      "cat": "Domki",
+      "title": "Sypialnia z biurkiem",
+      "cap": "Miejsce na chwilę pracy lub nauki"
+    },
+    {
+      "id": "g29",
+      "src": "/assets/16.jpg",
+      "cat": "Domki",
+      "title": "Pościel we flamingi",
+      "cap": "Wesoły detal pokoju dziecięcego"
+    },
+    {
+      "id": "g30",
+      "src": "/assets/17.jpg",
       "cat": "Domki",
       "title": "Sypialnia główna",
-      "cap": "Łóżko 160 × 200, lniana pościel"
+      "cap": "Łóżko 160 × 200, kwiatowa pościel"
     },
     {
-      "id": "g08",
-      "src": "/assets/photo-2.png",
+      "id": "g31",
+      "src": "/assets/18.jpg",
       "cat": "Domki",
-      "title": "Domek nr 4",
-      "cap": "Modrzew, brzozy, południe"
+      "title": "Druga sypialnia",
+      "cap": "Wygodne miejsce na nocleg"
     },
     {
-      "id": "g09",
-      "src": "/assets/banner-coast-2.png",
-      "cat": "Plaża",
-      "title": "Klif w Jarosławcu",
-      "cap": "Spacer wzdłuż wybrzeża"
-    },
-    {
-      "id": "g10",
-      "src": "/assets/photo-sea-grass.png",
-      "cat": "Plaża",
-      "title": "Wydmowa trawa",
-      "cap": "Drobiazgi okolicy"
-    },
-    {
-      "id": "g11",
-      "src": "/assets/photo-ig-7.png",
-      "cat": "Wieczory",
-      "title": "Zachód z tarasu",
-      "cap": "Sierpniowy wieczór"
-    },
-    {
-      "id": "g12",
-      "src": "/assets/photo-ig-8.png",
-      "cat": "Wieczory",
-      "title": "Po kolacji",
-      "cap": "Lampki, hamak, wino"
-    },
-    {
-      "id": "g13",
-      "src": "/assets/texture-pien.jpg",
+      "id": "g32",
+      "src": "/assets/19.jpg",
       "cat": "Domki",
-      "title": "Słoje modrzewia",
-      "cap": "Materiał, z którego są domki"
+      "title": "Sypialnia wieczorem",
+      "cap": "Klimatyczne światło lampek nocnych"
+    },
+    {
+      "id": "g33",
+      "src": "/assets/a.jpg",
+      "cat": "Posesja",
+      "title": "Plac zabaw dla dzieci",
+      "cap": "Drewniana wspinaczka, huśtawki, linarium"
+    },
+    {
+      "id": "g34",
+      "src": "/assets/b.jpg",
+      "cat": "Posesja",
+      "title": "Parking przy domkach",
+      "cap": "Miejsca parkingowe na terenie ośrodka"
+    },
+    {
+      "id": "g35",
+      "src": "/assets/c.jpg",
+      "cat": "Posesja",
+      "title": "Boisko do siatkówki plażowej",
+      "cap": "Piasek, siatka, zabawa do wieczora"
+    },
+    {
+      "id": "g36",
+      "src": "/assets/d.jpg",
+      "cat": "Posesja",
+      "title": "Basen na trawniku",
+      "cap": "Rozkładany basen z drabinką"
+    },
+    {
+      "id": "g37",
+      "src": "/assets/e.jpg",
+      "cat": "Posesja",
+      "title": "Kąpiel w basenie",
+      "cap": "Chwila ochłody w gorący dzień"
+    },
+    {
+      "id": "g38",
+      "src": "/assets/f.jpg",
+      "cat": "Posesja",
+      "title": "Grille i strefa rekreacji",
+      "cap": "Wspólna przestrzeń między domkami"
+    },
+    {
+      "id": "g39",
+      "src": "/assets/g.jpg",
+      "cat": "Posesja",
+      "title": "Taras z leżakami",
+      "cap": "Parasole, ręczniki, popołudniowe słońce"
+    },
+    {
+      "id": "g40",
+      "src": "/assets/h.jpg",
+      "cat": "Posesja",
+      "title": "Basen o zachodzie słońca",
+      "cap": "Złote światło, dmuchany flaming"
+    },
+    {
+      "id": "g41",
+      "src": "/assets/i.jpg",
+      "cat": "Posesja",
+      "title": "Widok z góry na teren",
+      "cap": "Boisko do siatkówki i basen"
+    },
+    {
+      "id": "g42",
+      "src": "/assets/j.jpg",
+      "cat": "Posesja",
+      "title": "Altana i strefa relaksu",
+      "cap": "Stolik dla dzieci, basen, leżaki"
+    },
+    {
+      "id": "g43",
+      "src": "/assets/k.jpg",
+      "cat": "Posesja",
+      "title": "Zielone patio",
+      "cap": "Altana, basen, leżaki pod brzozami"
+    },
+    {
+      "id": "g44",
+      "src": "/assets/l.jpg",
+      "cat": "Posesja",
+      "title": "Alejka wzdłuż domków",
+      "cap": "Donice, krzesła, grill"
+    },
+    {
+      "id": "g45",
+      "src": "/assets/tarrace1.jpeg",
+      "cat": "Posesja",
+      "title": "Ścieżka do tarasu",
+      "cap": "Rabaty kwiatowe i kamienna alejka"
+    },
+    {
+      "id": "g46",
+      "src": "/assets/tarrace2.jpeg",
+      "cat": "Posesja",
+      "title": "Prywatny taras",
+      "cap": "Stół, krzesła rattanowe, parasol"
+    },
+    {
+      "id": "g47",
+      "src": "/assets/evenings1.jpg",
+      "cat": "Wieczory",
+      "title": "Brzozy w lampkach",
+      "cap": "Wieczorny blask na trawniku"
+    },
+    {
+      "id": "g48",
+      "src": "/assets/evenings2.jpg",
+      "cat": "Wieczory",
+      "title": "Alejka nocą",
+      "cap": "Oświetlona ścieżka między domkami"
+    },
+    {
+      "id": "g49",
+      "src": "/assets/evenings3.jpg",
+      "cat": "Wieczory",
+      "title": "Ciepłe światło wewnątrz",
+      "cap": "Widok z antresoli na salon"
+    },
+    {
+      "id": "g50",
+      "src": "/assets/evenings4.jpg",
+      "cat": "Wieczory",
+      "title": "Domki o zmierzchu",
+      "cap": "Latarnie wzdłuż elewacji"
+    },
+    {
+      "id": "g51",
+      "src": "/assets/evenings5.jpg",
+      "cat": "Wieczory",
+      "title": "Nocna elewacja",
+      "cap": "Drewno rozświetlone ciepłym blaskiem"
+    },
+    {
+      "id": "g52",
+      "src": "/assets/gazebo1.jpg",
+      "cat": "Posesja",
+      "title": "Poranna kawa w altanie",
+      "cap": "Wiklinowe meble, widok na ogród"
+    },
+    {
+      "id": "g53",
+      "src": "/assets/gazebo2.jpg",
+      "cat": "Posesja",
+      "title": "Drewniana altana",
+      "cap": "Girlanda światełek, zielona obudowa z żywopłotu"
+    },
+    {
+      "id": "g54",
+      "src": "/assets/plaza1.jpg",
+      "cat": "Plaża",
+      "title": "Szeroka plaża w Jarosławcu",
+      "cap": "Złoty piasek i widok na molo"
+    },
+    {
+      "id": "g55",
+      "src": "/assets/plaza2.jpg",
+      "cat": "Plaża",
+      "title": "Łodzie rybackie na brzegu",
+      "cap": "Tradycja rybacka Jarosławca"
+    },
+    {
+      "id": "g56",
+      "src": "/assets/plaza3.jpg",
+      "cat": "Plaża",
+      "title": "Zejście na plażę",
+      "cap": "Drewniane schody przez wydmy"
+    },
+    {
+      "id": "g57",
+      "src": "/assets/plaza4.jpg",
+      "cat": "Plaża",
+      "title": "Zachód słońca nad morzem",
+      "cap": "Pomost prowadzący na plażę"
     }
   ],
 
   "regulaminMetaTitle": "Regulamin — Domki Na Pniu, Jarosławiec",
-  "regulaminMetaDesc": "Regulamin pobytu w Domkach Na Pniu w Jarosławcu.",
+  "regulaminMetaDesc": "Regulamin pobytu w domkach letniskowych nad morzem w Jarosławcu.",
   "regulaminHeroCurrent": "Regulamin",
   "regulaminHeroEyebrow": "Regulamin pobytu · sezon 2026",
   "regulaminHeroTitle": "Zasady spisane",

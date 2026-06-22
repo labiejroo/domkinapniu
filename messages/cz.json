@@ -1,7 +1,7 @@
 {
   "siteName": "Domki Na Pniu",
   "siteSubtitle": "Chaty",
-  "siteTagline": "Luxusní dovolenkové chaty · Jarosławiec, ul. Morska 11",
+  "siteTagline": "Luxusní dovolenkové chaty u moře · Jarosławiec, ul. Morska 11",
   "season": "Sezóna 2026",
   "summerSeason": "Léto 2026",
   "openBookings": "otevřené rezervace →",
@@ -13,7 +13,7 @@
 
   "heroHeadline": "Váš odpočinek.",
   "heroHeadlineItalic": "u moře.",
-  "heroDescription": "Dvanáct dřevěných chat v klidném a tichém prostředí, 800 m od pláže „Dubaj“ v Jarosławci.\nHosty vítáme osobně. Komfortní odpočinek blízko moře a přírody.",
+  "heroDescription": "Dvanáct dřevěných chat u moře, v klidném a tichém prostředí 800 m od pláže „Dubaj“ v Jarosławci.\nHosty vítáme osobně. Komfortní odpočinek blízko moře a přírody.",
   "heroStats": [
     { "value": "800 m", "label": "k pláži, lesní cestou" },
     { "value": "52 m²", "label": "patrová chata s terasou" },
@@ -293,9 +293,9 @@
 
   "starsLabel": "{n} z 5",
 
-  "metaTitle": "Domki Na Pniu · Jarosławiec",
-  "metaDescription": "Dvanáct dřevěných dovolenkových chat 800 m od pláže v Jarosławci. Pro 4–6 osob. Hosty vítáme osobně.",
-  "ogDescription": "Luxusní dovolenkové chaty 800 m od pláže. Klid. Příroda. Osobní přístup.",
+  "metaTitle": "Domki Na Pniu — chaty u moře v Jarosławci",
+  "metaDescription": "Dovolenkové chaty u moře v Jarosławci, Polsko — 12 dřevěných chat, 800 m od pláže, pro 4–6 osob. Klidná dovolená u moře. Hosty vítáme osobně.",
+  "ogDescription": "Dovolenkové chaty u moře v Jarosławci, 800 m od pláže. Klid. Příroda. Osobní přístup.",
 
   "notFoundMetaTitle": "Stránka nenalezena — Domki Na Pniu",
   "notFoundHeroCurrent": "404",
@@ -350,7 +350,7 @@
   "footerContactTitle": "Kontakt",
 
   "cennikMetaTitle": "Ceník — Domki Na Pniu, Jarosławiec",
-  "cennikMetaDesc": "Ceny dovolenkových chat Domki Na Pniu v Jarosławci — sezóna 2026.",
+  "cennikMetaDesc": "Ceny dovolenkových chat u moře v Jarosławci — sezóna 2026.",
   "cennikHeroCurrent": "Ceník",
   "cennikHeroEyebrow": "Sezóna 2026 · Ceník",
   "cennikHeroTitle": "Jedna kvalita.",
@@ -569,7 +569,7 @@
   ],
 
   "faqMetaTitle": "FAQ — Domki Na Pniu, Jarosławiec",
-  "faqMetaDesc": "Často kladené otázky o pobytu v Domki Na Pniu v Jarosławci.",
+  "faqMetaDesc": "Často kladené otázky o pobytu v dovolenkových chatách u moře v Jarosławci.",
   "faqHeroCurrent": "FAQ",
   "faqHeroEyebrow": "FAQ · často kladené otázky",
   "faqHeroTitle": "Otázky, na které",
@@ -665,7 +665,7 @@
   ],
 
   "galeriaMetaTitle": "Galerie — Domki Na Pniu, Jarosławiec",
-  "galeriaMetaDesc": "Fotografie chat, interiérů, pláže a okolí — Domki Na Pniu v Jarosławci.",
+  "galeriaMetaDesc": "Fotografie našich chat u moře, interiérů, pláže a okolí v Jarosławci.",
   "galeriaHeroCurrent": "Galerie",
   "galeriaHeroEyebrow": "Galerie",
   "galeriaHeroTitle": "Takhle to",
@@ -678,100 +678,317 @@
   ],
   "galeriaPhotos": [
     {
-      "id": "g01",
-      "src": "/assets/hero-beach.jpg",
-      "cat": "Pláž",
-      "title": "Duny nad „Dubajem“",
-      "cap": "Tráva, písek, 800 m od chat"
-    },
-    {
-      "id": "g02",
-      "src": "/assets/photo-1.png",
-      "cat": "Interiéry",
-      "title": "Obytný prostor u krbu",
-      "cap": "Dřevo, len, teplé světlo"
-    },
-    {
-      "id": "g03",
-      "src": "/assets/banner-coast.png",
-      "cat": "Pláž",
-      "title": "Pobřeží po bouři",
-      "cap": "Říjnové ráno"
-    },
-    {
-      "id": "g04",
-      "src": "/assets/photo-3.png",
-      "cat": "Večery",
-      "title": "Večer u ohniště",
-      "cap": "Dřevo v ceně"
-    },
-    {
-      "id": "g05",
-      "src": "/assets/photo-4.png",
-      "cat": "Les",
-      "title": "Borovicový les",
-      "cap": "Cesta na pláž — 4 min"
-    },
-    {
-      "id": "g06",
-      "src": "/assets/photo-5.png",
+      "id": "g14",
+      "src": "/assets/0.jpg",
       "cat": "Chaty",
-      "title": "Soukromá veranda",
-      "cap": "Terasa s výhledem do stromů"
+      "title": "Břízy před chatami",
+      "cap": "Zeleň, která obklopuje areál"
     },
     {
-      "id": "g07",
-      "src": "/assets/photo-6.png",
-      "cat": "Interiéry",
+      "id": "g15",
+      "src": "/assets/14.jpg",
+      "cat": "Chaty",
+      "title": "Vstup do chaty",
+      "cap": "Dřevěná fasáda, terasa, květináče"
+    },
+    {
+      "id": "g16",
+      "src": "/assets/15.jpg",
+      "cat": "Chaty",
+      "title": "Gril na trávě",
+      "cap": "Společný prostor mezi chatami"
+    },
+    {
+      "id": "g17",
+      "src": "/assets/6.jpg",
+      "cat": "Chaty",
+      "title": "Obytný prostor s galerií",
+      "cap": "Otevřený prostor, dřevěné schody"
+    },
+    {
+      "id": "g18",
+      "src": "/assets/1.jpg",
+      "cat": "Chaty",
+      "title": "Obytný prostor večer",
+      "cap": "Teplé světlo, zelené závěsy"
+    },
+    {
+      "id": "g19",
+      "src": "/assets/7.jpg",
+      "cat": "Chaty",
+      "title": "Předsíň a jídelní kout",
+      "cap": "První dojem po vstupu do chaty"
+    },
+    {
+      "id": "g20",
+      "src": "/assets/8.jpg",
+      "cat": "Chaty",
+      "title": "Detail z dřevěného špalku",
+      "cap": "Ruční práce v interiéru"
+    },
+    {
+      "id": "g21",
+      "src": "/assets/9.jpg",
+      "cat": "Chaty",
+      "title": "Kuchyně",
+      "cap": "Indukční deska, kávovar, dřez"
+    },
+    {
+      "id": "g22",
+      "src": "/assets/10.jpg",
+      "cat": "Chaty",
+      "title": "Stůl pro čtyři",
+      "cap": "Společné jídlo s rodinou"
+    },
+    {
+      "id": "g23",
+      "src": "/assets/11.jpg",
+      "cat": "Chaty",
+      "title": "Stolek z dřevěného špalku",
+      "cap": "Detail obytného prostoru"
+    },
+    {
+      "id": "g24",
+      "src": "/assets/3.jpg",
+      "cat": "Chaty",
+      "title": "Koupelna se sprchou",
+      "cap": "Obklady v kamenném vzhledu, černé detaily"
+    },
+    {
+      "id": "g25",
+      "src": "/assets/4.jpg",
+      "cat": "Chaty",
+      "title": "Koupelna — toaleta",
+      "cap": "Funkční a stylové"
+    },
+    {
+      "id": "g26",
+      "src": "/assets/5.jpg",
+      "cat": "Chaty",
+      "title": "Schody do patra",
+      "cap": "Výhled z galerie do předsíně"
+    },
+    {
+      "id": "g27",
+      "src": "/assets/12.jpg",
+      "cat": "Chaty",
+      "title": "Dětský pokoj",
+      "cap": "Dvě jednolůžkové postele"
+    },
+    {
+      "id": "g28",
+      "src": "/assets/13.jpg",
+      "cat": "Chaty",
+      "title": "Ložnice s pracovním stolem",
+      "cap": "Místo na chvíli práce nebo studia"
+    },
+    {
+      "id": "g29",
+      "src": "/assets/16.jpg",
+      "cat": "Chaty",
+      "title": "Povlečení s plameňáky",
+      "cap": "Hravý detail v dětském pokoji"
+    },
+    {
+      "id": "g30",
+      "src": "/assets/17.jpg",
+      "cat": "Chaty",
       "title": "Hlavní ložnice",
-      "cap": "Postel 160 × 200, lněné povlečení"
+      "cap": "Postel 160 × 200, květované povlečení"
     },
     {
-      "id": "g08",
-      "src": "/assets/photo-2.png",
+      "id": "g31",
+      "src": "/assets/18.jpg",
       "cat": "Chaty",
-      "title": "Chata č. 4",
-      "cap": "Modřín, břízy, poledne"
+      "title": "Druhá ložnice",
+      "cap": "Pohodlné místo na spaní"
     },
     {
-      "id": "g09",
-      "src": "/assets/banner-coast-2.png",
+      "id": "g32",
+      "src": "/assets/19.jpg",
+      "cat": "Chaty",
+      "title": "Ložnice večer",
+      "cap": "Příjemné světlo nočních lampiček"
+    },
+    {
+      "id": "g33",
+      "src": "/assets/a.jpg",
+      "cat": "Areál",
+      "title": "Dětské hřiště",
+      "cap": "Dřevěná prolézačka, houpačky, lanová síť"
+    },
+    {
+      "id": "g34",
+      "src": "/assets/b.jpg",
+      "cat": "Areál",
+      "title": "Parkoviště u chat",
+      "cap": "Parkovací místa v areálu"
+    },
+    {
+      "id": "g35",
+      "src": "/assets/c.jpg",
+      "cat": "Areál",
+      "title": "Hřiště na beach volejbal",
+      "cap": "Písek, síť, zábava až do večera"
+    },
+    {
+      "id": "g36",
+      "src": "/assets/d.jpg",
+      "cat": "Areál",
+      "title": "Bazén na trávníku",
+      "cap": "Nadzemní bazén se žebříkem"
+    },
+    {
+      "id": "g37",
+      "src": "/assets/e.jpg",
+      "cat": "Areál",
+      "title": "Koupání v bazénu",
+      "cap": "Chvilka ochlazení v horkém dni"
+    },
+    {
+      "id": "g38",
+      "src": "/assets/f.jpg",
+      "cat": "Areál",
+      "title": "Grily a herní zóna",
+      "cap": "Společný prostor mezi chatami"
+    },
+    {
+      "id": "g39",
+      "src": "/assets/g.jpg",
+      "cat": "Areál",
+      "title": "Terasa s lehátky",
+      "cap": "Slunečníky, ručníky, odpolední slunce"
+    },
+    {
+      "id": "g40",
+      "src": "/assets/h.jpg",
+      "cat": "Areál",
+      "title": "Bazén při západu slunce",
+      "cap": "Zlaté světlo, nafukovací plameňák"
+    },
+    {
+      "id": "g41",
+      "src": "/assets/i.jpg",
+      "cat": "Areál",
+      "title": "Pohled na areál shora",
+      "cap": "Hřiště na volejbal a bazén"
+    },
+    {
+      "id": "g42",
+      "src": "/assets/j.jpg",
+      "cat": "Areál",
+      "title": "Altán a odpočinková zóna",
+      "cap": "Dětský stůl, bazén, lehátka"
+    },
+    {
+      "id": "g43",
+      "src": "/assets/k.jpg",
+      "cat": "Areál",
+      "title": "Zelené nádvoří",
+      "cap": "Altán, bazén, lehátka pod břízami"
+    },
+    {
+      "id": "g44",
+      "src": "/assets/l.jpg",
+      "cat": "Areál",
+      "title": "Cesta podél chat",
+      "cap": "Květináče, židle, gril"
+    },
+    {
+      "id": "g45",
+      "src": "/assets/tarrace1.jpeg",
+      "cat": "Areál",
+      "title": "Cesta na terasu",
+      "cap": "Záhony a kamenná cestička"
+    },
+    {
+      "id": "g46",
+      "src": "/assets/tarrace2.jpeg",
+      "cat": "Areál",
+      "title": "Soukromá terasa",
+      "cap": "Stůl, ratanové židle, slunečník"
+    },
+    {
+      "id": "g47",
+      "src": "/assets/evenings1.jpg",
+      "cat": "Večery",
+      "title": "Břízy v girlandách světýlek",
+      "cap": "Večerní záře na trávníku"
+    },
+    {
+      "id": "g48",
+      "src": "/assets/evenings2.jpg",
+      "cat": "Večery",
+      "title": "Cesta v noci",
+      "cap": "Osvětlený chodník mezi chatami"
+    },
+    {
+      "id": "g49",
+      "src": "/assets/evenings3.jpg",
+      "cat": "Večery",
+      "title": "Teplé světlo uvnitř",
+      "cap": "Výhled z galerie do obytného prostoru"
+    },
+    {
+      "id": "g50",
+      "src": "/assets/evenings4.jpg",
+      "cat": "Večery",
+      "title": "Chaty za soumraku",
+      "cap": "Lucerny podél fasády"
+    },
+    {
+      "id": "g51",
+      "src": "/assets/evenings5.jpg",
+      "cat": "Večery",
+      "title": "Fasáda v noci",
+      "cap": "Dřevo v teplém světle"
+    },
+    {
+      "id": "g52",
+      "src": "/assets/gazebo1.jpg",
+      "cat": "Areál",
+      "title": "Ranní káva v altánu",
+      "cap": "Ratanový mobiliář s výhledem do zahrady"
+    },
+    {
+      "id": "g53",
+      "src": "/assets/gazebo2.jpg",
+      "cat": "Areál",
+      "title": "Dřevěný altán",
+      "cap": "Světelná girlanda, obklopený živým plotem"
+    },
+    {
+      "id": "g54",
+      "src": "/assets/plaza1.jpg",
       "cat": "Pláž",
-      "title": "Klif u Jarosławce",
-      "cap": "Procházka po pobřeží"
+      "title": "Široká pláž v Jarosławci",
+      "cap": "Zlatý písek a výhled na vlnolam"
     },
     {
-      "id": "g10",
-      "src": "/assets/photo-sea-grass.png",
-      "cat": "Detaily",
-      "title": "Dunová tráva",
-      "cap": "Drobnosti z okolí"
+      "id": "g55",
+      "src": "/assets/plaza2.jpg",
+      "cat": "Pláž",
+      "title": "Rybářské lodě na břehu",
+      "cap": "Rybářská tradice Jarosławce"
     },
     {
-      "id": "g11",
-      "src": "/assets/photo-ig-7.png",
-      "cat": "Večery",
-      "title": "Západ slunce z terasy",
-      "cap": "Srpnový večer"
+      "id": "g56",
+      "src": "/assets/plaza3.jpg",
+      "cat": "Pláž",
+      "title": "Sestup na pláž",
+      "cap": "Dřevěné schody přes duny"
     },
     {
-      "id": "g12",
-      "src": "/assets/photo-ig-8.png",
-      "cat": "Večery",
-      "title": "Po večeři",
-      "cap": "Světýlka, houpací síť, víno"
-    },
-    {
-      "id": "g13",
-      "src": "/assets/texture-pien.jpg",
-      "cat": "Detaily",
-      "title": "Kresba modřínového dřeva",
-      "cap": "Materiál, ze kterého jsou chaty"
+      "id": "g57",
+      "src": "/assets/plaza4.jpg",
+      "cat": "Pláž",
+      "title": "Západ slunce nad mořem",
+      "cap": "Lávka vedoucí na pláž"
     }
   ],
 
   "regulaminMetaTitle": "Podmínky — Domki Na Pniu, Jarosławiec",
-  "regulaminMetaDesc": "Podmínky pobytu v Domki Na Pniu v Jarosławci.",
+  "regulaminMetaDesc": "Podmínky pobytu v dovolenkových chatách u moře v Jarosławci.",
   "regulaminHeroCurrent": "Podmínky",
   "regulaminHeroEyebrow": "Podmínky pobytu · sezóna 2026",
   "regulaminHeroTitle": "Pravidla psaná",

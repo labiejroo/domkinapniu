@@ -22,22 +22,6 @@ interface GalleryGridProps {
 
 const CATEGORY_ORDER = ['Domki', 'Posesja', 'Wieczory', 'Plaża'];
 
-const MOSAIC: Record<string, { col: string; emph?: boolean; row: string }> = {
-  g01: { col: 'col-start-1 col-end-8',  emph: true, row: 'row-span-4' },
-  g02: { col: 'col-start-8 col-end-13', row: 'row-span-3' },
-  g03: { col: 'col-start-8 col-end-13', row: 'row-span-1' },
-  g04: { col: 'col-start-1 col-end-5',  row: 'row-span-3' },
-  g05: { col: 'col-start-5 col-end-9',  row: 'row-span-3' },
-  g06: { col: 'col-start-9 col-end-13', row: 'row-span-3' },
-  g07: { col: 'col-start-1 col-end-6',  row: 'row-span-3' },
-  g08: { col: 'col-start-6 col-end-10', row: 'row-span-3' },
-  g09: { col: 'col-start-10 col-end-13', row: 'row-span-3' },
-  g10: { col: 'col-start-1 col-end-4',  row: 'row-span-2' },
-  g11: { col: 'col-start-4 col-end-9',  emph: true, row: 'row-span-2' },
-  g12: { col: 'col-start-9 col-end-13', row: 'row-span-2' },
-  g13: { col: 'col-start-1 col-end-13', emph: true, row: 'row-span-2' },
-};
-
 export const GalleryGrid = ({ photos }: GalleryGridProps) => {
   const t = useTranslations();
   const [filter, setFilter] = useState<string | null>(null);
@@ -106,23 +90,19 @@ export const GalleryGrid = ({ photos }: GalleryGridProps) => {
         <div className="max-w-[1280px] mx-auto">
           {filter === null ? (
             <div className="grid grid-cols-12 gap-4" style={{ gridAutoRows: '90px' }}>
-              {filtered.map((p) => {
-                const m = MOSAIC[p.id];
-                return (
-                  <GalleryTile
-                    key={p.id}
-                    emph={!!m?.emph}
-                    extraClass={m ? `${m.col} ${m.row}` : 'col-span-4 row-span-3'}
-                    photo={p}
-                    onOpen={() => setOpen(p)}
-                  />
-                );
-              })}
+              {filtered.map((p) => (
+                <GalleryTile
+                  key={p.id}
+                  extraClass="col-span-4 row-span-3"
+                  photo={p}
+                  onOpen={() => setOpen(p)}
+                />
+              ))}
             </div>
           ) : (
             <div className="grid grid-cols-3 gap-5" style={{ gridAutoRows: '320px' }}>
               {filtered.map((p) => (
-                <GalleryTile key={p.id} emph={false} extraClass="" photo={p} onOpen={() => setOpen(p)} />
+                <GalleryTile key={p.id} extraClass="" photo={p} onOpen={() => setOpen(p)} />
               ))}
             </div>
           )}
@@ -162,13 +142,12 @@ export const GalleryGrid = ({ photos }: GalleryGridProps) => {
 export default GalleryGrid;
 
 interface GalleryTileProps {
-  emph: boolean;
   extraClass: string;
   photo: Photo;
   onOpen: () => void;
 }
 
-function GalleryTile({ emph, extraClass, photo, onOpen }: GalleryTileProps) {
+function GalleryTile({ extraClass, photo, onOpen }: GalleryTileProps) {
   return (
     <article
       onClick={onOpen}
@@ -185,21 +164,8 @@ function GalleryTile({ emph, extraClass, photo, onOpen }: GalleryTileProps) {
         className="object-cover transition-transform duration-[900ms] group-hover:scale-[1.04]"
         style={{ transitionTimingFunction: 'cubic-bezier(.16,1,.3,1)' }}
       />
-      <div
-        className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity"
-        style={{ background: 'linear-gradient(180deg, transparent 40%, rgba(26,36,25,0.88) 100%)' }}
-      />
       <div className="absolute top-4 left-4 px-3 py-1.5 rounded-full bg-brand-sunlight/90 text-brand-green-900 text-[10px] font-bold tracking-[0.16em] uppercase">
         {photo.cat}
-      </div>
-      <div
-        className="absolute bottom-0 left-0 right-0 text-brand-sunlight opacity-0 group-hover:opacity-100 transition-opacity"
-        style={emph ? { padding: '24px 28px' } : { padding: '16px 18px' }}
-      >
-        <div className={cn('font-display font-medium tracking-[-0.015em]', emph ? 'text-[26px]' : 'text-lg')}>
-          {photo.title}
-        </div>
-        <div className="mt-1 text-xs text-brand-sunlight/75">{photo.cap}</div>
       </div>
     </article>
   );

@@ -44,12 +44,12 @@ export const Story = () => {
               {t('storyHeadlineEnd')}
             </Display>
 
-            <div className="relative mt-8 w-full aspect-[4/3] rounded-lg overflow-hidden border border-brand-black/15">
+            <div className="relative mt-8 w-full aspect-[4/3] rounded-lg overflow-hidden border border-brand-black/15 bg-white">
               <Image
-                src="/assets/domekUklad.png"
+                src="/assets/cottage-layout.png"
                 alt={t('storyHeadline')}
                 fill
-                className="object-cover"
+                className="object-contain"
               />
             </div>
           </div>

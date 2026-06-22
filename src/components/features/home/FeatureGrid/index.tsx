@@ -11,15 +11,15 @@ import type { FeatureItemText } from '@/lib/types';
 const FEATURE_LAYOUT = [
   {
     id: 1,
-    photo: '/assets/photo-salon.jpg',
+    photo: '/assets/living-room.jpg',
     colSpan: '1 / span 7',
     rowSpan: '1 / span 3',
     tall: true,
   },
   { id: 2, photo: '/assets/grill.jpg', colSpan: '8 / span 5', rowSpan: '1 / span 2' },
-  { id: 3, photo: '/assets/basen.jpg', colSpan: '8 / span 5', rowSpan: '3 / span 2' },
-  { id: 4, photo: '/assets/altana2.jpg', colSpan: '1 / span 5', rowSpan: '4 / span 3', tall: true },
-  { id: 5, photo: '/assets/boisko.jpg', colSpan: '6 / span 7', rowSpan: '5 / span 2' },
+  { id: 3, photo: '/assets/pool.jpg', colSpan: '8 / span 5', rowSpan: '3 / span 2' },
+  { id: 4, photo: '/assets/gazebo2.jpg', colSpan: '1 / span 5', rowSpan: '4 / span 3', tall: true },
+  { id: 5, photo: '/assets/volleyball-court.jpg', colSpan: '6 / span 7', rowSpan: '5 / span 2' },
 ];
 
 export const FeatureGrid = () => {

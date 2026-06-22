@@ -26,6 +26,62 @@ export function buildAlternates(locale: string, href: string) {
   };
 }
 
+export function buildLodgingBusinessJsonLd() {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'LodgingBusiness',
+    '@id': `${SITE_URL}/#business`,
+    name: SITE_NAME,
+    description:
+      'Dwanaście drewnianych domków letniskowych nad morzem w Jarosławcu, 800 m od plaży.',
+    url: SITE_URL,
+    telephone: '+48506141730',
+    email: 'domkinapniu@gmail.com',
+    image: [`${SITE_URL}${DEFAULT_OG_IMAGE.url}`],
+    priceRange: '350-590 PLN',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'ul. Morska 11',
+      addressLocality: 'Jarosławiec',
+      postalCode: '76-107',
+      addressCountry: 'PL',
+    },
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '8.9',
+      bestRating: '10',
+      reviewCount: '82',
+    },
+    amenityFeature: [
+      'Basen sezonowy',
+      'Boisko do siatkówki',
+      'Prywatny taras i grill',
+      'Klimatyzacja',
+      'WiFi',
+      'Parking',
+      'Zwierzęta dozwolone',
+    ].map((name) => ({ '@type': 'LocationFeatureSpecification', name, value: true })),
+    sameAs: [
+      'https://www.instagram.com/domki_napniu',
+      'https://www.booking.com/hotel/pl/domki-na-pniu.pl.html',
+    ],
+  };
+}
+
+export function buildFaqJsonLd(groups: { items: { q: string; a: string }[] }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: groups.flatMap((group) =>
+      group.items.map((item) => ({
+        '@type': 'Question',
+        name: item.q,
+        acceptedAnswer: { '@type': 'Answer', text: item.a },
+      }))
+    ),
+  };
+}
+
 export function buildPageMetadata({
   locale,
   href,
