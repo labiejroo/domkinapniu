@@ -995,9 +995,8 @@
   "regulaminHeroItalic": "jednoduchým jazykem.",
   "regulaminHeroLede": "Stručně: chovejte se hezky k chatě, sousedům i lesu. Zbytek jsou formality, které musí mít každé ubytovací zařízení. Plná verze níže, k vytištění — rádi cokoliv vysvětlíme, pokud máte pochybnosti.",
   "regulaminHeroMeta": [
-    { "label": "Platné od", "value": "1. ledna 2026" },
-    { "label": "Verze", "value": "5.0" },
-    { "label": "Stran", "value": "1 A4" }
+    { "label": "Platné od", "value": "6 | 2026" },
+    { "label": "Verze", "value": "5.0" }
   ],
   "regulaminSections": [
     {

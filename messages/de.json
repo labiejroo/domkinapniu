@@ -1003,9 +1003,8 @@
   "regulaminHeroItalic": "in einfacher Sprache.",
   "regulaminHeroLede": "Kurz gesagt: Seien Sie nett zum Haus, zu den Nachbarn und zum Wald. Der Rest sind Formalitäten. Vollständige Version unten, druckbar — wir erklären gerne bei Fragen.",
   "regulaminHeroMeta": [
-    { "label": "Gültig ab", "value": "1. Jan. 2026" },
-    { "label": "Version", "value": "5.0" },
-    { "label": "Seiten", "value": "1 A4" }
+    { "label": "Gültig ab", "value": "6 | 2026" },
+    { "label": "Version", "value": "5.0" }
   ],
   "regulaminSections": [
     {

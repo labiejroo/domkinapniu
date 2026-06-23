@@ -995,9 +995,8 @@
   "regulaminHeroItalic": "prostym językiem.",
   "regulaminHeroLede": "Krótko: szanuj domek, sąsiadów i teren wokół. Reszta to formalności, które każdy obiekt musi posiadać. Pełna wersja poniżej — zawsze chętnie wyjaśnimy w razie wątpliwości.",
   "regulaminHeroMeta": [
-    { "label": "Obowiązuje od", "value": "1 I 2026" },
-    { "label": "Wersja", "value": "5.0" },
-    { "label": "Stron", "value": "1 A4" }
+    { "label": "Obowiązuje od", "value": "6 | 2026" },
+    { "label": "Wersja", "value": "5.0" }
   ],
   "regulaminSections": [
     {
