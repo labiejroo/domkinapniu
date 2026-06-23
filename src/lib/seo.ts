@@ -10,20 +10,13 @@ const ogLocaleMap: Record<string, string> = {
   pl: 'pl_PL',
   en: 'en_US',
   de: 'de_DE',
-  cz: 'cs_CZ',
-};
-
-export const hreflangMap: Record<string, string> = {
-  pl: 'pl',
-  en: 'en',
-  de: 'de',
-  cz: 'cs',
+  cs: 'cs_CZ',
 };
 
 export function buildAlternates(locale: string, href: string) {
   const languages: Record<string, string> = {};
   for (const l of routing.locales) {
-    languages[hreflangMap[l] ?? l] = getPathname({ href, locale: l });
+    languages[l] = getPathname({ href, locale: l });
   }
   languages['x-default'] = getPathname({ href, locale: routing.defaultLocale });
 
