@@ -111,7 +111,7 @@ export const Hero = () => {
 
   return (
     <section id="top" className="relative bg-green-900 text-brand-sunlight">
-      <div className="relative h-[480px] sm:h-[580px] md:h-[660px] lg:h-[760px] overflow-hidden">
+      <div className="relative h-[480px] sm:h-[580px] md:h-[660px] lg:h-[760px] overflow-hidden bg-green-900">
         <video
           ref={videoRef}
           autoPlay
@@ -119,7 +119,6 @@ export const Hero = () => {
           loop
           playsInline
           preload={canLoadVideo ? 'auto' : 'none'}
-          poster="/assets/hero-beach.jpg"
           aria-hidden="true"
           onCanPlay={() => setIsVideoReady(true)}
           onPlaying={() => setIsVideoReady(true)}
