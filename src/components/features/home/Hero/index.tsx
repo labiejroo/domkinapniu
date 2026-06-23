@@ -105,8 +105,17 @@ export const Hero = () => {
   useEffect(() => {
     const video = videoRef.current;
     if (!canLoadVideo || !video) return;
+
+    const handleLoadedData = () => {
+      void video.play().catch(() => {});
+    };
+
+    video.addEventListener('loadeddata', handleLoadedData);
     video.load();
-    void video.play().catch(() => {});
+
+    return () => {
+      video.removeEventListener('loadeddata', handleLoadedData);
+    };
   }, [canLoadVideo]);
 
   return (
@@ -114,7 +123,6 @@ export const Hero = () => {
       <div className="relative h-[480px] sm:h-[580px] md:h-[660px] lg:h-[760px] overflow-hidden bg-green-900">
         <video
           ref={videoRef}
-          autoPlay
           muted
           loop
           playsInline
