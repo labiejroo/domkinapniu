@@ -1,13 +1,13 @@
 'use client';
 
-import { useState, useRef } from 'react';
-import Image from 'next/image';
+import { useEffect, useState, useRef } from 'react';
+import Image, { getImageProps } from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Icon } from '@/components/ui/Icon';
 import { Display, Italic, SmallCap } from '@/components/ui/Typography';
 import { roomCounter } from '@/lib/utils';
 import type { RoomId, RoomCopy, EquipmentColumn } from '@/lib/types';
-import { ORDER, ROOM_ASSETS } from './constants';
+import { ORDER, ROOM_ASSETS, ROOM_IMAGE_SIZES } from './constants';
 
 interface EqColProps {
   items: string[];
@@ -186,6 +186,48 @@ export const CottageAnatomy = () => {
   const [active, setActive] = useState<RoomId>('salon');
   const imageRef = useRef<HTMLDivElement | null>(null);
 
+  // Warm the browser cache with every room photo once the page and its assets have finished
+  // loading, so switching rooms shows the image instantly. Runs during idle time to avoid
+  // competing with critical resources; preloads the exact optimized URLs next/image will request.
+  useEffect(() => {
+    let cancelled = false;
+
+    const preloadRooms = () => {
+      if (cancelled) return;
+      for (const id of ORDER) {
+        const { props } = getImageProps({
+          src: ROOM_ASSETS[id].photo,
+          alt: '',
+          fill: true,
+          sizes: ROOM_IMAGE_SIZES,
+        });
+        const img = new window.Image();
+        if (props.sizes) img.sizes = props.sizes;
+        if (props.srcSet) img.srcset = props.srcSet;
+        img.src = props.src;
+      }
+    };
+
+    const schedule = () => {
+      if (typeof window.requestIdleCallback === 'function') {
+        window.requestIdleCallback(preloadRooms);
+      } else {
+        window.setTimeout(preloadRooms, 1500);
+      }
+    };
+
+    if (document.readyState === 'complete') {
+      schedule();
+    } else {
+      window.addEventListener('load', schedule, { once: true });
+    }
+
+    return () => {
+      cancelled = true;
+      window.removeEventListener('load', schedule);
+    };
+  }, []);
+
   const handleSelect = (id: RoomId) => {
     setActive(id);
     if (typeof window !== 'undefined' && window.innerWidth < 800) {
@@ -243,7 +285,7 @@ export const CottageAnatomy = () => {
                 fill
                 className={`${active === 'salon' ? 'object-contain p-6' : 'object-cover'} animate-anatomy-fade`}
                 style={active === 'salon' ? { mixBlendMode: 'multiply' } : undefined}
-                sizes="(max-width: 1024px) 100vw, 55vw"
+                sizes={ROOM_IMAGE_SIZES}
               />
               {active !== 'salon' && (
                 <div

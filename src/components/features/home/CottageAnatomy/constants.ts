@@ -10,3 +10,5 @@ export const ROOM_ASSETS: Record<RoomId, { photo: string; size: string }> = {
 };
 
 export const ORDER: RoomId[] = ['salon', 'lazienka', 'taras', 'sypialnia1', 'korytarz', 'sypialnia2'];
+
+export const ROOM_IMAGE_SIZES = '(max-width: 1024px) 100vw, 55vw';
