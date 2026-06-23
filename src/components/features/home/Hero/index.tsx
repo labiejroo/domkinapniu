@@ -107,10 +107,14 @@ export const Hero = () => {
     if (!canLoadVideo || !video) return;
 
     const handleLoadedData = () => {
-      void video.play().catch(() => {});
+      video.muted = true;
+      void video.play().catch((error) => {
+        console.warn('Hero video autoplay failed', error);
+      });
     };
 
     video.addEventListener('loadeddata', handleLoadedData);
+    video.muted = true;
     video.load();
 
     return () => {
