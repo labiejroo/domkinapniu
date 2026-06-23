@@ -1008,140 +1008,41 @@
   ],
   "regulaminSections": [
     {
-      "id": "ogolne",
+      "id": "regulamin",
       "rom": "I",
-      "title": "Allgemeine Bestimmungen",
+      "title": "Lernen Sie unsere Hausordnung kennen",
       "items": [
-        "Diese AGB regeln die Bedingungen des Aufenthalts im Objekt „Domki Na Pniu”, ul. Morska 11, Jarosławiec (76-107), betrieben von Barbara Reszka — nachfolgend „Objekt” genannt.",
-        "Die Buchung ist gleichbedeutend mit der Kenntnisnahme und Akzeptanz dieser AGB. Unkenntnis entbindet nicht von der Haftung für deren Nichteinhaltung.",
-        "Der Gastgeber unternimmt alle Anstrengungen, um einen ruhigen, sicheren und komfortablen Aufenthalt zu gewährleisten."
-      ]
-    },
-    {
-      "id": "rezerwacja",
-      "rom": "II",
-      "title": "Buchung",
-      "items": [
-        "Buchungen können telefonisch unter +48 506 141 730, per E-Mail an domkinapniu@gmail.com oder über das Formular auf domkinapniu.pl vorgenommen werden.",
-        "Eine Buchung ist verbindlich, sobald eine Anzahlung von 30 % des Gesamtbetrags innerhalb von 2 Tagen nach Bestätigung eingegangen ist.",
-        "Bleibt die Anzahlung aus, wird die vorläufige Buchung automatisch storniert, ohne den Gast zu benachrichtigen.",
-        "Die Zahlung der Anzahlung ist gleichbedeutend mit der Akzeptanz dieser AGB und der Buchungsbestätigung.",
-        "Die Anzahl der Personen darf die bei der Buchung angegebene Zahl nicht überschreiten. Max. 4 Erwachsene + 2 Kinder. Nicht gemeldete Personen: 80 PLN/Nacht extra."
-      ]
-    },
-    {
-      "id": "platnosci",
-      "rom": "III",
-      "title": "Zahlungen und Anzahlung",
-      "items": [
-        "Der Restbetrag wird am Anreisetag beglichen — bar, per BLIK oder Kreditkarte.",
-        "Kurtaxe von 3,45 PLN/Person/Nacht wird gemäß Gemeinderatssatzung separat am Anreisetag erhoben.",
-        "Am Anreisetag wird eine rückzahlbare Kaution von 500 PLN erhoben — bar oder per BLIK. Die Kaution wird vollständig am Abreisetag zurückgezahlt, sofern keine Schäden festgestellt wurden.",
-        "Eine Rechnung wird auf Wunsch ausgestellt — muss spätestens am Anreisetag mitgeteilt werden.",
-        "Nicht genutzte Aufenthaltszeiten begründen keine Reduzierung der Servicepauschale."
-      ]
-    },
-    {
-      "id": "doba",
-      "rom": "IV",
-      "title": "Aufenthaltstag",
-      "items": [
-        "Der Aufenthaltstag beginnt um 15:00 Uhr am Anreisetag und endet um 10:00 Uhr am Abreisetag.",
-        "Ein- und Auschecken erfolgt in Anwesenheit des Gastgebers oder einer beauftragten Person.",
-        "Frühes Einchecken (ab 12:00 Uhr) oder spätes Auschecken (bis 14:00 Uhr) ist je nach Verfügbarkeit möglich — Gebühr 80 PLN bzw. 100 PLN. Bitte telefonisch vorab vereinbaren.",
-        "Der Schlüssel wird persönlich übergeben; in Ausnahmefällen kann er in der Schlüsselbox hinterlegt werden."
-      ]
-    },
-    {
-      "id": "zasady",
-      "rom": "V",
-      "title": "Nutzungsregeln",
-      "items": [
-        "Gäste sind verpflichtet, das Haus und die Umgebung in dem Zustand zu hinterlassen, in dem es bei der Anreise war, und Abfälle zu trennen.",
-        "Das Rauchen sowie die Verwendung von Tabakprodukten und E-Zigaretten im Inneren der Häuser ist streng verboten. Rauchen ist nur an den dafür vorgesehenen Außenbereichen erlaubt.",
-        "Das Umstellen von Möbeln und Betten sowie das Transportieren von Küchenutensilien zwischen den Häusern ist verboten.",
-        "Die Nutzung von Feuerstelle, Grill und Kamin muss den Brandschutzvorschriften entsprechen — in Abstand von Holzkonstruktionen und unter ständiger Aufsicht.",
-        "Der Pool ist saisonal geöffnet (15. Juni – 15. Sep.) von 10:00 bis 20:00 Uhr. Nutzung auf eigene Gefahr; Kinder unter 12 Jahren müssen begleitet werden."
-      ]
-    },
-    {
-      "id": "cisza",
-      "rom": "VI",
-      "title": "Ruhezeiten",
-      "items": [
-        "Ruhezeit gilt von 22:00 bis 07:00 Uhr.",
-        "Während der Ruhezeiten darf das Verhalten der Gäste den Frieden anderer Aufenthalte nicht stören. Dies gilt auch für Terrassen, Feuerstellen und das Gelände.",
-        "Bei grober Verletzung der Ruhezeiten ist der Gastgeber berechtigt, die Gäste ohne Rückerstattung zum Verlassen aufzufordern."
+        "Der Aufenthalt beginnt um 15:00 Uhr und endet um 10:00 Uhr morgens am Abreisetag.",
+        "Reservierungen nehmen wir telefonisch entgegen.",
+        "Voraussetzung für die Annahme einer Reservierung ist die Zahlung einer Anzahlung in Höhe von 30%. Bei Stornierung des reservierten Hauses wird die Anzahlung nicht erstattet.",
+        "Die Gebühren werden nicht gemindert oder erstattet, wenn ein Gast den Aufenthalt aus eigenem Willen vorzeitig beendet.",
+        "Die Zahlung für den Aufenthalt ist am Anreisetag in bar oder per Überweisung zu leisten.",
+        "Der Preis beinhaltet: Wasser, Parkplatz (maximal 2 Autos), Bettwäsche, Handtücher – 1 großes, 1 kleines.",
+        "Der Hauspreis beinhaltet die Stromkosten.",
+        "Die Gäste, die das Haus mieten, tragen die volle finanzielle Verantwortung für alle durch ihr Verschulden entstandenen Schäden oder Zerstörungen der Ausstattung.",
+        "Alle Mängel bitte an der Rezeption der Anlage oder beim Haustechniker melden.",
+        "Alle von Gästen bemerkten Mängel bitte sofort melden.",
+        "Der Eigentümer von \"Domki na Pniu\" haftet nicht für verlorene oder unbeaufsichtigt zurückgelassene Gegenstände.",
+        "In den Häusern und Zimmern gilt ein absolutes Rauchverbot.",
+        "Die Gäste sind verpflichtet, die Brandschutzvorschriften einzuhalten.",
+        "Eltern oder Aufsichtspersonen sind verpflichtet, ihre Kinder auf dem gesamten Gelände der Anlage zu beaufsichtigen.",
+        "Besucher dürfen sich nach Absprache mit dem Eigentümer der Anlage auf dem Gelände aufhalten.",
+        "Mit der Bereitstellung von Parkplätzen übernimmt der Eigentümer der Anlage keine Verantwortung für Diebstahl, Fahrzeugschäden oder sonstige Verluste.",
+        "Am Abreisetag sind die Räume in dem Zustand zu hinterlassen, in dem sie am Anreisetag vorgefunden wurden.",
+        "Für jede Person über 6 Personen im Haus erheben wir eine zusätzliche Gebühr von **80 PLN/Nacht**."
       ]
     },
     {
       "id": "zwierzeta",
-      "rom": "VII",
-      "title": "Haustiere",
+      "rom": "II",
+      "title": "Regeln für den Aufenthalt mit Haustieren",
       "items": [
-        "Haustiere sind herzlich willkommen — vorausgesetzt, sie wurden bei der Buchung abgesprochen. Gebühr 40 PLN/Nacht.",
-        "Wir akzeptieren maximal 1 Tier pro Haus. In besonderen Fällen nach individueller Absprache.",
-        "Der Eigentümer trägt die volle Verantwortung für das Tier: sein Verhalten, Sauberkeit und etwaige Schäden.",
-        "Auf dem Gelände müssen Haustiere an der Leine gehalten werden. Tiere dürfen nicht unbeaufsichtigt im Haus bleiben, wenn dies Lärm oder Schäden verursachen könnte.",
-        "Ein aktuelles Impfbuch ist erforderlich."
-      ]
-    },
-    {
-      "id": "bezpieczenstwo",
-      "rom": "VIII",
-      "title": "Sicherheit und Brandschutz",
-      "items": [
-        "In jedem Haus befindet sich ein Feuerlöscher sowie Rauch- und Kohlenmonoxidmelder. Der Gastgeber zeigt den Standort beim Einchecken.",
-        "Die Verwendung eigener elektrischer Heizgeräte, Kochplatten und aller leistungsstarken Geräte, die nicht zur Ausstattung gehören, ist verboten.",
-        "Kerzen, Räucherstäbchen und andere offene Flammenquellen dürfen nur in dafür vorgesehenen Gefäßen und unter Aufsicht verwendet werden.",
-        "Das unbegründete Auslösen des Feueralarms oder eines Feuerlöschers hat eine Gebühr von 500 PLN zur Folge.",
-        "Das Gelände (außer Innenräume) wird überwacht — ausschließlich zur Sicherheit der Gäste."
-      ]
-    },
-    {
-      "id": "odpowiedzialnosc",
-      "rom": "IX",
-      "title": "Haftung",
-      "items": [
-        "Der Gast trägt die volle Haftung für Beschädigungen der Einrichtung, die durch ihn oder mit seiner Zustimmung anwesende Personen verursacht wurden.",
-        "Eltern oder Erziehungsberechtigte tragen die volle Verantwortung für die Sicherheit der Kinder — insbesondere in der Nähe von Pool, Feuerstelle, Spielplatz und Sportfeld.",
-        "Der Gastgeber haftet nicht für zurückgelassene Wertgegenstände oder Schäden durch unsachgemäße Nutzung.",
-        "Der Parkplatz ist unbewacht — der Gastgeber haftet nicht für Beschädigungen oder Diebstahl von Fahrzeugen.",
-        "Für einen verlorenen Schlüssel wird eine Gebühr von 150 PLN erhoben."
-      ]
-    },
-    {
-      "id": "anulacja",
-      "rom": "X",
-      "title": "Stornierung und Änderungen",
-      "items": [
-        "Stornierung mehr als 60 Tage vor Anreise — vollständige Rückerstattung der Anzahlung.",
-        "Stornierung 60–30 Tage vor Anreise — 50 % Rückerstattung.",
-        "Stornierung weniger als 30 Tage vor Anreise — die Anzahlung ist nicht erstattungsfähig, kann aber auf einen anderen Aufenthalt in der Saison 2026 übertragen werden.",
-        "Datumsänderung (einmalig, bis 30 Tage vor dem ursprünglichen Datum) ist kostenlos. Jede weitere Änderung kostet 100 PLN.",
-        "Der Gastgeber behält sich das Recht vor, in Ausnahmefällen zu stornieren — der Gast erhält dann eine vollständige Rückerstattung."
-      ]
-    },
-    {
-      "id": "rodo",
-      "rom": "XI",
-      "title": "Personenbezogene Daten (DSGVO)",
-      "items": [
-        "Verantwortlicher für die personenbezogenen Daten ist Barbara Reszka, ul. Morska 11, 76-107 Jarosławiec.",
-        "Daten werden ausschließlich zur Abwicklung von Buchungen, Ausstellung von Buchhaltungsunterlagen und Erfüllung gesetzlicher Pflichten verarbeitet.",
-        "Gäste haben das Recht auf Auskunft, Berichtigung, Einschränkung und Löschung ihrer Daten — soweit gesetzliche Pflichten dem nicht entgegenstehen.",
-        "Die ausführliche Datenschutzerklärung ist unter domkinapniu.pl/polityka-prywatnosci und in gedruckter Form im Haus verfügbar."
-      ]
-    },
-    {
-      "id": "koncowe",
-      "rom": "XII",
-      "title": "Schlussbestimmungen",
-      "items": [
-        "Angelegenheiten, die nicht durch diese AGB geregelt sind, unterliegen den Bestimmungen des Bürgerlichen Gesetzbuchs und dem Gesetz über Hoteldienstleistungen.",
-        "Zuständiges Gericht für etwaige Streitigkeiten ist das für den Sitz des Objekts zuständige Gericht.",
-        "Diese AGB sind ab dem 1. Januar 2026 bis auf Widerruf gültig. Die aktuelle Version ist unter domkinapniu.pl/regulamin verfügbar.",
-        "Kontakt: +48 506 141 730 · domkinapniu@gmail.com · ul. Morska 11, 76-107 Jarosławiec."
+        "Der Eigentümer muss das Tier vollständig unter Kontrolle haben.",
+        "Ein Hundegesundheitsheft mit aktuellen Impfungen ist erforderlich.",
+        "Das Tier sollte seine Notdurft außerhalb des Grundstücks verrichten.",
+        "Der Eigentümer ist verpflichtet, hinter seinem Tier im Haus und auf dem Grundstück aufzuräumen.",
+        "Etwaige durch das Tier verursachte Schäden trägt der Eigentümer.",
+        "**Gebühr für das Tier – 30 PLN/Nacht.**"
       ]
     }
   ]

@@ -996,140 +996,41 @@
   ],
   "regulaminSections": [
     {
-      "id": "ogolne",
+      "id": "regulamin",
       "rom": "I",
-      "title": "General provisions",
+      "title": "Get to know our rules",
       "items": [
-        "These Terms govern the conditions of stay at the \"Domki Na Pniu\" property located at ul. Morska 11, Jarosławiec (76-107), operated by Barbara Reszka — hereinafter referred to as the \"Property\".",
-        "Making a reservation is equivalent to reading and accepting these Terms. Failure to read the Terms does not exempt from responsibility for non-compliance.",
-        "The Host makes every effort to ensure that guests' stay at the Property is peaceful, safe and comfortable."
-      ]
-    },
-    {
-      "id": "rezerwacja",
-      "rom": "II",
-      "title": "Reservation",
-      "items": [
-        "Reservations can be made by phone at +48 506 141 730, by email at domkinapniu@gmail.com or via the form at domkinapniu.pl.",
-        "A reservation is binding after a 30% deposit has been paid to the designated bank account within 2 days of receiving initial confirmation.",
-        "Failure to pay the deposit by the agreed deadline results in automatic cancellation without notification.",
-        "Payment of the deposit is equivalent to accepting these Terms and confirming the reservation.",
-        "The number of guests may not exceed the number declared at booking. Max. 4 adults + 2 children. An undeclared person's stay requires 80 PLN/night extra."
-      ]
-    },
-    {
-      "id": "platnosci",
-      "rom": "III",
-      "title": "Payments and deposit",
-      "items": [
-        "The remaining amount is settled on arrival — cash, BLIK or card.",
-        "Tourist tax of 3.45 PLN/person/night is charged separately on arrival, pursuant to local council resolution.",
-        "A refundable security deposit of 500 PLN is collected on arrival — cash or BLIK. Returned in full on departure after inspection.",
-        "A VAT invoice is issued on request — must be notified by arrival day.",
-        "Unused portions of a paid stay do not entitle the guest to a reduction of the service fee."
-      ]
-    },
-    {
-      "id": "doba",
-      "rom": "IV",
-      "title": "Stay day",
-      "items": [
-        "The stay day begins at 15:00 on arrival day and ends at 10:00 on departure day.",
-        "Check-in and check-out take place in the presence of the Host or an authorised person.",
-        "Early check-in (from 12:00) or late check-out (until 14:00) is available subject to availability — fee 80 PLN or 100 PLN. Please arrange in advance by phone.",
-        "The key is handed over in person; in exceptional cases it may be left in the lockbox."
-      ]
-    },
-    {
-      "id": "zasady",
-      "rom": "V",
-      "title": "Rules of use",
-      "items": [
-        "Guests are required to keep the cottage and surroundings in the same state of cleanliness as on arrival, and to sort waste in the bins provided.",
-        "Smoking tobacco, using tobacco products and e-cigarettes inside the cottages is strictly prohibited. Smoking is permitted only in designated outdoor areas.",
-        "Moving furniture and beds within cottages or transferring kitchen equipment between cottages is prohibited.",
-        "Use of the firepit, BBQ and fireplace must comply with fire safety rules — away from wooden structures and under constant adult supervision.",
-        "The pool is open seasonally (15 Jun – 15 Sep) from 10:00 to 20:00. Use is at the guest's own risk; children under 12 must be accompanied by an adult."
-      ]
-    },
-    {
-      "id": "cisza",
-      "rom": "VI",
-      "title": "Quiet hours",
-      "items": [
-        "Quiet hours apply from 22:00 to 07:00.",
-        "During quiet hours guests must not disturb the peace of other stays. This applies to terraces, firepits and the grounds around the cottages.",
-        "In the event of a serious breach of quiet hours the Host has the right to ask guests to leave the Property without a refund."
+        "The stay begins at 15:00 and ends at 10:00 in the morning on the day of departure.",
+        "Reservations are accepted by phone.",
+        "A reservation is confirmed upon payment of a 30% deposit. If the booked cottage is cancelled, the deposit is non-refundable.",
+        "Fees are not reduced or refunded if a guest leaves of their own accord during the stay.",
+        "Payment for the stay is due in cash or by bank transfer on the day of arrival.",
+        "The price includes: water, parking (maximum 2 cars), bedding, towels – 1 large, 1 small.",
+        "The cottage price includes the electricity charge.",
+        "Guests renting the cottage bear full financial responsibility for any damage or destruction of the furnishings caused by their fault.",
+        "Please report any faults at the resort reception or to the maintenance technician.",
+        "Please report any faults noticed by guests immediately.",
+        "The owner of \"Domki na Pniu\" is not liable for items lost or left unattended.",
+        "Smoking is completely prohibited in the cottages and rooms.",
+        "Guests are required to comply with fire safety regulations.",
+        "Parents or guardians are required to supervise children throughout the entire resort.",
+        "Visitors may stay on the resort grounds after arranging it with the resort owner.",
+        "By providing parking spaces, the resort owner accepts no responsibility for theft, vehicle damage or other losses.",
+        "On the day of departure, the rooms must be left in the same condition as found on the day of arrival.",
+        "For each person above 6 people in a cottage we charge an additional fee of **80 PLN/night**."
       ]
     },
     {
       "id": "zwierzeta",
-      "rom": "VII",
-      "title": "Pets",
+      "rom": "II",
+      "title": "Rules for stays with pets",
       "items": [
-        "Pets are welcome — provided they are pre-arranged with the Host at booking. Fee 40 PLN/night.",
-        "We accept a maximum of 1 pet per cottage. Exceptions may be made in special cases after individual arrangement.",
-        "The owner bears full responsibility for the animal: its behaviour, cleanliness and any damage caused.",
-        "Pets must be kept on a lead on the Property grounds. Animals may not be left unsupervised if this could cause noise or damage.",
-        "An up-to-date health booklet with current vaccinations is required."
-      ]
-    },
-    {
-      "id": "bezpieczenstwo",
-      "rom": "VIII",
-      "title": "Safety and fire protection",
-      "items": [
-        "Each cottage has a fire extinguisher, smoke detector and carbon monoxide detector. The Host indicates the extinguisher location at check-in.",
-        "The use of personal electric heaters, hot plates, induction kettles and any high-power appliances not provided by the cottage is prohibited.",
-        "Candles, incense and other open-flame sources may be used only in purpose-made holders and under adult supervision.",
-        "Unjustified activation of the fire alarm or a fire extinguisher results in a charge of 500 PLN.",
-        "The Property grounds (excluding cottage interiors) are monitored — solely for the safety of guests."
-      ]
-    },
-    {
-      "id": "odpowiedzialnosc",
-      "rom": "IX",
-      "title": "Liability",
-      "items": [
-        "The guest bears full financial liability for damage or destruction of cottage furnishings caused by themselves or persons on the Property with their consent.",
-        "Parents or guardians bear full responsibility for the safety of children — especially near the pool, firepit, playground and sports court.",
-        "The Host is not liable for valuables left in the cottages or for damage arising from improper use of the equipment.",
-        "The car park is unguarded — the Host is not responsible for damage to or theft of vehicles.",
-        "A fee of 150 PLN is charged for a lost cottage key."
-      ]
-    },
-    {
-      "id": "anulacja",
-      "rom": "X",
-      "title": "Cancellation and changes",
-      "items": [
-        "Cancellation more than 60 days before arrival — full deposit refund.",
-        "Cancellation 60–30 days before arrival — 50% deposit refund.",
-        "Cancellation less than 30 days before arrival — the deposit is non-refundable, but may be transferred to another 2026 stay, subject to availability.",
-        "Change of reservation dates (once, up to 30 days before the original date) is free. Each subsequent change costs 100 PLN.",
-        "The Host reserves the right to cancel in exceptional circumstances (e.g. technical failure) — in such cases the guest receives a full refund."
-      ]
-    },
-    {
-      "id": "rodo",
-      "rom": "XI",
-      "title": "Personal data (GDPR)",
-      "items": [
-        "The controller of guests' personal data is Barbara Reszka, ul. Morska 11, 76-107 Jarosławiec.",
-        "Data is processed solely for the purpose of processing reservations, issuing accounting documents and fulfilling legal obligations.",
-        "Guests have the right to access, correct, restrict processing and delete their data — to the extent not covered by the controller's legal obligations.",
-        "The detailed Privacy Policy is available at domkinapniu.pl/polityka-prywatnosci and in printed form in the cottage."
-      ]
-    },
-    {
-      "id": "koncowe",
-      "rom": "XII",
-      "title": "Final provisions",
-      "items": [
-        "Matters not covered by these Terms are governed by the provisions of the Civil Code and the Act on Hotel Services.",
-        "The competent court for any disputes arising from the rental agreement is the court with jurisdiction for the seat of the Property.",
-        "These Terms are in force from 1 January 2026 until further notice. The current version is available at domkinapniu.pl/regulamin.",
-        "Contact: +48 506 141 730 · domkinapniu@gmail.com · ul. Morska 11, 76-107 Jarosławiec."
+        "The owner must keep the animal fully under control.",
+        "A dog health booklet with up-to-date vaccinations is required.",
+        "The animal should relieve itself outside the property.",
+        "The owner is required to clean up after their animal inside the cottage and on the property grounds.",
+        "Any damage caused by the animal is covered by the owner.",
+        "**Pet fee – 30 PLN/night.**"
       ]
     }
   ]

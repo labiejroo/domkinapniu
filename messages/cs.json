@@ -1000,140 +1000,41 @@
   ],
   "regulaminSections": [
     {
-      "id": "ogolne",
+      "id": "regulamin",
       "rom": "I",
-      "title": "Obecná ustanovení",
+      "title": "Seznamte se s naším řádem",
       "items": [
-        "Tyto podmínky upravují podmínky pobytu v objektu „Domki Na Pniu“ na adrese ul. Morska 11, Jarosławiec (76-107), provozovaném Barbarou Reszkovou — dále jen „Objekt“.",
-        "Provedení rezervace je rovnocenné s přečtením a přijetím těchto podmínek. Nepřečtení podmínek nezbavuje odpovědnosti za jejich nedodržení.",
-        "Provozovatel vynakládá veškeré úsilí, aby pobyt hostů v Objektu byl klidný, bezpečný a pohodlný."
-      ]
-    },
-    {
-      "id": "rezerwacja",
-      "rom": "II",
-      "title": "Rezervace",
-      "items": [
-        "Rezervace lze provést telefonicky na čísle +48 506 141 730, e-mailem na domkinapniu@gmail.com nebo prostřednictvím formuláře na domkinapniu.pl.",
-        "Rezervace je závazná po zaplacení 30% zálohy na uvedený bankovní účet do 2 dnů od obdržení prvotního potvrzení.",
-        "Nezaplacení zálohy ve stanovené lhůtě má za následek automatické zrušení rezervace bez upozornění.",
-        "Zaplacení zálohy je rovnocenné s přijetím těchto podmínek a potvrzením rezervace.",
-        "Počet hostů nesmí překročit počet nahlášený při rezervaci. Max. 4 dospělí + 2 děti. Pobyt nenahlášené osoby vyžaduje příplatek 80 PLN/noc."
-      ]
-    },
-    {
-      "id": "platnosci",
-      "rom": "III",
-      "title": "Platby a záloha",
-      "items": [
-        "Zbylá částka se hradí při příjezdu — hotově, BLIK nebo kartou.",
-        "Místní poplatek 3,45 PLN/osoba/noc se účtuje samostatně při příjezdu, na základě usnesení místního zastupitelstva.",
-        "Vratná kauce 500 PLN se vybírá při příjezdu — hotově nebo BLIK. Vrácena v plné výši při odjezdu po kontrole.",
-        "Faktura se vystavuje na vyžádání — nutno nahlásit nejpozději v den příjezdu.",
-        "Nevyužitá část zaplaceného pobytu neopravňuje hosta ke snížení ceny služby."
-      ]
-    },
-    {
-      "id": "doba",
-      "rom": "IV",
-      "title": "Pobytový den",
-      "items": [
-        "Pobytový den začíná v 15:00 v den příjezdu a končí v 10:00 v den odjezdu.",
-        "Check-in a check-out probíhají v přítomnosti provozovatele nebo zplnomocněné osoby.",
-        "Brzký check-in (od 12:00) nebo pozdní check-out (do 14:00) je k dispozici dle dostupnosti — poplatek 80 PLN nebo 100 PLN. Domluvte se prosím předem telefonicky.",
-        "Klíč se předává osobně; ve výjimečných případech může být uložen v boxu na klíče."
-      ]
-    },
-    {
-      "id": "zasady",
-      "rom": "V",
-      "title": "Zásady užívání",
-      "items": [
-        "Hosté jsou povinni udržovat chatu a okolí ve stejném stavu čistoty jako při příjezdu a třídit odpad do připravených nádob.",
-        "Kouření tabáku, používání tabákových výrobků a elektronických cigaret uvnitř chat je striktně zakázáno. Kouření je povoleno pouze na vyhrazených venkovních místech.",
-        "Je zakázáno přemísťovat nábytek a postele v rámci chat nebo přenášet kuchyňské vybavení mezi chatami.",
-        "Používání ohniště, grilu a krbu musí být v souladu s požárními předpisy — v dostatečné vzdálenosti od dřevěných konstrukcí a pod neustálým dohledem dospělé osoby.",
-        "Bazén je v provozu sezónně (15. 6. – 15. 9.) od 10:00 do 20:00. Použití je na vlastní riziko; děti do 12 let musí být v doprovodu dospělé osoby."
-      ]
-    },
-    {
-      "id": "cisza",
-      "rom": "VI",
-      "title": "Noční klid",
-      "items": [
-        "Noční klid platí od 22:00 do 7:00.",
-        "Během nočního klidu nesmí hosté rušit klid ostatních pobytů. Platí to i pro terasy, ohniště a pozemek kolem chat.",
-        "V případě závažného porušení nočního klidu má provozovatel právo požádat hosty o odjezd z Objektu bez náhrady."
+        "Pobyt začíná v 15:00 a končí v 10:00 ráno v den odjezdu.",
+        "Rezervace přijímáme telefonicky.",
+        "Podmínkou přijetí rezervace je úhrada zálohy ve výši 30%. V případě zrušení rezervované chaty se záloha nevrací.",
+        "Výše poplatků se nesnižuje ani nevrací, pokud host odjede z vlastní vůle během pobytu.",
+        "Platba za pobyt je splatná v hotovosti nebo převodem v den příjezdu.",
+        "Cena zahrnuje: vodu, parkování (maximálně 2 auta), povlečení, ručníky – 1 velký, 1 malý.",
+        "Cena chaty zahrnuje poplatek za elektřinu.",
+        "Hosté, kteří si chatu pronajímají, nesou plnou finanční odpovědnost za veškeré poškození nebo zničení vybavení způsobené jejich vinou.",
+        "Veškeré závady prosím hlaste na recepci areálu nebo u údržbáře.",
+        "Veškeré závady zjištěné hosty prosím nahlaste ihned.",
+        "Majitel \"Domki na Pniu\" neodpovídá za ztracené nebo bez dozoru ponechané věci.",
+        "V chatách a pokojích platí úplný zákaz kouření.",
+        "Hosté jsou povinni dodržovat požární předpisy.",
+        "Rodiče nebo opatrovníci jsou povinni dohlížet na děti v celém areálu.",
+        "Návštěvníci se mohou v areálu zdržovat po domluvě s majitelem areálu.",
+        "Poskytnutím parkovacích míst majitel areálu nepřebírá odpovědnost za krádeže, poškození vozidel a jiné škody.",
+        "V den odjezdu je nutné zanechat prostory ve stavu, v jakém byly v den příjezdu.",
+        "Za každou osobu nad 6 osob v chatě účtujeme příplatek **80 PLN/noc**."
       ]
     },
     {
       "id": "zwierzeta",
-      "rom": "VII",
-      "title": "Mazlíčci",
+      "rom": "II",
+      "title": "Pravidla pobytu se zvířaty",
       "items": [
-        "Mazlíčci jsou vítáni — za podmínky, že jsou předem domluveni s provozovatelem při rezervaci. Poplatek 40 PLN/noc.",
-        "Přijímáme maximálně 1 zvíře na chatu. Výjimky lze povolit ve zvláštních případech po individuální domluvě.",
-        "Majitel nese plnou odpovědnost za zvíře: jeho chování, čistotu a případné škody.",
-        "Na pozemku Objektu musí být mazlíčci na vodítku. Zvířata nelze nechávat bez dozoru, pokud by to mohlo způsobit hluk nebo škody.",
-        "Vyžaduje se aktuální očkovací průkaz."
-      ]
-    },
-    {
-      "id": "bezpieczenstwo",
-      "rom": "VIII",
-      "title": "Bezpečnost a požární ochrana",
-      "items": [
-        "Každá chata je vybavena hasicím přístrojem, detektorem kouře a detektorem oxidu uhelnatého. Provozovatel ukáže umístění hasicího přístroje při check-inu.",
-        "Je zakázáno používat vlastní elektrické ohřívače, varné desky, indukční rychlovarné konvice a jakákoli vysoce výkonná zařízení, která nejsou součástí vybavení chaty.",
-        "Svíčky, vonné tyčinky a jiné zdroje otevřeného ohně lze používat pouze v určených držácích a pod dohledem dospělé osoby.",
-        "Neoprávněné spuštění požárního alarmu nebo hasicího přístroje má za následek poplatek 500 PLN.",
-        "Pozemek Objektu (mimo interiéry chat) je monitorován — výhradně z důvodu bezpečnosti hostů."
-      ]
-    },
-    {
-      "id": "odpowiedzialnosc",
-      "rom": "IX",
-      "title": "Odpovědnost",
-      "items": [
-        "Host nese plnou finanční odpovědnost za škody nebo zničení vybavení chaty způsobené jím samotným nebo osobami v Objektu s jeho souhlasem.",
-        "Rodiče nebo zákonní zástupci nesou plnou odpovědnost za bezpečnost dětí — zejména v blízkosti bazénu, ohniště, hřiště pro děti a sportoviště.",
-        "Provozovatel neodpovídá za cenné věci zanechané v chatách ani za škody vzniklé nesprávným používáním vybavení.",
-        "Parkoviště je nehlídané — provozovatel neodpovídá za škody na vozidlech ani za jejich odcizení.",
-        "Za ztracený klíč od chaty se účtuje poplatek 150 PLN."
-      ]
-    },
-    {
-      "id": "anulacja",
-      "rom": "X",
-      "title": "Storno a změny",
-      "items": [
-        "Storno více než 60 dní před příjezdem — vrácení celé zálohy.",
-        "Storno 60–30 dní před příjezdem — vrácení 50 % zálohy.",
-        "Storno méně než 30 dní před příjezdem — záloha je nevratná, ale lze ji převést na jiný pobyt v roce 2026, dle dostupnosti.",
-        "Změna termínu rezervace (jednou, do 30 dnů před původním termínem) je zdarma. Každá další změna stojí 100 PLN.",
-        "Provozovatel si vyhrazuje právo zrušit pobyt ve výjimečných případech (např. technická havárie) — v takovém případě host obdrží plnou refundaci."
-      ]
-    },
-    {
-      "id": "rodo",
-      "rom": "XI",
-      "title": "Osobní údaje (GDPR)",
-      "items": [
-        "Správcem osobních údajů hostů je Barbara Reszka, ul. Morska 11, 76-107 Jarosławiec.",
-        "Údaje jsou zpracovávány výhradně za účelem zpracování rezervací, vystavování účetních dokladů a splnění zákonných povinností.",
-        "Hosté mají právo na přístup, opravu, omezení zpracování a vymazání svých údajů — v rozsahu, který nepokrývají zákonné povinnosti správce.",
-        "Podrobné zásady ochrany osobních údajů jsou k dispozici na domkinapniu.pl/polityka-prywatnosci a v tištěné podobě v chatě."
-      ]
-    },
-    {
-      "id": "koncowe",
-      "rom": "XII",
-      "title": "Závěrečná ustanovení",
-      "items": [
-        "Záležitosti neupravené těmito podmínkami se řídí ustanoveními občanského zákoníku a zákona o hotelových službách.",
-        "Příslušným soudem pro veškeré spory vyplývající ze smlouvy o pronájmu je soud místně příslušný sídlu Objektu.",
-        "Tyto podmínky platí od 1. ledna 2026 až do odvolání. Aktuální verze je k dispozici na domkinapniu.pl/regulamin.",
-        "Kontakt: +48 506 141 730 · domkinapniu@gmail.com · ul. Morska 11, 76-107 Jarosławiec."
+        "Majitel musí mít zvíře plně pod kontrolou.",
+        "Je nutné mít očkovací průkaz psa s aktuálním očkováním.",
+        "Zvíře by mělo vykonávat potřebu mimo pozemek.",
+        "Majitel je povinen uklízet po svém zvířeti uvnitř chaty i na pozemku.",
+        "Případné škody způsobené zvířetem hradí majitel.",
+        "**Poplatek za zvíře – 30 PLN/noc.**"
       ]
     }
   ]
