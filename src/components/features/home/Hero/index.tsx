@@ -90,13 +90,24 @@ export const Hero = () => {
   const t = useTranslations();
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isVideoReady, setIsVideoReady] = useState(false);
+  const [canLoadVideo, setCanLoadVideo] = useState(false);
+
+  useEffect(() => {
+    if (document.readyState === 'complete') {
+      setCanLoadVideo(true);
+      return;
+    }
+    const handleLoad = () => setCanLoadVideo(true);
+    window.addEventListener('load', handleLoad);
+    return () => window.removeEventListener('load', handleLoad);
+  }, []);
 
   useEffect(() => {
     const video = videoRef.current;
-    if (video && video.readyState >= 3) {
-      setIsVideoReady(true);
-    }
-  }, []);
+    if (!canLoadVideo || !video) return;
+    video.load();
+    void video.play().catch(() => {});
+  }, [canLoadVideo]);
 
   return (
     <section id="top" className="relative bg-green-900 text-brand-sunlight">
@@ -107,7 +118,7 @@ export const Hero = () => {
           muted
           loop
           playsInline
-          preload="auto"
+          preload={canLoadVideo ? 'auto' : 'none'}
           poster="/assets/hero-beach.jpg"
           aria-hidden="true"
           onCanPlay={() => setIsVideoReady(true)}
@@ -116,7 +127,7 @@ export const Hero = () => {
           onError={() => setIsVideoReady(true)}
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/assets/heroMovie.mp4" type="video/mp4" />
+          {canLoadVideo && <source src="/assets/heroMovie.mp4" type="video/mp4" />}
         </video>
         <div
           aria-hidden="true"
