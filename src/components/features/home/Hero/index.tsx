@@ -106,19 +106,24 @@ export const Hero = () => {
     const video = videoRef.current;
     if (!canLoadVideo || !video) return;
 
-    const handleLoadedData = () => {
+    const tryPlay = () => {
       video.muted = true;
-      void video.play().catch((error) => {
-        console.warn('Hero video autoplay failed', error);
-      });
+      void video.play().catch(() => {});
     };
 
-    video.addEventListener('loadeddata', handleLoadedData);
+    video.addEventListener('loadeddata', tryPlay);
     video.muted = true;
     video.load();
 
+    // iOS Low Power Mode blocks muted autoplay — start playback on the first user gesture.
+    const playOnGesture = () => tryPlay();
+    window.addEventListener('touchstart', playOnGesture, { once: true, passive: true });
+    window.addEventListener('click', playOnGesture, { once: true });
+
     return () => {
-      video.removeEventListener('loadeddata', handleLoadedData);
+      video.removeEventListener('loadeddata', tryPlay);
+      window.removeEventListener('touchstart', playOnGesture);
+      window.removeEventListener('click', playOnGesture);
     };
   }, [canLoadVideo]);
 
@@ -127,6 +132,7 @@ export const Hero = () => {
       <div className="relative h-[480px] sm:h-[580px] md:h-[660px] lg:h-[760px] overflow-hidden bg-green-900">
         <video
           ref={videoRef}
+          autoPlay
           muted
           loop
           playsInline
