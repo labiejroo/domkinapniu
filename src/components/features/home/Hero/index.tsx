@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Icon } from '@/components/ui/Icon';
 import { Display, Italic, SmallCap } from '@/components/ui/Typography';
@@ -92,6 +92,17 @@ export const Hero = () => {
   const [isVideoReady, setIsVideoReady] = useState(false);
   const [canLoadVideo, setCanLoadVideo] = useState(false);
 
+  // React doesn't set the `muted` attribute in the DOM, so iOS sees a non-muted video on first
+  // render and blocks autoplay (showing a native play button). Setting defaultMuted via a ref
+  // callback runs during commit, before paint, so the attribute is present when iOS evaluates it.
+  const attachVideo = useCallback((node: HTMLVideoElement | null) => {
+    videoRef.current = node;
+    if (node) {
+      node.defaultMuted = true;
+      node.muted = true;
+    }
+  }, []);
+
   useEffect(() => {
     if (document.readyState === 'complete') {
       setCanLoadVideo(true);
@@ -131,7 +142,7 @@ export const Hero = () => {
     <section id="top" className="relative bg-green-900 text-brand-sunlight">
       <div className="relative h-[480px] sm:h-[580px] md:h-[660px] lg:h-[760px] overflow-hidden bg-green-900">
         <video
-          ref={videoRef}
+          ref={attachVideo}
           autoPlay
           muted
           loop
