@@ -52,7 +52,7 @@ export const SiteTopBar = () => {
           <span className="inline-flex items-center gap-1.5 text-brand-sunlight">
             <Icon name="star" size={12} color="#d6b13e" />
             <strong>8,7</strong>
-            <span className="opacity-60">· 81 opinii</span>
+            <span className="opacity-60">· 76 opinii</span>
           </span>
         </div>
       </div>

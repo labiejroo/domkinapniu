@@ -18,7 +18,7 @@
     { "value": "800 m", "label": "do plaży oraz promenady" },
     { "value": "52 m²", "label": "piętrowego domku z tarasem" },
     { "value": "12 domków", "label": "kameralna, prywatna posesja" },
-    { "value": "8,9", "label": "na podstawie 82 opinii Booking" }
+    { "value": "9,0", "label": "na podstawie 76 opinii Booking" }
   ],
 
   "checkAvailability": "Sprawdź dostępność",
@@ -266,8 +266,8 @@
   "copyright": "© 2026 Domki Na Pniu",
   "madeByLabel": "Strona stworzona przez",
 
-  "ratingScore": "8,9",
-  "ratingCount": "82 opinii",
+  "ratingScore": "9,0",
+  "ratingCount": "76 opinii",
 
   "langPl": "PL",
   "langEn": "ENG",
