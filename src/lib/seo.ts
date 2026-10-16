@@ -48,7 +48,7 @@ export function buildLodgingBusinessJsonLd() {
     },
     aggregateRating: {
       '@type': 'AggregateRating',
-      ratingValue: '8.9',
+      ratingValue: '9.0',
       bestRating: '10',
       reviewCount: '82',
     },
