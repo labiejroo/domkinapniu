@@ -47,6 +47,8 @@
   }
 
   html {
+    /* Tylko jasny wygląd: blokuje automatyczne przyciemnianie w trybie ciemnym na Androidzie. */
+    color-scheme: only light;
     scroll-behavior: smooth;
     scroll-padding-top: 64px;
   }
